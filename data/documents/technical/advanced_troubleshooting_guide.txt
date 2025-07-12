@@ -1,0 +1,410 @@
+ADVANCED PC TROUBLESHOOTING GUIDE
+=================================
+
+SYSTEMATIC DIAGNOSTIC APPROACH
+------------------------------
+
+Professional Troubleshooting Methodology:
+1. Problem Identification
+   • Gather detailed symptom information
+   • Determine when issue started
+   • Identify patterns or triggers
+   • Document error messages exactly
+
+2. Information Gathering
+   • System specifications and age
+   • Recent changes (hardware/software)
+   • Environmental factors
+   • User behavior patterns
+
+3. Hypothesis Formation
+   • List possible causes based on symptoms
+   • Prioritize by likelihood and impact
+   • Consider both hardware and software causes
+   • Account for multiple concurrent issues
+
+4. Testing and Isolation
+   • Test one variable at a time
+   • Use process of elimination
+   • Start with least invasive tests
+   • Document all test results
+
+5. Resolution Implementation
+   • Apply fix for confirmed root cause
+   • Test thoroughly before declaring resolved
+   • Document solution for future reference
+   • Implement preventive measures
+
+ADVANCED HARDWARE DIAGNOSTICS
+-----------------------------
+
+Power System Diagnostics:
+
+PSU Testing with Multimeter:
+• 24-pin connector voltages:
+  - +12V rails: 11.4V - 12.6V (yellow wires)
+  - +5V rail: 4.75V - 5.25V (red wires)  
+  - +3.3V rail: 3.14V - 3.47V (orange wires)
+  - -12V rail: -10.8V - -13.2V (blue wire)
+  - +5VSB: 4.75V - 5.25V (purple wire)
+
+• Ripple testing (oscilloscope required):
+  - +12V: <120mV peak-to-peak
+  - +5V: <50mV peak-to-peak
+  - +3.3V: <50mV peak-to-peak
+
+• Load testing:
+  - Use electronic load or known good components
+  - Test at 20%, 50%, and 80% rated capacity
+  - Monitor voltage stability under varying loads
+
+Motherboard Diagnostics:
+
+POST Code Analysis:
+• Use POST card or motherboard debug LED
+• Common codes:
+  - 00/FF: CPU not detected or failed
+  - 0d: Memory initialization error
+  - 15: Pre-memory North Bridge initialization
+  - 19: Pre-memory South Bridge initialization
+  - 4F: DXE IPL is started
+  - A0: IDE initialization
+  - A2: IDE detect
+
+BIOS/UEFI Diagnostics:
+• Check BIOS version and update if necessary
+• Verify CPU and memory detection
+• Check temperature readings
+• Test with optimized defaults
+• Examine hardware monitor section
+
+Component Isolation Testing:
+• Minimum POST configuration:
+  - CPU, one RAM module, PSU, motherboard
+  - Remove all expansion cards
+  - Disconnect all drives and peripherals
+  - Test basic functionality
+
+Memory Diagnostics (Advanced):
+
+Memory Testing Protocols:
+Windows Memory Diagnostic:
+• Basic test: 2 passes, standard tests
+• Extended test: 6+ passes, comprehensive tests
+• Custom test: Specific patterns for suspected issues
+
+MemTest86 Professional:
+• Test selection based on suspected issues:
+  - Pattern tests: For data retention issues
+  - Address tests: For addressing problems
+  - Moving inversions: For coupling issues
+  - Hammer test: For row hammer vulnerability
+
+Memory Error Interpretation:
+• Single bit errors: Possible ECC correction
+• Multiple bit errors: Memory module failure
+• Address-specific errors: Bad memory cells
+• Pattern-specific errors: Data path issues
+• Temperature-dependent errors: Thermal issues
+
+Storage Diagnostics (Advanced):
+
+HDD Health Analysis:
+SMART Attribute Monitoring:
+• Reallocated Sectors Count: Should be 0
+• Current Pending Sectors: Should be 0  
+• Uncorrectable Sector Count: Should be 0
+• Temperature: <50°C optimal, <60°C acceptable
+• Power-On Hours: Estimate remaining life
+• Load/Unload Cycle Count: Monitor for excessive
+
+Advanced SMART Testing:
+• Short self-test: 2 minutes, basic functionality
+• Extended self-test: 2+ hours, comprehensive
+• Conveyance self-test: 5 minutes, transport damage
+• Selective self-test: Test specific LBA ranges
+
+SSD Health Analysis:
+SSD-Specific SMART Attributes:
+• Wear Leveling Count: Indicates wear level
+• Total Bytes Written: Lifetime write volume
+• Available Reserved Space: Remaining spare blocks
+• Program/Erase Count: NAND flash cycle count
+• Reported Uncorrectable Errors: Critical failures
+
+NVMe Health Monitoring:
+• Percentage Used: Drive wear indicator
+• Data Units Written: Lifetime data written
+• Power Cycles: Number of power-on events
+• Unsafe Shutdowns: Unexpected power loss count
+• Temperature: Monitor for thermal throttling
+
+Graphics Diagnostics (Advanced):
+
+GPU Memory Testing:
+VRAM Stress Testing Tools:
+• GPU-Z: Memory type, size, bandwidth monitoring
+• MATS (Memory Array Test Suite): Comprehensive VRAM testing
+• FurMark: Stress testing with temperature monitoring
+• MSI Kombustor: Advanced stress testing options
+
+GPU Artifacting Analysis:
+Visual Artifact Types:
+• Texture corruption: VRAM or memory bus issues
+• Color banding: DAC or output stage problems
+• Screen tearing: Sync signal issues
+• Random pixels: Memory or processing errors
+• Geometry errors: GPU core processing issues
+
+Thermal Analysis:
+• Monitor GPU die temperature
+• Check memory junction temperature (if available)
+• Verify fan operation and curves
+• Check thermal pad/paste condition
+• Monitor power delivery temperatures
+
+CPU Diagnostics (Advanced):
+
+CPU Stability Testing:
+Prime95 Test Types:
+• Small FFTs: Maximum heat generation, FPU stress
+• Large FFTs: Memory controller stress
+• Blend test: Balanced CPU and memory stress
+• Custom: Specific workload simulation
+
+CPU Error Detection:
+Event Viewer Analysis:
+• System Log: Hardware error events
+• Application Log: Software compatibility issues
+• Critical events: WHEA (Windows Hardware Error Architecture)
+• Warning events: Thermal throttling indicators
+
+Hardware Monitoring:
+• Core temperatures (per core)
+• Package temperature (overall CPU)
+• Voltage monitoring (VCore, VTT, etc.)
+• Clock speed monitoring (base, boost, actual)
+• Power consumption tracking
+
+NETWORK DIAGNOSTICS
+-------------------
+
+Advanced Network Testing:
+
+Ethernet Diagnostics:
+Cable Testing:
+• Use cable tester for continuity
+• Check for proper pin-out (T568A/T568B)
+• Test for crosstalk and interference
+• Verify cable category rating (Cat5e, Cat6)
+
+Port and Interface Testing:
+• Test with known good cable
+• Check link speed negotiation
+• Monitor for packet loss
+• Test duplex settings (full vs half)
+
+Network Performance Analysis:
+Speed Testing:
+• Use iperf3 for bandwidth testing
+• Test both upload and download speeds
+• Monitor during peak and off-peak hours
+• Test wired vs wireless performance
+
+Latency and Packet Loss:
+• Ping testing to various targets
+• Traceroute for path analysis
+• Continuous monitoring for intermittent issues
+• jitter measurement for real-time applications
+
+Wi-Fi Diagnostics:
+Signal Analysis:
+• Wi-Fi Analyzer tools for channel analysis
+• Signal strength monitoring (dBm)
+• Channel overlap identification
+• Interference source detection
+
+Advanced Wi-Fi Testing:
+• Different frequency bands (2.4GHz vs 5GHz)
+• Various encryption methods (WPA2 vs WPA3)
+• Different Wi-Fi standards (802.11n/ac/ax)
+• Roaming behavior between access points
+
+SOFTWARE DIAGNOSTICS
+--------------------
+
+Windows System Analysis:
+
+Event Viewer Deep Dive:
+Critical System Events:
+• Event ID 41: Unexpected shutdown
+• Event ID 6008: Unexpected system restart
+• Event ID 1001: BugCheck (BSOD)
+• Event ID 157: Disk errors
+
+Application and Service Events:
+• Driver installation failures
+• Service startup failures
+• Application crashes and hangs
+• Security policy violations
+
+Performance Monitoring:
+Resource Monitor Advanced Usage:
+• CPU usage by process and thread
+• Memory usage patterns and leaks
+• Disk I/O bottleneck identification
+• Network utilization by process
+
+Performance Counter Monitoring:
+• Processor utilization distribution
+• Memory committed vs available
+• Disk queue length and response time
+• Network utilization and errors
+
+System File Integrity:
+Advanced SFC and DISM:
+• sfc /scannow: Basic system file check
+• DISM /Online /Cleanup-Image /CheckHealth: Image health check
+• DISM /Online /Cleanup-Image /ScanHealth: Detailed scan
+• DISM /Online /Cleanup-Image /RestoreHealth: Repair attempt
+
+Registry Analysis:
+Registry Monitoring:
+• Use Process Monitor for registry access tracking
+• Identify registry corruption
+• Monitor for failed registry operations
+• Track registry changes during installation
+
+Driver and Hardware Analysis:
+Device Manager Deep Dive:
+• Resource conflict identification
+• Driver version and date verification
+• Hardware ID verification
+• IRQ and DMA assignment checking
+
+Driver Verifier:
+• Enable for suspected problematic drivers
+• Monitor for driver violations
+• Analyze crash dumps for driver issues
+• Use with caution (can cause system instability)
+
+ENVIRONMENTAL FACTORS
+---------------------
+
+Temperature and Thermal Analysis:
+
+Thermal Imaging:
+• Use thermal camera for hot spot identification
+• Check component temperatures under load
+• Identify inadequate cooling areas
+• Monitor ambient temperature effects
+
+Stress Testing Under Thermal Load:
+• Test system performance at various temperatures
+• Monitor thermal throttling behavior
+• Verify thermal shutdown protections
+• Check fan response curves
+
+Power Quality Analysis:
+
+UPS and Power Monitoring:
+• Monitor input voltage stability
+• Check for power factor issues
+• Identify electrical noise and interference
+• Test UPS battery backup duration
+
+Electromagnetic Interference:
+• Check for nearby interference sources
+• Test system with different power outlets
+• Monitor for USB device interference
+• Check for ground loop issues
+
+Physical Environment:
+• Dust accumulation analysis
+• Vibration and shock monitoring
+• Humidity level effects
+• Altitude and air pressure considerations
+
+ADVANCED TROUBLESHOOTING SCENARIOS
+----------------------------------
+
+Intermittent Issues:
+
+Random Crashes/Reboots:
+Systematic Investigation:
+1. Monitor system temperatures continuously
+2. Test memory with extended passes
+3. Check PSU voltage stability under load
+4. Examine Windows Event Logs for patterns
+5. Test with minimal hardware configuration
+
+Data Collection:
+• Set up continuous monitoring
+• Log temperatures, voltages, and performance
+• Use crash dump analysis tools
+• Document exact conditions when issues occur
+
+Performance Degradation:
+
+Gradual Slowdown Investigation:
+1. Establish baseline performance measurements
+2. Monitor resource utilization over time
+3. Check for malware and unwanted software
+4. Analyze startup programs and services
+5. Test hardware component aging effects
+
+Long-term Monitoring:
+• Set up automated performance logging
+• Track component temperatures over time
+• Monitor storage health degradation
+• Document software installation impacts
+
+Complex Multi-Component Issues:
+
+System-Wide Instability:
+Holistic Approach:
+1. Test individual components in isolation
+2. Gradually add components back
+3. Test component interactions
+4. Check for compatibility issues
+5. Verify proper installation and configuration
+
+Cross-Component Testing:
+• Test memory in different motherboards
+• Test PSU with different systems
+• Verify component compatibility matrices
+• Check for BIOS/firmware interaction issues
+
+DOCUMENTATION AND ESCALATION
+----------------------------
+
+Professional Documentation:
+Troubleshooting Log:
+• Date and time of issue occurrence
+• Exact symptoms and error messages
+• System configuration details
+• Tests performed and results
+• Changes made and outcomes
+
+Root Cause Analysis:
+• Confirmed root cause identification
+• Contributing factors analysis
+• Prevention strategy development
+• Documentation for future reference
+
+Escalation Criteria:
+When to Escalate:
+• Hardware replacement costs exceed limits
+• Specialized equipment required for diagnosis
+• Suspected safety issues
+• Customer requests supervisor involvement
+• Issue beyond technician skill level
+
+Escalation Information:
+• Complete troubleshooting history
+• Detailed system specifications
+• All error messages and codes
+• Test results and measurements
+• Customer communication summary
+
+© 2024 Advanced PC Troubleshooting Guide

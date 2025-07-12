@@ -1,0 +1,106 @@
+HP PAVILION DESKTOP PC MANUAL
+Model: HP Pavilion Desktop TP01-3000
+===========================================
+
+QUICK START GUIDE
+-----------------
+1. Connect power cable to back of PC
+2. Connect monitor cable (HDMI/DisplayPort)
+3. Connect keyboard and mouse (USB)
+4. Press power button (front panel)
+5. Follow Windows 11 setup wizard
+
+HARDWARE SPECIFICATIONS
+----------------------
+• Processor: AMD Ryzen 5 5600G (6-core, 3.9GHz)
+• Memory: 8GB DDR4-3200 (expandable to 32GB)
+• Storage: 256GB PCIe NVMe SSD
+• Graphics: AMD Radeon RX 6400 (4GB GDDR6)
+• USB Ports: 6x USB-A 3.0, 2x USB-C
+• Audio: Realtek ALC3601 codec
+• Network: Realtek RTL8111 Ethernet + Wi-Fi 6
+
+SETUP INSTRUCTIONS
+-----------------
+Initial Setup:
+1. Remove all protective materials and cable ties
+2. Position PC on stable, ventilated surface
+3. Connect external devices before first power-on
+4. Ensure all connections are secure
+
+Display Connection:
+• Primary: HDMI 2.1 port (graphics card)
+• Secondary: DisplayPort 1.4 (graphics card)
+• Integrated: HDMI 1.4 (motherboard)
+
+Network Setup:
+• Ethernet: Auto-detected, no drivers needed
+• Wi-Fi: Settings > Network > Wi-Fi > Add network
+• Bluetooth: Settings > Devices > Add Bluetooth device
+
+COMMON ISSUES & SOLUTIONS
+------------------------
+PC Won't Start:
+• Check power cable connection
+• Verify power strip/outlet is working
+• Hold power button 10 seconds, try again
+• Check RAM seating (remove/reinstall)
+
+No Display:
+• Verify monitor cable connected to graphics card
+• Try different video cable (HDMI/DisplayPort)
+• Reseat graphics card if problem persists
+• Test with different monitor/TV
+
+Slow Performance:
+• Check available storage (need 15% free)
+• Run Windows Update for latest drivers
+• Restart PC weekly to clear memory
+• Check for malware with Windows Defender
+
+Wi-Fi Issues:
+• Restart router and PC
+• Forget and reconnect to network
+• Update Wi-Fi drivers via Device Manager
+• Move closer to router or use ethernet
+
+MAINTENANCE
+-----------
+Weekly:
+• Restart PC to clear memory
+• Run Windows Update
+• Empty Recycle Bin
+
+Monthly:
+• Clean air vents with compressed air
+• Check for Windows security updates
+• Update graphics drivers
+
+Quarterly:
+• Full system backup
+• Check cable connections
+• Clean inside case (if comfortable)
+
+WARRANTY & SUPPORT
+------------------
+• 1-year limited hardware warranty
+• 90-day technical support included
+• Extended warranty available
+• Contact: hp.com/support or 1-800-HP-INVENT
+
+TECHNICAL SUPPORT
+----------------
+Before calling support, please have:
+• Model number: HP Pavilion TP01-3000
+• Serial number (back of PC)
+• Description of problem
+• Error messages (if any)
+• Recent changes to system
+
+For fastest service:
+• Try basic troubleshooting first
+• Update all drivers
+• Run Windows built-in diagnostics
+• Document when problem started
+
+© 2024 HP Inc. All rights reserved.

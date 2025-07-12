@@ -1,0 +1,244 @@
+PRODUCT KNOWLEDGE BASE FOR PC SALES
+==================================
+
+PROCESSOR GUIDE FOR CUSTOMERS
+-----------------------------
+
+INTEL PROCESSOR LINEUP:
+Intel i3 Series (Budget-Friendly):
+• Target: Basic computing, office work, web browsing
+• Cores: 4-6 cores
+• Speed: 3.0-4.0 GHz
+• Best for: Students, elderly users, basic business
+• Price range: $100-200
+• Customer explanation: "Like a reliable economy car - gets the job done efficiently for everyday tasks"
+
+Intel i5 Series (Mainstream):
+• Target: Gaming, productivity, multitasking
+• Cores: 6-10 cores  
+• Speed: 3.0-4.5 GHz
+• Best for: Most home users, gamers, professionals
+• Price range: $200-400
+• Customer explanation: "Like a well-rounded sedan - powerful enough for most anything you'll need"
+
+Intel i7 Series (High Performance):
+• Target: Content creation, heavy multitasking, high-end gaming
+• Cores: 8-12 cores
+• Speed: 3.0-5.0 GHz
+• Best for: Video editors, streamers, power users
+• Price range: $300-600
+• Customer explanation: "Like a sports car - built for performance and handling demanding tasks"
+
+Intel i9 Series (Enthusiast):
+• Target: Professional workstations, extreme gaming
+• Cores: 12-24 cores
+• Speed: 3.0-5.5 GHz
+• Best for: 3D rendering, professional video editing, extreme multitasking
+• Price range: $500-1500
+• Customer explanation: "Like a high-end sports car - maximum power for the most demanding users"
+
+AMD PROCESSOR LINEUP:
+AMD Ryzen 3 (Budget):
+• Equivalent to Intel i3
+• Great value proposition
+• Lower power consumption
+• Integrated graphics available
+
+AMD Ryzen 5 (Mainstream):
+• Equivalent to Intel i5
+• Often better multitasking than Intel
+• Popular for gaming builds
+• Excellent price-performance ratio
+
+AMD Ryzen 7 (High Performance):
+• Equivalent to Intel i7
+• Strong content creation performance
+• Good for streaming while gaming
+• Competitive pricing vs Intel
+
+AMD Ryzen 9 (Enthusiast):
+• Equivalent to Intel i9
+• Excellent for workstation tasks
+• High core counts
+• Professional content creation
+
+GRAPHICS CARD GUIDE
+------------------
+
+INTEGRATED GRAPHICS:
+Intel UHD/Iris Xe:
+• Built into Intel processors
+• Good for: Office work, web browsing, light gaming
+• Cannot play: Modern AAA games at high settings
+• Cost: $0 (included with processor)
+• Customer explanation: "Like having a basic camera on your phone - fine for everyday use"
+
+AMD Radeon (Integrated):
+• Built into AMD processors
+• Slightly better gaming than Intel integrated
+• Good for: Casual gaming, productivity
+• 1080p gaming on older/less demanding titles
+
+DEDICATED GRAPHICS CARDS:
+
+Budget Gaming ($150-300):
+• NVIDIA GTX 1660 / RTX 3050
+• AMD RX 6500 XT / RX 6600
+• Good for: 1080p gaming at medium-high settings
+• Can play: Most modern games at 60fps
+• Customer explanation: "Like upgrading from a basic camera to a good smartphone camera"
+
+Mid-Range Gaming ($300-600):
+• NVIDIA RTX 4060 / RTX 4060 Ti
+• AMD RX 7600 / RX 7700 XT  
+• Good for: 1080p high settings, 1440p medium settings
+• Features: Ray tracing, DLSS/FSR support
+• Customer explanation: "Like getting a professional camera - great quality for most uses"
+
+High-End Gaming ($600-1000):
+• NVIDIA RTX 4070 / RTX 4070 Ti
+• AMD RX 7800 XT / RX 7900 GRE
+• Good for: 1440p high settings, 4K medium settings
+• Features: Advanced ray tracing, high refresh rate gaming
+
+Enthusiast Gaming ($1000+):
+• NVIDIA RTX 4080 / RTX 4090
+• AMD RX 7900 XTX
+• Good for: 4K gaming, VR, content creation
+• Customer explanation: "Like professional studio equipment - top performance for serious users"
+
+MEMORY (RAM) GUIDE
+-----------------
+
+8GB RAM:
+• Minimum for Windows 11
+• Good for: Basic computing, light multitasking
+• Limitations: May slow down with many browser tabs
+• Price: $40-60
+• Customer explanation: "Like having a small desk - fine for simple tasks"
+
+16GB RAM:
+• Sweet spot for most users
+• Good for: Gaming, productivity, moderate multitasking
+• Handles: Multiple apps, many browser tabs, light content creation
+• Price: $60-100
+• Customer explanation: "Like having a properly sized desk - room for everything you need"
+
+32GB RAM:
+• Power user territory
+• Good for: Content creation, heavy multitasking, professional work
+• Handles: Video editing, 3D rendering, virtual machines
+• Price: $120-200
+• Customer explanation: "Like having a huge desk - space for any project"
+
+64GB+ RAM:
+• Professional workstations only
+• Good for: Server applications, extreme content creation
+• Price: $300+
+• Customer explanation: "Like having an entire office - for specialized professional needs"
+
+STORAGE GUIDE
+------------
+
+HARD DISK DRIVES (HDD):
+• Capacity: 1TB-8TB+
+• Speed: Slower (mechanical)
+• Price: $50-200
+• Best for: Mass storage, backup, older files
+• Customer explanation: "Like a large filing cabinet - lots of space but takes time to find things"
+
+SOLID STATE DRIVES (SSD):
+• Capacity: 256GB-4TB
+• Speed: Very fast (no moving parts)
+• Price: $30-400
+• Best for: Operating system, programs, frequently used files
+• Customer explanation: "Like having everything organized on your desk - instant access"
+
+NVME SSD (High-Speed SSD):
+• Capacity: 256GB-2TB
+• Speed: Extremely fast
+• Price: $40-300
+• Best for: Gaming, content creation, professional work
+• Customer explanation: "Like having a super-organized assistant - everything appears instantly"
+
+STORAGE RECOMMENDATIONS:
+Basic User: 256GB SSD + 1TB HDD
+Gamer: 512GB NVMe SSD + 2TB HDD
+Content Creator: 1TB NVMe SSD + 4TB HDD
+Professional: 2TB NVMe SSD (primary) + additional storage as needed
+
+CUSTOMER CONVERSATION STARTERS
+-----------------------------
+
+"What will you primarily use the computer for?"
+• Work/productivity → i5 processor, 16GB RAM, SSD
+• Gaming → i5/i7, dedicated graphics, NVMe SSD
+• Basic use → i3, 8GB RAM, SSD + HDD
+• Content creation → i7/i9, 32GB RAM, high-end graphics
+
+"What's your budget range?"
+• Under $500 → Refurbished or basic new system
+• $500-800 → Solid mainstream system
+• $800-1200 → Good gaming or professional system
+• $1200+ → High-end gaming or workstation
+
+"Do you have any brand preferences?"
+• "I like Dell" → Show Dell options first, compare with others
+• "I heard AMD is good" → Explain AMD advantages, show Intel alternatives
+• "I want the best" → Focus on high-end options, explain value
+
+"How long do you want this computer to last?"
+• 2-3 years → Budget build, plan for replacement
+• 4-5 years → Mainstream build with upgrade potential
+• 5+ years → High-end build, future-proofing investment
+
+HANDLING PRICE OBJECTIONS
+------------------------
+
+"That's more than I wanted to spend":
+• "I understand budget is important. Let me show you how we can prioritize the features most important to you."
+• Break down cost by component value
+• Offer financing options
+• Show refurbished alternatives
+• Explain cost per day over lifespan
+
+"I can build it cheaper myself":
+• "You're right that individual parts might cost less. Our systems include assembly, testing, warranty, and support."
+• Explain time value and technical expertise required
+• Highlight warranty coverage and support
+• Offer competitive pricing on custom builds
+
+"My old computer was only $300":
+• "Computer prices have changed due to improved performance and inflation."
+• Compare capabilities: "Your old computer couldn't do [specific modern task]"
+• Show value in terms of productivity and frustration savings
+• Explain technology improvements
+
+VALUE PROPOSITIONS
+-----------------
+
+For Students:
+• "This system will handle all your coursework and last through graduation"
+• Emphasize reliability and support
+• Mention student discounts
+• Focus on multitasking for research and assignments
+
+For Gamers:
+• "You'll get smooth frame rates in current games and be ready for new releases"
+• Emphasize graphics performance and upgradability
+• Mention VR readiness if applicable
+• Focus on competitive advantage
+
+For Professionals:
+• "This system will increase your productivity and pay for itself"
+• Emphasize time savings and reliability
+• Focus on professional software compatibility
+• Highlight business support options
+
+For Families:
+• "This system will handle everyone's needs and grow with your family"
+• Emphasize durability and multiple user support
+• Focus on educational value for children
+• Highlight parental controls and security
+
+© 2024 PC Sales Product Knowledge System

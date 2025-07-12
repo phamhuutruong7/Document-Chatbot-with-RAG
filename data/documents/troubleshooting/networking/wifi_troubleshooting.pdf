@@ -1,0 +1,2647 @@
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Fix Wi-Fi connection issues in Windows - Microsoft Support</title>
+	
+	
+		<link rel="canonical" href="https://support.microsoft.com/en-us/windows/fix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+
+			<link rel="alternate" hreflang="ar-SA" href="https://support.microsoft.com/ar-sa/windows/%D8%A5%D8%B5%D9%84%D8%A7%D8%AD-%D9%85%D8%B4%D9%83%D9%84%D8%A7%D8%AA-%D8%A7%D8%AA%D8%B5%D8%A7%D9%84-%D8%B4%D8%A8%D9%83%D8%A9-wi-fi-%D9%81%D9%8A-%D9%86%D8%B8%D8%A7%D9%85-%D8%A7%D9%84%D8%AA%D8%B4%D8%BA%D9%8A%D9%84-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="bg-BG" href="https://support.microsoft.com/bg-bg/windows/%D0%BE%D1%82%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D0%B8-%D1%81-wi-fi-%D0%B2%D1%80%D1%8A%D0%B7%D0%BA%D0%B0-%D0%B2-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="cs-CZ" href="https://support.microsoft.com/cs-cz/windows/oprava-probl%C3%A9m%C5%AF-s-p%C5%99ipojen%C3%ADm-wi-fi-ve-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="da-DK" href="https://support.microsoft.com/da-dk/windows/l%C3%B8s-problemer-med-wi-fi-forbindelsen-i-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="de-DE" href="https://support.microsoft.com/de-de/windows/beheben-von-problemen-mit-der-wlan-verbindung-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="el-GR" href="https://support.microsoft.com/el-gr/windows/%CE%B5%CF%80%CE%B9%CE%B4%CE%B9%CF%8C%CF%81%CE%B8%CF%89%CF%83%CE%B7-%CF%80%CF%81%CE%BF%CE%B2%CE%BB%CE%B7%CE%BC%CE%AC%CF%84%CF%89%CE%BD-%CF%83%CF%8D%CE%BD%CE%B4%CE%B5%CF%83%CE%B7%CF%82-wi-fi-%CF%83%CF%84%CE%B1-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="en-AU" href="https://support.microsoft.com/en-au/windows/fix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="en-GB" href="https://support.microsoft.com/en-gb/windows/fix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="en-US" href="https://support.microsoft.com/en-us/windows/fix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="es-ES" href="https://support.microsoft.com/es-es/windows/solucionar-problemas-de-conexi%C3%B3n-wi-fi-en-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="et-EE" href="https://support.microsoft.com/et-ee/windows/wi-fi-%C3%BChendusega-seotud-probleemide-lahendamine-windowsis-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="fi-FI" href="https://support.microsoft.com/fi-fi/windows/wi-fi-yhteysongelmien-korjaaminen-windowsissa-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="fr-FR" href="https://support.microsoft.com/fr-fr/windows/r%C3%A9soudre-les-probl%C3%A8mes-de-connexion-wi-fi-dans-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="he-IL" href="https://support.microsoft.com/he-il/windows/%D7%A4%D7%AA%D7%A8%D7%95%D7%9F-%D7%91%D7%A2%D7%99%D7%95%D7%AA-%D7%97%D7%99%D7%91%D7%95%D7%A8-wi-fi-%D7%91-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="hr-HR" href="https://support.microsoft.com/hr-hr/windows/otklonite-probleme-s-wi-fi-vezom-u-sustavu-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="hu-HU" href="https://support.microsoft.com/hu-hu/windows/a-wi-fi-kapcsolati-hib%C3%A1k-elh%C3%A1r%C3%ADt%C3%A1sa-a-windowsban-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="id-ID" href="https://support.microsoft.com/id-id/windows/memperbaiki-masalah-koneksi-wi-fi-di-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="it-IT" href="https://support.microsoft.com/it-it/windows/risolvere-i-problemi-di-connessione-alla-rete-wi-fi-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="ja-JP" href="https://support.microsoft.com/ja-jp/windows/windows-%E3%81%A7-wi-fi-%E6%8E%A5%E7%B6%9A%E3%81%AE%E5%95%8F%E9%A1%8C%E3%82%92%E4%BF%AE%E6%AD%A3%E3%81%99%E3%82%8B-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="ko-KR" href="https://support.microsoft.com/ko-kr/windows/windows%EC%97%90%EC%84%9C-wi-fi-%EC%97%B0%EA%B2%B0-%EB%AC%B8%EC%A0%9C-%ED%95%B4%EA%B2%B0-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="lt-LT" href="https://support.microsoft.com/lt-lt/windows/-wi-fi-ry%C5%A1io-problem%C5%B3-sprendimas-sistemoje-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="lv-LV" href="https://support.microsoft.com/lv-lv/windows/wi-fi-savienojuma-probl%C4%93mu-nov%C4%93r%C5%A1ana-oper%C4%93t%C4%81jsist%C4%93m%C4%81-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="nb-NO" href="https://support.microsoft.com/nb-no/windows/l%C3%B8se-problemer-med-wi-fi-tilkobling-i-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="nl-NL" href="https://support.microsoft.com/nl-nl/windows/wi-fi-verbindingsproblemen-in-windows-oplossen-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="pl-PL" href="https://support.microsoft.com/pl-pl/windows/rozwi%C4%85zywanie-problem%C3%B3w-z-po%C5%82%C4%85czeniem-sieci-wi-fi-w-systemie-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="pt-BR" href="https://support.microsoft.com/pt-br/windows/corrigir-problemas-de-conex%C3%A3o-wi-fi-no-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="pt-PT" href="https://support.microsoft.com/pt-pt/windows/resolver-problemas-de-liga%C3%A7%C3%A3o-wi-fi-no-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="ro-RO" href="https://support.microsoft.com/ro-ro/windows/remedierea-problemelor-de-conexiune-wi-fi-%C3%AEn-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="ru-RU" href="https://support.microsoft.com/ru-ru/windows/%D1%83%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC-%D1%81-%D0%BF%D0%BE%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%D0%BC-%D0%BA-wi-fi-%D0%B2-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="sk-SK" href="https://support.microsoft.com/sk-sk/windows/rie%C5%A1enie-probl%C3%A9mov-s-pripojen%C3%ADm-cez-wi-fi-vo-windowse-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="sl-SI" href="https://support.microsoft.com/sl-si/windows/odpravljanje-te%C5%BEav-s-povezavo-wi-fi-v-sistemu-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="sr-Latn-RS" href="https://support.microsoft.com/sr-latn-rs/windows/re%C5%A1avanje-problema-sa-wi-fi-vezom-u-operativnom-sistemu-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="sv-SE" href="https://support.microsoft.com/sv-se/windows/%C3%A5tg%C3%A4rda-problem-med-wi-fi-anslutning-i-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="th-TH" href="https://support.microsoft.com/th-th/windows/%E0%B9%81%E0%B8%81%E0%B9%89%E0%B9%84%E0%B8%82%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%AB%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%80%E0%B8%8A%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%A1%E0%B8%95%E0%B9%88%E0%B8%AD-wi-fi-%E0%B9%83%E0%B8%99-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="tr-TR" href="https://support.microsoft.com/tr-tr/windows/windows-ta-wi-fi-ba%C4%9Flant%C4%B1s%C4%B1-sorunlar%C4%B1n%C4%B1-d%C3%BCzeltin-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="uk-UA" href="https://support.microsoft.com/uk-ua/windows/%D1%83%D1%81%D1%83%D0%BD%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC-%D1%96%D0%B7-%D0%BF%D1%96%D0%B4%D0%BA%D0%BB%D1%8E%D1%87%D0%B5%D0%BD%D0%BD%D1%8F%D0%BC-%D0%B4%D0%BE-%D0%BC%D0%B5%D1%80%D0%B5%D0%B6%D1%96-wi-fi-%D1%83-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="vi-VN" href="https://support.microsoft.com/vi-vn/windows/kh%E1%BA%AFc-ph%E1%BB%A5c-s%E1%BB%B1-c%E1%BB%91-k%E1%BA%BFt-n%E1%BB%91i-wi-fi-trong-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="zh-CN" href="https://support.microsoft.com/zh-cn/windows/%E4%BF%AE%E5%A4%8D-windows-%E4%B8%AD%E7%9A%84-wi-fi-%E8%BF%9E%E6%8E%A5%E9%97%AE%E9%A2%98-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="zh-HK" href="https://support.microsoft.com/zh-hk/windows/%E4%BF%AE%E6%AD%A3-windows-%E4%B8%AD%E7%9A%84%E7%B6%B2%E8%B7%AF%E9%80%A3%E7%B7%9A%E5%95%8F%E9%A1%8C-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+			<link rel="alternate" hreflang="zh-TW" href="https://support.microsoft.com/zh-tw/windows/%E4%BF%AE%E6%AD%A3-windows-%E4%B8%AD%E7%9A%84%E7%B6%B2%E8%B7%AF%E9%80%A3%E7%B7%9A%E5%95%8F%E9%A1%8C-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+	<meta name="awa-articleGuid" content="9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+	
+	<meta name="description" content="Learn about different things you can try to fix network connection problems in Windows." />
+	<meta name="firstPublishedDate" content="2020-02-19" />
+	<meta name="lastPublishedDate" content="2025-02-04" />
+	<meta name="commitId" content="9de96c1d0d86f76c468d71f72f01b7b9fe14c223" />
+	<meta name="schemaName" content="ARTICLE" />
+	<meta name="awa-schemaName" content="ARTICLE" />
+
+	
+	
+	<meta name="search.audienceType" content="End User" />
+	<meta name="search.contenttype" content="Troubleshooting" />
+	
+	<meta name="search.description" content="Learn about different things you can try to fix network connection problems in Windows." />
+	<meta name="search.IsOfficeDoc" content="true" />
+	
+	
+	
+	
+	<meta name="search.products" content="6ae59d69-36fc-8e4d-23dd-631d98bf74a9,4ec863cc-2ecd-e187-6cb3-b50c6545db92" />
+	
+	
+	
+	<meta name="search.mkt" content="en-US" />
+
+	<meta name="ms.product" content="6ae59d69-36fc-8e4d-23dd-631d98bf74a9,4ec863cc-2ecd-e187-6cb3-b50c6545db92" />
+	<meta name="ms.productName" content="Windows 10,Windows 11" />
+	<meta name="ms.lang" content="en" />
+	<meta name="ms.loc" content="US" />
+	<meta name="ms.ocpub.assetID" content="9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+
+	<meta name="awa-kb_id" content="10741" />
+	<meta name="awa-isContactUsAllowed" content="true" />
+	<meta name="awa-asst" content="9424a1f7-6a3b-65a6-4d78-7f07eee84d2c" />
+	<meta name="awa-pageType" content="Article" />
+	
+
+
+
+	
+
+
+<meta name="awa-env" content="Production" />
+<meta name="awa-market" content="en-US" />
+<meta name="awa-contentlang" content="en" />
+<meta name="awa-userFlightingId" content="8f0d9a72-64d4-400f-afd1-94170561f36c" />
+<meta name="awa-expid" content="P-E-1551018-C1-8;P-E-1585233-2-3;P-E-1570667-2-4;P-E-1560750-2-7;P-E-1554013-2-6;P-E-1536917-C1-5;P-E-1526785-C1-5;P-E-1260007-C1-3;P-E-1247614-C1-8;P-E-1046152-C1-3;P-R-1545158-1-4;P-R-1426254-2-6;P-R-1392118-1-2;P-R-1245128-2-4;P-R-1235984-2-3;P-R-1211158-1-4;P-R-1150391-2-8;P-R-1150395-2-8;P-R-1150399-2-8;P-R-1150396-2-8;P-R-1150394-2-8;P-R-1150390-2-8;P-R-1150386-2-8;P-R-1146801-1-11;P-R-1141562-1-2;P-R-1141283-2-9;P-R-1136354-4-8;P-R-1119659-1-16;P-R-1119437-1-17;P-R-1116805-2-18;P-R-1116803-2-20;P-R-1114100-1-2;P-R-1100996-2-14;P-R-1096341-2-6;P-R-1089468-1-2;P-R-1085248-1-2;P-R-1072011-6-8;P-R-1033854-4-6;P-R-1029969-4-4;P-R-1020735-1-10;P-R-1018544-4-7;P-R-1009708-2-9;P-R-1005895-2-11;P-R-116475-1-23;P-R-113175-4-7;P-R-113174-1-2;P-R-110379-1-7;P-R-107838-1-7;P-R-106524-1-3;P-R-103787-2-5;P-R-101783-1-2;P-R-97577-1-5;P-R-97457-1-10;P-R-94390-1-2;P-R-94360-10-25;P-R-93416-1-3;P-R-90963-2-2;P-R-85265-4-8;P-R-73296-2-15" />
+<meta name="awa-irisId" />
+<meta name="awa-origindatacenter" content="Southeast Asia" />
+<meta name="awa-variationid" content="ECS" />
+<meta name="awa-prdct" content="office.com" />
+<meta name="awa-stv" content="3.0.0-8821f9e54a41c2aad0232bf7512d9241c942a4fd&#x2B;8821f9e54a41c2aad0232bf7512d9241c942a4fd" />
+
+
+ 
+	<meta name="awa-title" content="Fix Wi-Fi connection issues in Windows - Microsoft Support" />
+	
+	<meta name="awa-selfHelpExp" content="railbanner_business" />
+	<meta name="awa-dataBoundary" content="WW" />
+
+	<link rel="stylesheet" href="/css/fonts/site-fonts.css?v=XWcxZPSEmN3tnHWAVMOFsAlPJq7aug49fUGb8saTNjw" />
+	<link rel="stylesheet" href="/css/glyphs/glyphs.css?v=VOnvhT441Pay0WAKH5gdcXXigXpiuNbaQcI9DgXyoDE" />
+
+	
+
+    <link rel="dns-prefetch" href="https://aadcdn.msftauth.net" />
+    <link rel="preconnect" href="https://aadcdn.msftauth.net" crossorigin=&quot;anonymous&quot; />
+    <link rel="dns-prefetch" href="https://browser.events.data.microsoft.com" />
+    <link rel="preconnect" href="https://browser.events.data.microsoft.com" crossorigin=&quot;anonymous&quot; />
+    <link rel="dns-prefetch" href="https://c.s-microsoft.com" />
+    <link rel="preconnect" href="https://c.s-microsoft.com" crossorigin=&quot;anonymous&quot; />
+    <link rel="dns-prefetch" href="https://img-prod-cms-rt-microsoft-com.akamaized.net" />
+    <link rel="preconnect" href="https://img-prod-cms-rt-microsoft-com.akamaized.net" crossorigin=&quot;anonymous&quot; />
+    <link rel="dns-prefetch" href="https://js.monitor.azure.com" />
+    <link rel="preconnect" href="https://js.monitor.azure.com" crossorigin=&quot;anonymous&quot; />
+    <link rel="dns-prefetch" href="https://logincdn.msauth.net" />
+    <link rel="preconnect" href="https://logincdn.msauth.net" crossorigin=&quot;anonymous&quot; />
+    <link rel="dns-prefetch" href="https://mem.gfx.ms" />
+    <link rel="preconnect" href="https://mem.gfx.ms" crossorigin=&quot;anonymous&quot; />
+    <link rel="dns-prefetch" href="https://www.microsoft.com" />
+    <link rel="preconnect" href="https://www.microsoft.com" crossorigin=&quot;anonymous&quot; />
+
+
+	<link rel="stylesheet" href="/css/Article/article.css?v=0L89BVeP4I_vlf3G71MrPYAXM1CtRPw6ZcJwIduUvCA" />
+	
+	<link rel="stylesheet" href="/css/SearchBox/search-box.css?v=bybwzGBajHicVXspVs540UfV0swW0vCbOmBjBryj9N4" />
+	<link rel="stylesheet" href="/css/sitewide/articleCss-overwrite.css?v=D0lQRoIlvFHSQBRTb-gAQ5KkFe8B8NuSoliBjnT5xZ4" />
+	
+	
+	<link rel="stylesheet" href="/css/MeControlCallout/teaching-callout.css?v=690pjf05o15fVEafEpUwgaF8vqVfOkp5wP1Jl9gE99U" />
+	
+	<noscript>
+		<link rel="stylesheet" href="/css/Article/article.noscript.css?v=88-vV8vIkcKpimEKjULkqpt8CxdXf5avAeGxsHgVOO0" />
+	</noscript>
+
+	<link rel="stylesheet" href="/css/promotionbanner/promotion-banner.css?v=cAmflE3c6Gw7niTOiMPEie9MY87yDE2mSl3DO7_jZRI" media="none" onload="this.media=&#x27;all&#x27;" /><noscript><link href="/css/promotionbanner/promotion-banner.css?v=cAmflE3c6Gw7niTOiMPEie9MY87yDE2mSl3DO7_jZRI" rel="stylesheet"></noscript>
+	
+	<link rel="stylesheet" href="/css/ArticleSupportBridge/article-support-bridge.css?v=R_P0TJvD9HoRHQBEdvBR1WhNn7dSbvOYWmVA9taxbpM" media="none" onload="this.media=&#x27;all&#x27;" /><noscript><link href="/css/ArticleSupportBridge/article-support-bridge.css?v=R_P0TJvD9HoRHQBEdvBR1WhNn7dSbvOYWmVA9taxbpM" rel="stylesheet"></noscript>
+	<link rel="stylesheet" href="/css/StickyFeedback/sticky-feedback.css?v=cMfNdAUue7NxZUj3dIt_v5DIuzmw9ohJW109iXQpWnI" media="none" onload="this.media=&#x27;all&#x27;" /><noscript><link href="/css/StickyFeedback/sticky-feedback.css?v=cMfNdAUue7NxZUj3dIt_v5DIuzmw9ohJW109iXQpWnI" rel="stylesheet"></noscript>
+	<link rel="stylesheet" href="/css/feedback/feedback.css?v=Rkcw_yfLWOMtOcWOljMOiZgymMcrG0GDpo4Lf-TUzPo" media="none" onload="this.media=&#x27;all&#x27;" /><noscript><link href="/css/feedback/feedback.css?v=Rkcw_yfLWOMtOcWOljMOiZgymMcrG0GDpo4Lf-TUzPo" rel="stylesheet"></noscript>
+	
+	
+
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+
+	
+        <link rel="stylesheet" href="https://www.microsoft.com/onerfstatics/marketingsites-eas-prod/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/63-57d110/c9-be0100/a6-e969ef/43-9f2e7c/82-8b5456/a0-5d3913/3d-28500e/ae-f1ac0c?ver=2.0&amp;_cf=02242021_3231" type="text/css" media="all" />
+    
+
+	
+		<link rel="stylesheet" href="/css/Article/left-nav.css?v=P4vuAkZCGQgjSSlYzU6z5FtdGykZHjeUthqLptyBPAk" />
+		<link rel="stylesheet" href="/css/Article/multimedia-left-nav.css?v=WGrcIW6Ipz_Jwu3mzb5TNSNkonDhTQVz3J1KqMCSw9E" />
+	
+	
+	<script type="text/javascript">
+		var OOGlobal = {
+			BaseDomain: location.protocol + "//" + location.host,
+			Culture: "en-US",
+			Language: "en",
+			LCID: "1033",
+			IsAuthenticated: "False",
+			WebAppUrl: "https://office.com/start",
+			GUID: "9424a1f7-6a3b-65a6-4d78-7f07eee84d2c",
+			Platform: navigator.platform,
+			MixOembedUrl: "https://mix.office.com/oembed/",
+			MixWatchUrl: "https://mix.office.com/watch/"
+		};
+	</script>
+
+	
+		
+
+
+<script type="text/javascript">
+	(function () {
+		var creativeReady = false;
+		var isSilentSignInComplete = false;
+		var authInfo = {
+			authType: "None",
+			puid: "",
+			tenantId: "",
+			isAdult: true
+			};
+
+		var renderPromotion = function (dataBoundary) {
+			if (creativeReady && isSilentSignInComplete) {
+				window.UcsCreative.renderTemplate({
+					partnerId: "7bb7e07d-3e57-4ee3-b78f-26a4292b841a",
+					shouldSetUcsMuid: false,
+					dataBoundary: dataBoundary,
+					attributes: {
+						placement: "88000534",
+						locale: "en-us",
+						country: "us",
+						scs_ecsFlightId: "P-E-1551018-C1;P-E-1585233-2;P-E-1570667-2;P-E-1560750-2;P-E-1554013-2;P-E-1536917-C1;P-E-1526785-C1;P-E-1260007-C1;P-E-1247614-C1;P-E-1046152-C1;P-R-1545158-1;P-R-1426254-2;P-R-1392118-1;P-R-1245128-2;P-R-1235984-2;P-R-1211158-1;P-R-1150391-2;P-R-1150395-2;P-R-1150399-2;P-R-1150396-2;P-R-1150394-2;P-R-1150390-2;P-R-1150386-2;P-R-1146801-1;P-R-1141562-1;P-R-1141283-2;P-R-1136354-4;P-R-1119659-1;P-R-1119437-1;P-R-1116805-2;P-R-1116803-2;P-R-1114100-1;P-R-1100996-2;P-R-1096341-2;P-R-1089468-1;P-R-1085248-1;P-R-1072011-6;P-R-1033854-4;P-R-1029969-4;P-R-1020735-1;P-R-1018544-4;P-R-1009708-2;P-R-1005895-2;P-R-116475-1;P-R-113175-4;P-R-113174-1;P-R-110379-1;P-R-107838-1;P-R-106524-1;P-R-103787-2;P-R-101783-1;P-R-97577-1;P-R-97457-1;P-R-94390-1;P-R-94360-10;P-R-93416-1;P-R-90963-2;P-R-85265-4;P-R-73296-2",
+						SCS_promotionCategory: "uhfbuybutton;railbanner_business",
+						articleType: "railbanner_business",
+						operatingSystem: "Windows10",
+						authType: authInfo.authType,
+						PUID: authInfo.puid,
+						TenantId: authInfo.tenantId,
+                        TOPT: "",
+                        AdditionalBannerId: "ucsRailInlineContainer",
+					}
+				});
+			}
+		};
+
+		window.document.addEventListener('ucsCreativeRendered', function () {
+			if (typeof window.initPromotionLogger !== 'undefined') {
+				window.initPromotionLogger();
+			}
+		});
+
+		window.document.addEventListener('ucsCreativeReady', function () {
+			creativeReady = true;
+			renderPromotion("WW");
+		});
+
+		if (!isSilentSignInComplete) {
+			window.document.addEventListener('silentSignInComplete', function (event) {
+				if (event.detail && event.detail.puid) {
+					authInfo.isAdult = event.detail.isAdult;
+					authInfo.authType = event.detail.authType;
+					authInfo.puid = event.detail.puid;
+					authInfo.tenantId = event.detail.account.tenantId;
+				}
+
+				isSilentSignInComplete = true;
+				renderPromotion(event.detail.dataBoundary);
+			});
+		}
+	})();
+</script>
+
+<script type="text/javascript" defer src="/lib/ucs/dist/ucsCreativeService.js?v=cOs7uwJdxMnLf3KX72i5KOSn2fd_i2C9TebFJs8ZVGQ"></script>
+	
+
+	<script>
+		if (window.location.search) {
+			var params = new URLSearchParams(window.location.search);
+			if (params.has('action') && params.get('action') === 'download'){
+				params.delete('action');
+			}
+
+			history.replaceState({}, '', window.location.pathname + (params.toString() ? '?' + params.toString() : ''));
+		}
+	</script>
+
+
+</head>
+<body class="supCont ocArticle">
+	<div id="ocBodyWrapper">
+		
+		
+
+<div class="supLeftNavMobileView" dir="ltr">
+	<div class="supLeftNavMobileViewHeader">
+		<div class="supLeftNavMobileViewHeaderTitle" role="heading" aria-level="2">Related topics</div>
+		<div class="supLeftNavMobileViewCloseButton">
+			<a href="javascript:" class="supLeftNavMobileViewClose" ms.interactiontype="11" data-bi-bhvr="HIDE" data-bi-area="Banner" ms.pgarea="leftnav" role="button" aria-label="Close">&times;</a>
+		</div>
+	</div>
+	
+	<div class="supLeftNavMobileViewContent grd" role="complementary" aria-label="Related Links" ms.pgarea="leftnav" data-bi-area="leftnav">
+		
+
+	<div role="heading" aria-level="2" id="supLeftNavMobileDisplayTitle" tabindex="-1">Network and Internet</div>
+			<div class="supLeftNavCategory">
+				<div class="supLeftNavCategoryTitle">
+					<a class="supLeftNavLink" data-bi-slot="1" href="/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9">Get Started</a>
+				</div>
+				<ul class="supLeftNavArticles">
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="2" href="/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9">Essential Network Settings</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="3" href="/en-us/windows/connect-to-a-wi-fi-network-in-windows-1f881677-b569-0cd5-010d-e3cd3579d263">Connect to Wi-Fi</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="4" href="/en-us/windows/connect-to-a-vpn-in-windows-3d29aeb1-f497-f6b7-7633-115722c1009c">Connect to VPN</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="5" href="/en-us/windows/use-your-windows-device-as-a-mobile-hotspot-c89b0fad-72d5-41e8-f7ea-406ad9036b85">Mobile Hotspot</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="6" href="/en-us/windows/use-a-proxy-server-in-windows-03096c53-0554-4ffe-b6ab-8b1deee8dae1">Use Proxy Server</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="7" href="/en-us/windows/metered-connections-in-windows-7b33928f-a144-b265-97b6-f2e95a87c408">Metered Connections</a>
+							</li>
+				</ul>
+			</div>
+			<div class="supLeftNavCategory">
+				<div class="supLeftNavCategoryTitle">
+					<a class="supLeftNavLink" data-bi-slot="2" href="/en-us/windows/setting-up-a-wireless-network-in-windows-97914e31-3aa4-406d-cef6-f1629e2c3721">More about Wireless Networks</a>
+				</div>
+				<ul class="supLeftNavArticles">
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="3" href="/en-us/windows/setting-up-a-wireless-network-in-windows-97914e31-3aa4-406d-cef6-f1629e2c3721">Setting up a Wireless Network</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="4" href="/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09">Faster Wi-Fi</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="5" href="/en-us/windows/wi-fi-and-your-home-layout-e1ed42e7-a3c5-d1be-2abb-e8fad00ad32a">Wi-Fi and Home Layout</a>
+							</li>
+				</ul>
+			</div>
+			<div class="supLeftNavCategory">
+				<div class="supLeftNavCategoryTitle">
+					<a class="supLeftNavLink" data-bi-slot="3" href="/en-us/windows/share-things-with-nearby-devices-in-windows-0efbfe40-e3e2-581b-13f4-1a0e9936c2d9">File Sharing</a>
+				</div>
+				<ul class="supLeftNavArticles">
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="4" href="/en-us/windows/share-things-with-nearby-devices-in-windows-0efbfe40-e3e2-581b-13f4-1a0e9936c2d9">Nearby Sharing</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="5" href="/en-us/windows/file-sharing-over-a-network-in-windows-b58704b2-f53a-4b82-7bc1-80f9994725bf">File Sharing over Network</a>
+							</li>
+				</ul>
+			</div>
+			<div class="supLeftNavCategory">
+				<div class="supLeftNavCategoryTitle">
+					<a class="supLeftNavLink" data-bi-slot="4" href="/en-us/windows/cellular-settings-in-windows-905568ff-7f31-3013-efc7-3f396ac92cd7">Cellular Data Settings</a>
+				</div>
+				<ul class="supLeftNavArticles">
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="5" href="/en-us/windows/cellular-settings-in-windows-905568ff-7f31-3013-efc7-3f396ac92cd7">Cellular Settings</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="6" href="/en-us/windows/use-an-esim-to-get-a-cellular-data-connection-on-your-windows-pc-0e255714-f8be-b9ef-9e84-f75b05ed98a3">Use an eSIM to get Cellular Data</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="7" href="/en-us/windows/add-your-windows-pc-to-your-mobile-account-to-get-online-31a6ab0f-f751-369c-5b48-a5a4df0edf8c">Add Device to Mobile Data Plan</a>
+							</li>
+				</ul>
+			</div>
+			<div class="supLeftNavCategory supLeftNavActiveCategory">
+				<div class="supLeftNavCategoryTitle">
+					<a class="supLeftNavLink" ms.interactiontype="11" data-bi-slot="5" href="/en-us/windows/fix-ethernet-connection-problems-in-windows-2311254e-cab8-42d6-90f3-cb0b9f63645f">Troubleshooting</a>
+				</div>
+				<ul class="supLeftNavArticles">
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="6" href="/en-us/windows/fix-ethernet-connection-problems-in-windows-2311254e-cab8-42d6-90f3-cb0b9f63645f">Fix Ethernet Problems</a>
+							</li>
+							<li class="supLeftNavArticle supLeftNavCurrentArticle">
+								<a class="supLeftNavLink" data-bi-slot="7" aria-current="page" href="/en-us/windows/fix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c">Fix Wi-Fi Problems</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="8" href="/en-us/windows/fix-problems-with-nearby-sharing-in-windows-e6f5db3a-48c3-04f6-13d6-84db6f821455">Fix Nearby Sharing Problems</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="9" href="/en-us/windows/get-connected-when-setting-up-your-windows-device-50dca26f-40d5-4c3b-853c-e972dafb7e08">Fix Connectivity Problems during Setup</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="10" href="/en-us/windows/analyze-the-wireless-network-report-76da0daa-1db2-6049-d154-7bb679eb03ed">Wireless Network Report</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="11" href="/en-us/windows/why-is-my-internet-connection-so-slow-c68cf021-c5cf-db6f-eade-7c9d8bd78aa1">Why is my Internet Slow?</a>
+							</li>
+				</ul>
+			</div>
+
+	</div>
+</div>
+	
+
+		<div class="ucsUhfContainer"></div>
+
+		
+            <div id="headerArea" class="uhf"  data-m='{"cN":"headerArea","cT":"Area_coreuiArea","id":"a1Body","sN":1,"aN":"Body"}'>
+                <div id="headerRegion"      data-region-key="headerregion" data-m='{"cN":"headerRegion","cT":"Region_coreui-region","id":"r1a1","sN":1,"aN":"a1"}' >
+
+    <div  id="headerUniversalHeader" data-m='{"cN":"headerUniversalHeader","cT":"Module_coreui-universalheader","id":"m1r1a1","sN":1,"aN":"r1a1"}'  data-module-id="Category|headerRegion|coreui-region|headerUniversalHeader|coreui-universalheader">
+        
+
+
+
+
+
+
+        <a id="uhfSkipToMain" class="m-skip-to-main" href="javascript:void(0)" data-href="#supArticleContent" tabindex="0" data-m='{"cN":"Skip to content_nonnav","id":"nn1m1r1a1","sN":1,"aN":"m1r1a1"}'>Skip to main content</a>
+
+
+<header class="c-uhfh context-uhf no-js c-sgl-stck c-category-header " itemscope="itemscope" data-header-footprint="/SMCConvergence/ContextualHeader-Site, fromService: True"   data-magict="true"   itemtype="http://schema.org/Organization">
+    <div class="theme-light js-global-head f-closed  global-head-cont" data-m='{"cN":"Universal Header_cont","cT":"Container","id":"c2m1r1a1","sN":2,"aN":"m1r1a1"}'>
+        <div class="c-uhfh-gcontainer-st">
+            <button type="button" class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="All Microsoft expand to see list of Microsoft products and services" initialState-label="All Microsoft expand to see list of Microsoft products and services" toggleState-label="Close All Microsoft list" aria-expanded="false" data-m='{"cN":"Mobile menu button_nonnav","id":"nn1c2m1r1a1","sN":1,"aN":"c2m1r1a1"}'></button>
+            <button type="button" class="c-action-trigger c-glyph glyph-arrow-htmllegacy c-close-search" aria-label="Close search" aria-expanded="false" data-m='{"cN":"Close Search_nonnav","id":"nn2c2m1r1a1","sN":2,"aN":"c2m1r1a1"}'></button>
+                    <a id="uhfLogo" class="c-logo c-sgl-stk-uhfLogo" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" data-m='{"cN":"GlobalNav_Logo_cont","cT":"Container","id":"c3c2m1r1a1","sN":3,"aN":"c2m1r1a1"}'>
+                        <img alt="" itemprop="logo" class="c-image" src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png" role="presentation" aria-hidden="true" />
+                        <span itemprop="name" role="presentation" aria-hidden="true">Microsoft</span>
+                    </a>
+            <div class="f-mobile-title">
+                <button type="button" class="c-action-trigger c-glyph glyph-chevron-left" aria-label="See more menu options" data-m='{"cN":"Mobile back button_nonnav","id":"nn4c2m1r1a1","sN":4,"aN":"c2m1r1a1"}'></button>
+                <span data-global-title="Microsoft home" class="js-mobile-title">Support</span>
+                <button type="button" class="c-action-trigger c-glyph glyph-chevron-right" aria-label="See more menu options" data-m='{"cN":"Mobile forward button_nonnav","id":"nn5c2m1r1a1","sN":5,"aN":"c2m1r1a1"}'></button>
+            </div>
+                    <div class="c-show-pipe x-hidden-vp-mobile-st">
+                        <a id="uhfCatLogo" class="c-logo c-cat-logo" href="https://support.microsoft.com/en-us" aria-label="Support" itemprop="url" data-m='{"cN":"CatNav_Support_nav","id":"n6c2m1r1a1","sN":6,"aN":"c2m1r1a1"}'>
+                                <span>Support</span>
+                        </a>
+                    </div>
+                <div class="cat-logo-button-cont x-hidden">
+                        <button type="button" id="uhfCatLogoButton" class="c-cat-logo-button x-hidden" aria-expanded="false" aria-label="Support" data-m='{"cN":"Support_nonnav","id":"nn7c2m1r1a1","sN":7,"aN":"c2m1r1a1"}'>
+                            Support
+                        </button>
+                </div>
+
+
+
+                    <nav id="uhf-g-nav" aria-label="Contextual menu" class="c-uhfh-gnav" data-m='{"cN":"Category nav_cont","cT":"Container","id":"c8c2m1r1a1","sN":8,"aN":"c2m1r1a1"}'>
+            <ul class="js-paddle-items">
+                    <li class="single-link js-nav-menu x-hidden-none-mobile-vp uhf-menu-item">
+                        <a class="c-uhf-nav-link" href="https://support.microsoft.com/en-us" data-m='{"cN":"CatNav_Home_nav","id":"n1c8c2m1r1a1","sN":1,"aN":"c8c2m1r1a1"}' > Home </a>
+                    </li>
+                                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_0" class="c-uhf-nav-link" href="https://www.microsoft.com/microsoft-365?ocid=cmmttvzgpuy" data-m='{"id":"n2c8c2m1r1a1","sN":2,"aN":"c8c2m1r1a1"}'>Microsoft 365</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_1" class="c-uhf-nav-link" href="https://www.microsoft.com/microsoft-365/microsoft-office?ocid=cmml7tr0rib" data-m='{"id":"n3c8c2m1r1a1","sN":3,"aN":"c8c2m1r1a1"}'>Office</a>
+                        </li>
+                        <li class="nested-menu uhf-menu-item">
+                            <div class="c-uhf-menu js-nav-menu">
+                                <button type="button" id="c-shellmenu_2"  aria-expanded="false" data-m='{"id":"nn4c8c2m1r1a1","sN":4,"aN":"c8c2m1r1a1"}'>Products</button>
+
+                                <ul class="" data-class-idn="" aria-hidden="true" data-m='{"cT":"Container","id":"c5c8c2m1r1a1","sN":5,"aN":"c8c2m1r1a1"}'>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c1c5c8c2m1r1a1","sN":1,"aN":"c5c8c2m1r1a1"}'>
+            <a id="c-shellmenu_3" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/microsoft-365" data-m='{"id":"n1c1c5c8c2m1r1a1","sN":1,"aN":"c1c5c8c2m1r1a1"}'>Microsoft 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c2c5c8c2m1r1a1","sN":2,"aN":"c5c8c2m1r1a1"}'>
+            <a id="c-shellmenu_4" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/outlook" data-m='{"id":"n1c2c5c8c2m1r1a1","sN":1,"aN":"c2c5c8c2m1r1a1"}'>Outlook</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c3c5c8c2m1r1a1","sN":3,"aN":"c5c8c2m1r1a1"}'>
+            <a id="c-shellmenu_5" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/teams" data-m='{"id":"n1c3c5c8c2m1r1a1","sN":1,"aN":"c3c5c8c2m1r1a1"}'>Microsoft Teams</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c4c5c8c2m1r1a1","sN":4,"aN":"c5c8c2m1r1a1"}'>
+            <a id="c-shellmenu_6" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/onedrive" data-m='{"id":"n1c4c5c8c2m1r1a1","sN":1,"aN":"c4c5c8c2m1r1a1"}'>OneDrive</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c5c5c8c2m1r1a1","sN":5,"aN":"c5c8c2m1r1a1"}'>
+            <a id="c-shellmenu_7" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/onenote" data-m='{"id":"n1c5c5c8c2m1r1a1","sN":1,"aN":"c5c5c8c2m1r1a1"}'>OneNote</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c6c5c8c2m1r1a1","sN":6,"aN":"c5c8c2m1r1a1"}'>
+            <a id="c-shellmenu_8" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/windows" data-m='{"id":"n1c6c5c8c2m1r1a1","sN":1,"aN":"c6c5c8c2m1r1a1"}'>Windows</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c7c5c8c2m1r1a1","sN":7,"aN":"c5c8c2m1r1a1"}'>
+            <a id="c-shellmenu_9" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/microsoft-edge" data-m='{"id":"n1c7c5c8c2m1r1a1","sN":1,"aN":"c7c5c8c2m1r1a1"}'>Microsoft Edge</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c8c5c8c2m1r1a1","sN":8,"aN":"c5c8c2m1r1a1"}'>
+            <a id="c-shellmenu_10" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/all-products" data-m='{"id":"n1c8c5c8c2m1r1a1","sN":1,"aN":"c8c5c8c2m1r1a1"}'>more ...</a>
+            
+        </li>
+                                                    
+                                </ul>
+                            </div>
+                        </li>                        <li class="nested-menu uhf-menu-item">
+                            <div class="c-uhf-menu js-nav-menu">
+                                <button type="button" id="c-shellmenu_11"  aria-expanded="false" data-m='{"id":"nn6c8c2m1r1a1","sN":6,"aN":"c8c2m1r1a1"}'>Devices</button>
+
+                                <ul class="" data-class-idn="" aria-hidden="true" data-m='{"cT":"Container","id":"c7c8c2m1r1a1","sN":7,"aN":"c8c2m1r1a1"}'>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c1c7c8c2m1r1a1","sN":1,"aN":"c7c8c2m1r1a1"}'>
+            <a id="c-shellmenu_12" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/surface" data-m='{"id":"n1c1c7c8c2m1r1a1","sN":1,"aN":"c1c7c8c2m1r1a1"}'>Surface</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c2c7c8c2m1r1a1","sN":2,"aN":"c7c8c2m1r1a1"}'>
+            <a id="c-shellmenu_13" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/pc-accessories" data-m='{"id":"n1c2c7c8c2m1r1a1","sN":1,"aN":"c2c7c8c2m1r1a1"}'>PC Accessories</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c3c7c8c2m1r1a1","sN":3,"aN":"c7c8c2m1r1a1"}'>
+            <a id="c-shellmenu_14" class="js-subm-uhf-nav-link" href="https://support.xbox.com/" data-m='{"id":"n1c3c7c8c2m1r1a1","sN":1,"aN":"c3c7c8c2m1r1a1"}'>Xbox</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c4c7c8c2m1r1a1","sN":4,"aN":"c7c8c2m1r1a1"}'>
+            <a id="c-shellmenu_15" class="js-subm-uhf-nav-link" href="https://support.xbox.com/help/games-apps/my-games-apps/all-about-pc-gaming" data-m='{"id":"n1c4c7c8c2m1r1a1","sN":1,"aN":"c4c7c8c2m1r1a1"}'>PC Gaming</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c5c7c8c2m1r1a1","sN":5,"aN":"c7c8c2m1r1a1"}'>
+            <a id="c-shellmenu_16" class="js-subm-uhf-nav-link" href="https://docs.microsoft.com/hololens/" data-m='{"id":"n1c5c7c8c2m1r1a1","sN":1,"aN":"c5c7c8c2m1r1a1"}'>HoloLens</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c6c7c8c2m1r1a1","sN":6,"aN":"c7c8c2m1r1a1"}'>
+            <a id="c-shellmenu_17" class="js-subm-uhf-nav-link" href="https://learn.microsoft.com/surface-hub/" data-m='{"id":"n1c6c7c8c2m1r1a1","sN":1,"aN":"c6c7c8c2m1r1a1"}'>Surface Hub</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c7c7c8c2m1r1a1","sN":7,"aN":"c7c8c2m1r1a1"}'>
+            <a id="c-shellmenu_18" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/warranty" data-m='{"id":"n1c7c7c8c2m1r1a1","sN":1,"aN":"c7c7c8c2m1r1a1"}'>Hardware warranties</a>
+            
+        </li>
+                                                    
+                                </ul>
+                            </div>
+                        </li>                        <li class="nested-menu uhf-menu-item">
+                            <div class="c-uhf-menu js-nav-menu">
+                                <button type="button" id="c-shellmenu_19"  aria-expanded="false" data-m='{"id":"nn8c8c2m1r1a1","sN":8,"aN":"c8c2m1r1a1"}'>Account &amp; billing</button>
+
+                                <ul class="" data-class-idn="" aria-hidden="true" data-m='{"cT":"Container","id":"c9c8c2m1r1a1","sN":9,"aN":"c8c2m1r1a1"}'>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c1c9c8c2m1r1a1","sN":1,"aN":"c9c8c2m1r1a1"}'>
+            <a id="c-shellmenu_20" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/account" data-m='{"id":"n1c1c9c8c2m1r1a1","sN":1,"aN":"c1c9c8c2m1r1a1"}'>Account</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c2c9c8c2m1r1a1","sN":2,"aN":"c9c8c2m1r1a1"}'>
+            <a id="c-shellmenu_21" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/microsoft-store-and-billing" data-m='{"id":"n1c2c9c8c2m1r1a1","sN":1,"aN":"c2c9c8c2m1r1a1"}'>Microsoft Store &amp; billing</a>
+            
+        </li>
+                                                    
+                                </ul>
+                            </div>
+                        </li>                        <li class="nested-menu uhf-menu-item">
+                            <div class="c-uhf-menu js-nav-menu">
+                                <button type="button" id="c-shellmenu_22"  aria-expanded="false" data-m='{"id":"nn10c8c2m1r1a1","sN":10,"aN":"c8c2m1r1a1"}'>Resources</button>
+
+                                <ul class="" data-class-idn="" aria-hidden="true" data-m='{"cT":"Container","id":"c11c8c2m1r1a1","sN":11,"aN":"c8c2m1r1a1"}'>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c1c11c8c2m1r1a1","sN":1,"aN":"c11c8c2m1r1a1"}'>
+            <a id="c-shellmenu_23" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/whats-new" data-m='{"id":"n1c1c11c8c2m1r1a1","sN":1,"aN":"c1c11c8c2m1r1a1"}'>What&#39;s new</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c2c11c8c2m1r1a1","sN":2,"aN":"c11c8c2m1r1a1"}'>
+            <a id="c-shellmenu_24" class="js-subm-uhf-nav-link" href="https://answers.microsoft.com/lang" data-m='{"id":"n1c2c11c8c2m1r1a1","sN":1,"aN":"c2c11c8c2m1r1a1"}'>Community forums</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c3c11c8c2m1r1a1","sN":3,"aN":"c11c8c2m1r1a1"}'>
+            <a id="c-shellmenu_25" class="js-subm-uhf-nav-link" href="https://portal.office.com/AdminPortal#/support" data-m='{"id":"n1c3c11c8c2m1r1a1","sN":1,"aN":"c3c11c8c2m1r1a1"}'>Microsoft 365 Admins</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c4c11c8c2m1r1a1","sN":4,"aN":"c11c8c2m1r1a1"}'>
+            <a id="c-shellmenu_26" class="js-subm-uhf-nav-link" href="https://go.microsoft.com/fwlink/?linkid=2224585" data-m='{"id":"n1c4c11c8c2m1r1a1","sN":1,"aN":"c4c11c8c2m1r1a1"}'>Small Business Portal</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c5c11c8c2m1r1a1","sN":5,"aN":"c11c8c2m1r1a1"}'>
+            <a id="c-shellmenu_27" class="js-subm-uhf-nav-link" href="https://developer.microsoft.com/" data-m='{"id":"n1c5c11c8c2m1r1a1","sN":1,"aN":"c5c11c8c2m1r1a1"}'>Developer</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c6c11c8c2m1r1a1","sN":6,"aN":"c11c8c2m1r1a1"}'>
+            <a id="c-shellmenu_28" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/education" data-m='{"id":"n1c6c11c8c2m1r1a1","sN":1,"aN":"c6c11c8c2m1r1a1"}'>Education</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c7c11c8c2m1r1a1","sN":7,"aN":"c11c8c2m1r1a1"}'>
+            <a id="c-shellmenu_29" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/reportascam/" data-m='{"id":"n1c7c11c8c2m1r1a1","sN":1,"aN":"c7c11c8c2m1r1a1"}'>Report a support scam</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cT":"Container","id":"c8c11c8c2m1r1a1","sN":8,"aN":"c11c8c2m1r1a1"}'>
+            <a id="c-shellmenu_30" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us/surface/cbc47825-19b9-4786-8088-eb9963d780d3" data-m='{"id":"n1c8c11c8c2m1r1a1","sN":1,"aN":"c8c11c8c2m1r1a1"}'>Product safety</a>
+            
+        </li>
+                                                    
+                                </ul>
+                            </div>
+                        </li>
+
+                <li id="overflow-menu" class="overflow-menu x-hidden uhf-menu-item">
+                        <div class="c-uhf-menu js-nav-menu">
+        <button data-m='{"pid":"More","id":"nn12c8c2m1r1a1","sN":12,"aN":"c8c2m1r1a1"}' type="button" aria-label="More" aria-expanded="false">More</button>
+        <ul id="overflow-menu-list" aria-hidden="true" class="overflow-menu-list">
+        </ul>
+    </div>
+
+                </li>
+                                    <li class="single-link js-nav-menu" id="c-uhf-nav-cta">
+                        <a id="buyInstallButton" class="c-uhf-nav-link" href="https://go.microsoft.com/fwlink/?linkid=849747" data-m='{"cN":"CatNav_cta_Buy Microsoft 365_nav","id":"n13c8c2m1r1a1","sN":13,"aN":"c8c2m1r1a1"}'>Buy Microsoft 365</a>
+                    </li>
+            </ul>
+            
+        </nav>
+
+
+            <div class="c-uhfh-actions" data-m='{"cN":"Header actions_cont","cT":"Container","id":"c9c2m1r1a1","sN":9,"aN":"c2m1r1a1"}'>
+                <div class="wf-menu">        <nav id="uhf-c-nav" aria-label="All Microsoft menu" data-m='{"cN":"GlobalNav_cont","cT":"Container","id":"c1c9c2m1r1a1","sN":1,"aN":"c9c2m1r1a1"}'>
+            <ul class="js-paddle-items">
+                <li>
+                    <div class="c-uhf-menu js-nav-menu">
+                        <button type="button" class="c-button-logo all-ms-nav" aria-expanded="false" data-m='{"cN":"GlobalNav_More_nonnav","id":"nn1c1c9c2m1r1a1","sN":1,"aN":"c1c9c2m1r1a1"}'> <span>All Microsoft</span></button>
+                        <ul class="f-multi-column f-multi-column-6" aria-hidden="true" data-m='{"cN":"More_cont","cT":"Container","id":"c2c1c9c2m1r1a1","sN":2,"aN":"c1c9c2m1r1a1"}'>
+                                    <li class="c-w0-contr">
+            <h2 class="c-uhf-sronly">Global</h2>
+            <ul class="c-w0">
+        <li class="js-nav-menu single-link" data-m='{"cN":"M365_cont","cT":"Container","id":"c1c2c1c9c2m1r1a1","sN":1,"aN":"c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_31" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/microsoft-365" data-m='{"cN":"W0Nav_M365_nav","id":"n1c1c2c1c9c2m1r1a1","sN":1,"aN":"c1c2c1c9c2m1r1a1"}'>Microsoft 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Teams_cont","cT":"Container","id":"c2c2c1c9c2m1r1a1","sN":2,"aN":"c2c1c9c2m1r1a1"}'>
+            <a id="l0_Teams" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software" data-m='{"cN":"W0Nav_Teams_nav","id":"n1c2c2c1c9c2m1r1a1","sN":1,"aN":"c2c2c1c9c2m1r1a1"}'>Teams</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Copilot_cont","cT":"Container","id":"c3c2c1c9c2m1r1a1","sN":3,"aN":"c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_33" class="js-subm-uhf-nav-link" href="https://copilot.microsoft.com/" data-m='{"cN":"W0Nav_Copilot_nav","id":"n1c3c2c1c9c2m1r1a1","sN":1,"aN":"c3c2c1c9c2m1r1a1"}'>Copilot</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Windows_cont","cT":"Container","id":"c4c2c1c9c2m1r1a1","sN":4,"aN":"c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_34" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/" data-m='{"cN":"W0Nav_Windows_nav","id":"n1c4c2c1c9c2m1r1a1","sN":1,"aN":"c4c2c1c9c2m1r1a1"}'>Windows</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Surface_cont","cT":"Container","id":"c5c2c1c9c2m1r1a1","sN":5,"aN":"c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_35" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/surface" data-m='{"cN":"W0Nav_Surface_nav","id":"n1c5c2c1c9c2m1r1a1","sN":1,"aN":"c5c2c1c9c2m1r1a1"}'>Surface</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Xbox_cont","cT":"Container","id":"c6c2c1c9c2m1r1a1","sN":6,"aN":"c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_36" class="js-subm-uhf-nav-link" href="https://www.xbox.com/" data-m='{"cN":"W0Nav_Xbox_nav","id":"n1c6c2c1c9c2m1r1a1","sN":1,"aN":"c6c2c1c9c2m1r1a1"}'>Xbox</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Deals_cont","cT":"Container","id":"c7c2c1c9c2m1r1a1","sN":7,"aN":"c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_37" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage" data-m='{"cN":"W0Nav_Deals_nav","id":"n1c7c2c1c9c2m1r1a1","sN":1,"aN":"c7c2c1c9c2m1r1a1"}'>Deals</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Small Business_cont","cT":"Container","id":"c8c2c1c9c2m1r1a1","sN":8,"aN":"c2c1c9c2m1r1a1"}'>
+            <a id="l0_SmallBusiness" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/business" data-m='{"cN":"W0Nav_Small Business_nav","id":"n1c8c2c1c9c2m1r1a1","sN":1,"aN":"c8c2c1c9c2m1r1a1"}'>Small Business</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Support_cont","cT":"Container","id":"c9c2c1c9c2m1r1a1","sN":9,"aN":"c2c1c9c2m1r1a1"}'>
+            <a id="l1_support" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/en-us" data-m='{"cN":"W0Nav_Support_nav","id":"n1c9c2c1c9c2m1r1a1","sN":1,"aN":"c9c2c1c9c2m1r1a1"}'>Support</a>
+            
+        </li>
+            </ul>
+        </li>
+
+<li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c10c2c1c9c2m1r1a1","sN":10,"aN":"c2c1c9c2m1r1a1"}'>
+
+    <span id="uhf-navspn-shellmenu_41-span" style="display:none"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c10c2c1c9c2m1r1a1","sN":1,"aN":"c10c2c1c9c2m1r1a1"}'>Software</span>
+    <button id="uhf-navbtn-shellmenu_41-button" type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn2c10c2c1c9c2m1r1a1","sN":2,"aN":"c10c2c1c9c2m1r1a1"}'>Software</button>
+    <ul aria-hidden="true" aria-labelledby="uhf-navspn-shellmenu_41-span">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_WindowsApps_cont","cT":"Container","id":"c3c10c2c1c9c2m1r1a1","sN":3,"aN":"c10c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_42" class="js-subm-uhf-nav-link" href="https://apps.microsoft.com/home" data-m='{"cN":"GlobalNav_More_Software_WindowsApps_nav","id":"n1c3c10c2c1c9c2m1r1a1","sN":1,"aN":"c3c10c2c1c9c2m1r1a1"}'>Windows Apps</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_AI_cont","cT":"Container","id":"c4c10c2c1c9c2m1r1a1","sN":4,"aN":"c10c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_43" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/ai" data-m='{"cN":"GlobalNav_More_Software_AI_nav","id":"n1c4c10c2c1c9c2m1r1a1","sN":1,"aN":"c4c10c2c1c9c2m1r1a1"}'>AI</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_Outlook_cont","cT":"Container","id":"c5c10c2c1c9c2m1r1a1","sN":5,"aN":"c10c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_44" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook" data-m='{"cN":"GlobalNav_More_Software_Outlook_nav","id":"n1c5c10c2c1c9c2m1r1a1","sN":1,"aN":"c5c10c2c1c9c2m1r1a1"}'>Outlook</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_OneDrive_cont","cT":"Container","id":"c6c10c2c1c9c2m1r1a1","sN":6,"aN":"c10c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_45" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage" data-m='{"cN":"GlobalNav_More_Software_OneDrive_nav","id":"n1c6c10c2c1c9c2m1r1a1","sN":1,"aN":"c6c10c2c1c9c2m1r1a1"}'>OneDrive</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_Microsoft Teams_cont","cT":"Container","id":"c7c10c2c1c9c2m1r1a1","sN":7,"aN":"c10c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_46" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software" data-m='{"cN":"GlobalNav_More_Software_Microsoft Teams_nav","id":"n1c7c10c2c1c9c2m1r1a1","sN":1,"aN":"c7c10c2c1c9c2m1r1a1"}'>Microsoft Teams</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_OneNote_cont","cT":"Container","id":"c8c10c2c1c9c2m1r1a1","sN":8,"aN":"c10c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_47" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/microsoft-365/onenote/digital-note-taking-app" data-m='{"cN":"GlobalNav_More_Software_OneNote_nav","id":"n1c8c10c2c1c9c2m1r1a1","sN":1,"aN":"c8c10c2c1c9c2m1r1a1"}'>OneNote</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_Edge_cont","cT":"Container","id":"c9c10c2c1c9c2m1r1a1","sN":9,"aN":"c10c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_48" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/edge" data-m='{"cN":"GlobalNav_More_Software_Edge_nav","id":"n1c9c10c2c1c9c2m1r1a1","sN":1,"aN":"c9c10c2c1c9c2m1r1a1"}'>Microsoft Edge</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_Skype_cont","cT":"Container","id":"c10c10c2c1c9c2m1r1a1","sN":10,"aN":"c10c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_49" class="js-subm-uhf-nav-link" href="https://www.skype.com/en/" data-m='{"cN":"GlobalNav_More_Software_Skype_nav","id":"n1c10c10c2c1c9c2m1r1a1","sN":1,"aN":"c10c10c2c1c9c2m1r1a1"}'>Skype</a>
+            
+        </li>
+    </ul>
+    
+</li>
+<li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cN":"PCsAndDevices_cont","cT":"Container","id":"c11c2c1c9c2m1r1a1","sN":11,"aN":"c2c1c9c2m1r1a1"}'>
+
+    <span id="uhf-navspn-shellmenu_50-span" style="display:none"   f-multi-parent="true" aria-expanded="false" data-m='{"cN":"GlobalNav_PCsAndDevices_nonnav","id":"nn1c11c2c1c9c2m1r1a1","sN":1,"aN":"c11c2c1c9c2m1r1a1"}'>PCs &amp; Devices  </span>
+    <button id="uhf-navbtn-shellmenu_50-button" type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"cN":"GlobalNav_PCsAndDevices_nonnav","id":"nn2c11c2c1c9c2m1r1a1","sN":2,"aN":"c11c2c1c9c2m1r1a1"}'>PCs &amp; Devices  </button>
+    <ul aria-hidden="true" aria-labelledby="uhf-navspn-shellmenu_50-span">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCsAndDevices_PCsAndTablets_cont","cT":"Container","id":"c3c11c2c1c9c2m1r1a1","sN":3,"aN":"c11c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_51" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC" data-m='{"cN":"GlobalNav_More_PCsAndDevices_PCsAndTablets_nav","id":"n1c3c11c2c1c9c2m1r1a1","sN":1,"aN":"c3c11c2c1c9c2m1r1a1"}'>Computers</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCsAndDevices_ShopXbox_cont","cT":"Container","id":"c4c11c2c1c9c2m1r1a1","sN":4,"aN":"c11c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_52" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/xbox?icid=CNavDevicesXbox" data-m='{"cN":"GlobalNav_More_PCsAndDevices_ShopXbox_nav","id":"n1c4c11c2c1c9c2m1r1a1","sN":1,"aN":"c4c11c2c1c9c2m1r1a1"}'>Shop Xbox</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCsAndDevices_Accessories_cont","cT":"Container","id":"c5c11c2c1c9c2m1r1a1","sN":5,"aN":"c11c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_53" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories" data-m='{"cN":"GlobalNav_More_PCsAndDevices_Accessories_nav","id":"n1c5c11c2c1c9c2m1r1a1","sN":1,"aN":"c5c11c2c1c9c2m1r1a1"}'>Accessories</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCsAndDevices_VMAndMixedReality_cont","cT":"Container","id":"c6c11c2c1c9c2m1r1a1","sN":6,"aN":"c11c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_54" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality" data-m='{"cN":"GlobalNav_More_PCsAndDevices_VMAndMixedReality_nav","id":"n1c6c11c2c1c9c2m1r1a1","sN":1,"aN":"c6c11c2c1c9c2m1r1a1"}'>VR &amp; mixed reality</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCsAndDevicesCertifiedRefurbished_cont","cT":"Container","id":"c7c11c2c1c9c2m1r1a1","sN":7,"aN":"c11c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_55" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/certified-refurbished-products" data-m='{"cN":"GlobalNav_More_PCsAndDevicesCertifiedRefurbished_nav","id":"n1c7c11c2c1c9c2m1r1a1","sN":1,"aN":"c7c11c2c1c9c2m1r1a1"}'>Certified Refurbished</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCsAndDevices_Trade-in-for-cash_cont","cT":"Container","id":"c8c11c2c1c9c2m1r1a1","sN":8,"aN":"c11c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_56" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/microsoft-trade-in" data-m='{"cN":"GlobalNav_More_PCsAndDevices_Trade-in-for-cash_nav","id":"n1c8c11c2c1c9c2m1r1a1","sN":1,"aN":"c8c11c2c1c9c2m1r1a1"}'>Trade-in for cash</a>
+            
+        </li>
+    </ul>
+    
+</li>
+<li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c12c2c1c9c2m1r1a1","sN":12,"aN":"c2c1c9c2m1r1a1"}'>
+
+    <span id="uhf-navspn-shellmenu_57-span" style="display:none"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c12c2c1c9c2m1r1a1","sN":1,"aN":"c12c2c1c9c2m1r1a1"}'>Entertainment</span>
+    <button id="uhf-navbtn-shellmenu_57-button" type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn2c12c2c1c9c2m1r1a1","sN":2,"aN":"c12c2c1c9c2m1r1a1"}'>Entertainment</button>
+    <ul aria-hidden="true" aria-labelledby="uhf-navspn-shellmenu_57-span">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Entertainment_XboxGamePassUltimate_cont","cT":"Container","id":"c3c12c2c1c9c2m1r1a1","sN":3,"aN":"c12c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_58" class="js-subm-uhf-nav-link" href="https://www.xbox.com/en-us/games/store/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=CNavAllXboxGamePassUltimate" data-m='{"cN":"GlobalNav_More_Entertainment_XboxGamePassUltimate_nav","id":"n1c3c12c2c1c9c2m1r1a1","sN":1,"aN":"c3c12c2c1c9c2m1r1a1"}'>Xbox Game Pass Ultimate</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Entertainment_PC_Game_Pass_cont","cT":"Container","id":"c4c12c2c1c9c2m1r1a1","sN":4,"aN":"c12c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_59" class="js-subm-uhf-nav-link" href="https://www.xbox.com/en-us/games/store/pc-game-pass/cfq7ttc0kgq8?icid=CNavAllPCGamePass" data-m='{"cN":"GlobalNav_More_Entertainment_PC_Game_Pass_nav","id":"n1c4c12c2c1c9c2m1r1a1","sN":1,"aN":"c4c12c2c1c9c2m1r1a1"}'>PC Game Pass</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Entertainment_XboxGames_cont","cT":"Container","id":"c5c12c2c1c9c2m1r1a1","sN":5,"aN":"c12c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_60" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/xboxgames?icid=CNavGamesXboxGames" data-m='{"cN":"GlobalNav_More_Entertainment_XboxGames_nav","id":"n1c5c12c2c1c9c2m1r1a1","sN":1,"aN":"c5c12c2c1c9c2m1r1a1"}'>Xbox games</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Entertainment_PCGames_cont","cT":"Container","id":"c6c12c2c1c9c2m1r1a1","sN":6,"aN":"c12c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_61" class="js-subm-uhf-nav-link" href="https://apps.microsoft.com/games" data-m='{"cN":"GlobalNav_More_Entertainment_PCGames_nav","id":"n1c6c12c2c1c9c2m1r1a1","sN":1,"aN":"c6c12c2c1c9c2m1r1a1"}'>PC games</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Entertainment_MoviesAndTV_cont","cT":"Container","id":"c7c12c2c1c9c2m1r1a1","sN":7,"aN":"c12c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_62" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesTv" data-m='{"cN":"GlobalNav_More_Entertainment_MoviesAndTV_nav","id":"n1c7c12c2c1c9c2m1r1a1","sN":1,"aN":"c7c12c2c1c9c2m1r1a1"}'>Movies &amp; TV</a>
+            
+        </li>
+    </ul>
+    
+</li>
+<li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c13c2c1c9c2m1r1a1","sN":13,"aN":"c2c1c9c2m1r1a1"}'>
+
+    <span id="uhf-navspn-shellmenu_63-span" style="display:none"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c13c2c1c9c2m1r1a1","sN":1,"aN":"c13c2c1c9c2m1r1a1"}'>Business</span>
+    <button id="uhf-navbtn-shellmenu_63-button" type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn2c13c2c1c9c2m1r1a1","sN":2,"aN":"c13c2c1c9c2m1r1a1"}'>Business</button>
+    <ul aria-hidden="true" aria-labelledby="uhf-navspn-shellmenu_63-span">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_Microsoft_Cloud_cont","cT":"Container","id":"c3c13c2c1c9c2m1r1a1","sN":3,"aN":"c13c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_64" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/microsoft-cloud" data-m='{"cN":"GlobalNav_More_Business_Microsoft_Cloud_nav","id":"n1c3c13c2c1c9c2m1r1a1","sN":1,"aN":"c3c13c2c1c9c2m1r1a1"}'>Microsoft Cloud</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_Microsoft Security_cont","cT":"Container","id":"c4c13c2c1c9c2m1r1a1","sN":4,"aN":"c13c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_65" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/security" data-m='{"cN":"GlobalNav_More_Business_Microsoft Security_nav","id":"n1c4c13c2c1c9c2m1r1a1","sN":1,"aN":"c4c13c2c1c9c2m1r1a1"}'>Microsoft Security</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_MicrosoftDynamics365_cont","cT":"Container","id":"c5c13c2c1c9c2m1r1a1","sN":5,"aN":"c13c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_66" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/dynamics-365" data-m='{"cN":"GlobalNav_More_Business_MicrosoftDynamics365_nav","id":"n1c5c13c2c1c9c2m1r1a1","sN":1,"aN":"c5c13c2c1c9c2m1r1a1"}'>Dynamics 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_Microsoft365forbusiness_cont","cT":"Container","id":"c6c13c2c1c9c2m1r1a1","sN":6,"aN":"c13c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_67" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/microsoft-365/business" data-m='{"cN":"GlobalNav_More_Business_Microsoft365forbusiness_nav","id":"n1c6c13c2c1c9c2m1r1a1","sN":1,"aN":"c6c13c2c1c9c2m1r1a1"}'>Microsoft 365 for business</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_MicrosoftPowerPlatform_cont","cT":"Container","id":"c7c13c2c1c9c2m1r1a1","sN":7,"aN":"c13c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_68" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/power-platform" data-m='{"cN":"GlobalNav_More_Business_MicrosoftPowerPlatform_nav","id":"n1c7c13c2c1c9c2m1r1a1","sN":1,"aN":"c7c13c2c1c9c2m1r1a1"}'>Microsoft Power Platform</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_Windows365_cont","cT":"Container","id":"c8c13c2c1c9c2m1r1a1","sN":8,"aN":"c13c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_69" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows-365" data-m='{"cN":"GlobalNav_More_Business_Windows365_nav","id":"n1c8c13c2c1c9c2m1r1a1","sN":1,"aN":"c8c13c2c1c9c2m1r1a1"}'>Windows 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_MicrosoftIndustry_cont","cT":"Container","id":"c9c13c2c1c9c2m1r1a1","sN":9,"aN":"c13c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_70" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/industry" data-m='{"cN":"GlobalNav_More_Business_MicrosoftIndustry_nav","id":"n1c9c13c2c1c9c2m1r1a1","sN":1,"aN":"c9c13c2c1c9c2m1r1a1"}'>Microsoft Industry</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_SmallBusiness_cont","cT":"Container","id":"c10c13c2c1c9c2m1r1a1","sN":10,"aN":"c13c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_71" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore" data-m='{"cN":"GlobalNav_More_Business_SmallBusiness_nav","id":"n1c10c13c2c1c9c2m1r1a1","sN":1,"aN":"c10c13c2c1c9c2m1r1a1"}'>Small Business</a>
+            
+        </li>
+    </ul>
+    
+</li>
+<li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c14c2c1c9c2m1r1a1","sN":14,"aN":"c2c1c9c2m1r1a1"}'>
+
+    <span id="uhf-navspn-shellmenu_72-span" style="display:none"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c14c2c1c9c2m1r1a1","sN":1,"aN":"c14c2c1c9c2m1r1a1"}'>Developer &amp; IT  </span>
+    <button id="uhf-navbtn-shellmenu_72-button" type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn2c14c2c1c9c2m1r1a1","sN":2,"aN":"c14c2c1c9c2m1r1a1"}'>Developer &amp; IT  </button>
+    <ul aria-hidden="true" aria-labelledby="uhf-navspn-shellmenu_72-span">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_Azure_cont","cT":"Container","id":"c3c14c2c1c9c2m1r1a1","sN":3,"aN":"c14c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_73" class="js-subm-uhf-nav-link" href="https://azure.microsoft.com/en-us/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_Azure_nav","id":"n1c3c14c2c1c9c2m1r1a1","sN":1,"aN":"c3c14c2c1c9c2m1r1a1"}'>Azure</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_MicrosoftDeveloper_cont","cT":"Container","id":"c4c14c2c1c9c2m1r1a1","sN":4,"aN":"c14c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_74" class="js-subm-uhf-nav-link" href="https://developer.microsoft.com/en-us/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_MicrosoftDeveloper_nav","id":"n1c4c14c2c1c9c2m1r1a1","sN":1,"aN":"c4c14c2c1c9c2m1r1a1"}'>Microsoft Developer</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_MicrosoftLearn_cont","cT":"Container","id":"c5c14c2c1c9c2m1r1a1","sN":5,"aN":"c14c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_75" class="js-subm-uhf-nav-link" href="https://learn.microsoft.com/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_MicrosoftLearn_nav","id":"n1c5c14c2c1c9c2m1r1a1","sN":1,"aN":"c5c14c2c1c9c2m1r1a1"}'>Microsoft Learn</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_ExploreISVSuccess_cont","cT":"Container","id":"c6c14c2c1c9c2m1r1a1","sN":6,"aN":"c14c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_76" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/isv/isv-success?ocid=cmm3atxvn98" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_ExploreISVSuccess_nav","id":"n1c6c14c2c1c9c2m1r1a1","sN":1,"aN":"c6c14c2c1c9c2m1r1a1"}'>Support for AI marketplace apps</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_MicrosoftTechCommunity_cont","cT":"Container","id":"c7c14c2c1c9c2m1r1a1","sN":7,"aN":"c14c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_77" class="js-subm-uhf-nav-link" href="https://techcommunity.microsoft.com/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_MicrosoftTechCommunity_nav","id":"n1c7c14c2c1c9c2m1r1a1","sN":1,"aN":"c7c14c2c1c9c2m1r1a1"}'>Microsoft Tech Community</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_AzureMarketplace_cont","cT":"Container","id":"c8c14c2c1c9c2m1r1a1","sN":8,"aN":"c14c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_78" class="js-subm-uhf-nav-link" href="https://azuremarketplace.microsoft.com/en-us/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_AzureMarketplace_nav","id":"n1c8c14c2c1c9c2m1r1a1","sN":1,"aN":"c8c14c2c1c9c2m1r1a1"}'>Azure Marketplace</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_AppSource_cont","cT":"Container","id":"c9c14c2c1c9c2m1r1a1","sN":9,"aN":"c14c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_79" class="js-subm-uhf-nav-link" href="https://appsource.microsoft.com/en-us/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_AppSource_nav","id":"n1c9c14c2c1c9c2m1r1a1","sN":1,"aN":"c9c14c2c1c9c2m1r1a1"}'>AppSource</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_VisualStudio_cont","cT":"Container","id":"c10c14c2c1c9c2m1r1a1","sN":10,"aN":"c14c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_80" class="js-subm-uhf-nav-link" href="https://visualstudio.microsoft.com/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_VisualStudio_nav","id":"n1c10c14c2c1c9c2m1r1a1","sN":1,"aN":"c10c14c2c1c9c2m1r1a1"}'>Visual Studio</a>
+            
+        </li>
+    </ul>
+    
+</li>
+<li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c15c2c1c9c2m1r1a1","sN":15,"aN":"c2c1c9c2m1r1a1"}'>
+
+    <span id="uhf-navspn-shellmenu_81-span" style="display:none"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c15c2c1c9c2m1r1a1","sN":1,"aN":"c15c2c1c9c2m1r1a1"}'>Other</span>
+    <button id="uhf-navbtn-shellmenu_81-button" type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn2c15c2c1c9c2m1r1a1","sN":2,"aN":"c15c2c1c9c2m1r1a1"}'>Other</button>
+    <ul aria-hidden="true" aria-labelledby="uhf-navspn-shellmenu_81-span">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_Microsoft Rewards_cont","cT":"Container","id":"c3c15c2c1c9c2m1r1a1","sN":3,"aN":"c15c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_82" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/rewards" data-m='{"cN":"GlobalNav_More_Other_Microsoft Rewards_nav","id":"n1c3c15c2c1c9c2m1r1a1","sN":1,"aN":"c3c15c2c1c9c2m1r1a1"}'>Microsoft Rewards </a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_FreeDownloadsAndSecurity_cont","cT":"Container","id":"c4c15c2c1c9c2m1r1a1","sN":4,"aN":"c15c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_83" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/download" data-m='{"cN":"GlobalNav_More_Other_FreeDownloadsAndSecurity_nav","id":"n1c4c15c2c1c9c2m1r1a1","sN":1,"aN":"c4c15c2c1c9c2m1r1a1"}'>Free downloads &amp; security</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_Education_cont","cT":"Container","id":"c5c15c2c1c9c2m1r1a1","sN":5,"aN":"c15c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_84" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/education" data-m='{"cN":"GlobalNav_More_Other_Education_nav","id":"n1c5c15c2c1c9c2m1r1a1","sN":1,"aN":"c5c15c2c1c9c2m1r1a1"}'>Education</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_GiftCards_cont","cT":"Container","id":"c6c15c2c1c9c2m1r1a1","sN":6,"aN":"c15c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_85" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/gift-cards" data-m='{"cN":"GlobalNav_More_Other_GiftCards_nav","id":"n1c6c15c2c1c9c2m1r1a1","sN":1,"aN":"c6c15c2c1c9c2m1r1a1"}'>Gift cards</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_Licensing_cont","cT":"Container","id":"c7c15c2c1c9c2m1r1a1","sN":7,"aN":"c15c2c1c9c2m1r1a1"}'>
+            <a id="Licensing" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/licensing/" data-m='{"cN":"GlobalNav_More_Other_Licensing_nav","id":"n1c7c15c2c1c9c2m1r1a1","sN":1,"aN":"c7c15c2c1c9c2m1r1a1"}'>Licensing</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Other_Unlocked_stories_cont","cT":"Container","id":"c8c15c2c1c9c2m1r1a1","sN":8,"aN":"c15c2c1c9c2m1r1a1"}'>
+            <a id="shellmenu_87" class="js-subm-uhf-nav-link" href="https://unlocked.microsoft.com/" data-m='{"cN":"GlobalNav_More_Other_Unlocked_stories_nav","id":"n1c8c15c2c1c9c2m1r1a1","sN":1,"aN":"c8c15c2c1c9c2m1r1a1"}'>Unlocked stories</a>
+            
+        </li>
+    </ul>
+    
+</li>
+                                                            <li class="f-multi-column-info">
+                                    <a data-m='{"id":"n16c2c1c9c2m1r1a1","sN":16,"aN":"c2c1c9c2m1r1a1"}' href="https://www.microsoft.com/en-us/sitemap" aria-label="" class="c-glyph">View Sitemap</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+</div>
+                            <form class="c-search" autocomplete="off" id="searchForm" name="searchForm" role="search" action="/en-us/Search/results" method="GET" data-seAutoSuggest='{"isAutosuggestDisabled":false,"queryParams":{"market":"en-us","clientId":"7F27B536-CF6B-4C65-8638-A0F8CBDFCA65","sources":"Microsoft-Terms,Iris-Products,DCatAll-Products","filter":"+ClientType:StoreWeb","counts":"5,1,5"},"familyNames":{"Apps":"App","Books":"Book","Bundles":"Bundle","Devices":"Device","Fees":"Fee","Games":"Game","MusicAlbums":"Album","MusicTracks":"Song","MusicVideos":"Video","MusicArtists":"Artist","OperatingSystem":"Operating System","Software":"Software","Movies":"Movie","TV":"TV","CSV":"Gift Card","VideoActor":"Actor"}}' data-seautosuggestapi="https://www.microsoft.com/msstoreapiprod/api/autosuggest" data-m='{"cN":"GlobalNav_Search_cont","cT":"Container","id":"c3c1c9c2m1r1a1","sN":3,"aN":"c1c9c2m1r1a1"}' aria-expanded="false">
+                                <input  id="cli_shellHeaderSearchInput" aria-label="Search Expanded" aria-expanded="false" aria-controls="universal-header-search-auto-suggest-transparent" aria-owns="universal-header-search-auto-suggest-ul" type="search" name="query" placeholder="Search for help" data-m='{"cN":"SearchBox_nav","id":"n1c3c1c9c2m1r1a1","sN":1,"aN":"c3c1c9c2m1r1a1"}' data-toggle="tooltip" data-placement="right" title="Search for help" />
+                                    <button id="search" aria-label="Search for help" class="c-glyph" data-m='{"cN":"Search_nav","id":"n2c3c1c9c2m1r1a1","sN":2,"aN":"c3c1c9c2m1r1a1"}' data-bi-mto="true" aria-expanded="false" disabled="disabled">
+                                        <span role="presentation">Search</span>
+                                        <span role="tooltip" class="c-uhf-tooltip c-uhf-search-tooltip">Search for help</span>
+                                    </button>
+                                <div class="m-auto-suggest" id="universal-header-search-auto-suggest-transparent" role="group">
+                                    <ul class="c-menu" id="universal-header-search-auto-suggest-ul" aria-label="Search Suggestions" aria-hidden="true" data-bi-dnt="true" data-bi-mto="true" data-js-auto-suggest-position="default" role="listbox" data-tel="jsll" data-m='{"cN":"search suggestions_cont","cT":"Container","id":"c3c3c1c9c2m1r1a1","sN":3,"aN":"c3c1c9c2m1r1a1"}'></ul>
+                                    <ul class="c-menu f-auto-suggest-no-results" aria-hidden="true" data-js-auto-suggest-postion="default" data-js-auto-suggest-position="default" role="listbox">
+                                        <li class="c-menu-item"> <span tabindex="-1">No results</span></li>
+                                    </ul>
+                                </div>
+                                
+                            </form>
+                        <button data-m='{"cN":"cancel-search","pid":"Cancel Search","id":"nn4c1c9c2m1r1a1","sN":4,"aN":"c1c9c2m1r1a1"}' id="cancel-search" class="cancel-search" aria-label="Cancel Search">
+                            <span>Cancel</span>
+                        </button>
+                        <div id="meControl" class="c-me"  data-signinsettings='{"containerId":"meControl","enabled":true,"headerHeight":48,"debug":false,"extensibleLinks":[{"string":"Order history","url":"https://www.microsoftstore.com/store/msusa/en_US/DisplayFindYourOrderPage/nextAction.DisplayAccountOrderListPage","id":""},{"string":"Return history","url":"https://www.microsoftstore.com/store/msusa/en_US/DisplayFindYourOrderPage/nextAction.DisplayAccountReturnListPage","id":""},{"string":"Digital content","url":"https://www.microsoftstore.com/store/msusa/en_US/DisplayFindYourOrderPage/nextAction.DisplayDownloadHistoryPage","id":""},{"string":"Wish list","url":"https://www.microsoftstore.com/store/msusa/en_US/wishlists?Wt.mc_id=wishlist_landingpage","id":""},{"string":"Payment","url":"https://www.microsoftstore.com/store/msusa/en_US/DisplayAddEditPaymentPage/","id":""},{"string":"Profile","url":"https://www.microsoftstore.com/store/msusa/en_US/DisplayEditProfilePage/tab.profile","id":""}],"userData":{"idp":"msa","firstName":"","lastName":"","memberName":"","cid":"","authenticatedState":"3"},"rpData":{"preferredIdp":"msa","msaInfo":{"signInUrl":"/en-us/store/signin","signOutUrl":"/en-us/store/signout","meUrl":"https://login.live.com/me.srf?wa=wsignin1.0"},"aadInfo":{"signOutUrl":"/en-us/store/signout","appId":"","siteUrl":"","blockMsaFed":true}}}' data-m='{"cN":"GlobalNav_Account_cont","cT":"Container","id":"c5c1c9c2m1r1a1","sN":5,"aN":"c1c9c2m1r1a1"}'>
+                            <div class="msame_Header">
+                                <div class="msame_Header_name st_msame_placeholder">Sign in</div>
+                            </div>
+                            
+                        </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</header>
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+
+    
+
+		
+
+<div id="smcTeachingCalloutPopover" class="teachingCalloutHidden teachingCalloutPopover caretArrowUp" data-timeout="8">
+
+	<div class="caretArrow caretArrowPosition"> </div>
+	<div class="popoverMessageWrapper">
+		<div class="calloutDismiss">
+			<a id="teachingCalloutDismiss"
+				href="javascript:void(0)"
+				ms.interactiontype="11" data-bi-bhvr="HIDE"
+				data-bi-id="teachingCalloutDismiss"
+				aria-label="Close callout prompt.">
+				<span class="icon-mdl2 icon-cancel"></span>
+			</a>
+		</div>
+
+		<div id="noAccounts" class="signInMessages calloutMessageHidden">
+			<div class="calloutHeading" id="calloutHeading">Sign in with Microsoft</div>
+			<div class="calloutMessage" id="calloutMessage">Sign in or create an account.</div>
+		</div>
+		<div id="multipleSignInSuccess" class="signInMessages calloutMessageHidden">
+			<div class="calloutHeading" id="calloutHeading">Hello,</div>
+			<div class="calloutMessage" id="calloutMessage">Select a different account.</div>
+		</div>
+		<div id="multipleSignInFail" class="signInMessages calloutMessageHidden">
+			<div class="calloutHeading" id="calloutHeading">You have multiple accounts</div>
+			<div class="calloutMessage" id="calloutMessage">Choose the account you want to sign in with.</div>
+		</div>
+	</div>
+</div>
+
+		
+
+
+		<div id="ocHelp" dir="ltr">
+			<div id="ocArticle" class="">
+				<div class="grd main-content zero-margin" id="ocMainContent">
+					<div class="row ocpArticleSizingWrapper">
+						
+						
+		
+
+
+<div class="supLeftNavTop">
+	<button class="supLeftNavDefaultMobileViewButton" type="button" ms.pgarea="leftnav" data-bi-area="leftnav">
+			<span class="supLeftNavMobileBulletedListIcon"></span>
+			<span class="supMultimediaLeftNavMobileButtonLabel">Related topics</span>
+	</button>
+
+	
+	
+</div>
+
+<div class="col-1-5" role="complementary" aria-label="Related Links" id="supLeftNav" ms.pgarea="leftnav" data-bi-area="leftnav">
+	
+
+	<div role="heading" aria-level="2" id="supLeftNavDisplayTitle" tabindex="-1">Network and Internet</div>
+			<div class="supLeftNavCategory">
+				<div class="supLeftNavCategoryTitle">
+					<a class="supLeftNavLink" data-bi-slot="1" href="/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9">Get Started</a>
+				</div>
+				<ul class="supLeftNavArticles">
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="2" href="/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9">Essential Network Settings</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="3" href="/en-us/windows/connect-to-a-wi-fi-network-in-windows-1f881677-b569-0cd5-010d-e3cd3579d263">Connect to Wi-Fi</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="4" href="/en-us/windows/connect-to-a-vpn-in-windows-3d29aeb1-f497-f6b7-7633-115722c1009c">Connect to VPN</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="5" href="/en-us/windows/use-your-windows-device-as-a-mobile-hotspot-c89b0fad-72d5-41e8-f7ea-406ad9036b85">Mobile Hotspot</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="6" href="/en-us/windows/use-a-proxy-server-in-windows-03096c53-0554-4ffe-b6ab-8b1deee8dae1">Use Proxy Server</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="7" href="/en-us/windows/metered-connections-in-windows-7b33928f-a144-b265-97b6-f2e95a87c408">Metered Connections</a>
+							</li>
+				</ul>
+			</div>
+			<div class="supLeftNavCategory">
+				<div class="supLeftNavCategoryTitle">
+					<a class="supLeftNavLink" data-bi-slot="2" href="/en-us/windows/setting-up-a-wireless-network-in-windows-97914e31-3aa4-406d-cef6-f1629e2c3721">More about Wireless Networks</a>
+				</div>
+				<ul class="supLeftNavArticles">
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="3" href="/en-us/windows/setting-up-a-wireless-network-in-windows-97914e31-3aa4-406d-cef6-f1629e2c3721">Setting up a Wireless Network</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="4" href="/en-us/windows/faster-and-more-secure-wi-fi-in-windows-26177a28-38ed-1a8e-7eca-66f24dc63f09">Faster Wi-Fi</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="5" href="/en-us/windows/wi-fi-and-your-home-layout-e1ed42e7-a3c5-d1be-2abb-e8fad00ad32a">Wi-Fi and Home Layout</a>
+							</li>
+				</ul>
+			</div>
+			<div class="supLeftNavCategory">
+				<div class="supLeftNavCategoryTitle">
+					<a class="supLeftNavLink" data-bi-slot="3" href="/en-us/windows/share-things-with-nearby-devices-in-windows-0efbfe40-e3e2-581b-13f4-1a0e9936c2d9">File Sharing</a>
+				</div>
+				<ul class="supLeftNavArticles">
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="4" href="/en-us/windows/share-things-with-nearby-devices-in-windows-0efbfe40-e3e2-581b-13f4-1a0e9936c2d9">Nearby Sharing</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="5" href="/en-us/windows/file-sharing-over-a-network-in-windows-b58704b2-f53a-4b82-7bc1-80f9994725bf">File Sharing over Network</a>
+							</li>
+				</ul>
+			</div>
+			<div class="supLeftNavCategory">
+				<div class="supLeftNavCategoryTitle">
+					<a class="supLeftNavLink" data-bi-slot="4" href="/en-us/windows/cellular-settings-in-windows-905568ff-7f31-3013-efc7-3f396ac92cd7">Cellular Data Settings</a>
+				</div>
+				<ul class="supLeftNavArticles">
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="5" href="/en-us/windows/cellular-settings-in-windows-905568ff-7f31-3013-efc7-3f396ac92cd7">Cellular Settings</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="6" href="/en-us/windows/use-an-esim-to-get-a-cellular-data-connection-on-your-windows-pc-0e255714-f8be-b9ef-9e84-f75b05ed98a3">Use an eSIM to get Cellular Data</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="7" href="/en-us/windows/add-your-windows-pc-to-your-mobile-account-to-get-online-31a6ab0f-f751-369c-5b48-a5a4df0edf8c">Add Device to Mobile Data Plan</a>
+							</li>
+				</ul>
+			</div>
+			<div class="supLeftNavCategory supLeftNavActiveCategory">
+				<div class="supLeftNavCategoryTitle">
+					<a class="supLeftNavLink" ms.interactiontype="11" data-bi-slot="5" href="/en-us/windows/fix-ethernet-connection-problems-in-windows-2311254e-cab8-42d6-90f3-cb0b9f63645f">Troubleshooting</a>
+				</div>
+				<ul class="supLeftNavArticles">
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="6" href="/en-us/windows/fix-ethernet-connection-problems-in-windows-2311254e-cab8-42d6-90f3-cb0b9f63645f">Fix Ethernet Problems</a>
+							</li>
+							<li class="supLeftNavArticle supLeftNavCurrentArticle">
+								<a class="supLeftNavLink" data-bi-slot="7" aria-current="page" href="/en-us/windows/fix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c">Fix Wi-Fi Problems</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="8" href="/en-us/windows/fix-problems-with-nearby-sharing-in-windows-e6f5db3a-48c3-04f6-13d6-84db6f821455">Fix Nearby Sharing Problems</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="9" href="/en-us/windows/get-connected-when-setting-up-your-windows-device-50dca26f-40d5-4c3b-853c-e972dafb7e08">Fix Connectivity Problems during Setup</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="10" href="/en-us/windows/analyze-the-wireless-network-report-76da0daa-1db2-6049-d154-7bb679eb03ed">Wireless Network Report</a>
+							</li>
+							<li class="supLeftNavArticle">
+								<a class="supLeftNavLink" data-bi-slot="11" href="/en-us/windows/why-is-my-internet-connection-so-slow-c68cf021-c5cf-db6f-eade-7c9d8bd78aa1">Why is my Internet Slow?</a>
+							</li>
+				</ul>
+			</div>
+
+</div>
+	
+						<main id="supArticleContent" class="col-3-5 supLeftNavArticleContent" data-dc="" data-bi-area="content" tabindex="-1">
+							
+	
+
+							
+
+
+
+	<header class="ocpArticleTitleSection" aria-labelledby="page-header" role="banner">
+		<h1 id="page-header" class="">Fix Wi-Fi connection issues in Windows</h1>
+	</header>
+	<section class="supAppliesToSection" ms.cmpgrp="applies_to" aria-label="Products this article applies to" dir="ltr">
+		<div id="supAppliesToTableContainer">
+			<details id="supAppliesToList"><summary class="contentToggle">Applies To</summary><span class="appliesToItem">Windows 10</span> <span class="appliesToItem">Windows 11</span> </details>
+		</div>
+	</section>
+		<div class="ocpArticleContent">
+			<div class="ucsPromotionContainer"></div>
+		</div>
+    <div id="ucsRailInlineContainer"></div>
+	
+
+	<article class="ocpArticleContent"><section class="ocpIntroduction">
+        <p>If you're unable to access email, browse the web, or stream music, it's likely you're not connected to your network and can't access the internet. Fortunately, most connectivity issues can be resolved with simple troubleshooting steps. In this guide, we'll explore a range of solutions to help you fix Wi-Fi problems in Windows, providing clear and detailed instructions for effective troubleshooting.</p>
+        <p></p>
+        <div class="tabControl" id="section-1_tabControl-1" data-tab-control="ID0EBH" data-os-targeting="false" data-office-version-targeting="false" data-windows-version-targeting="true" data-targeted-tab-position="2" tab-control-with-os-targeting="false" tab-control-with-office-version-targeting="false" tab-control-with-windows-version-targeting="true">
+    <div class="tabControl__tablist" role="tablist"><button class="tabControl__tab" id="section-1_tabControl-1_tab-1" role="tab" type="button" aria-controls="section-1_tabControl-1_tabPanel-1" data-bi-id="section-1_tabControl-1_tab-1" data-bi-bhvr="TAB" data-bi-name="Tab button" data-bi-compnm="TabControl" data-bi-hn="" data-bi-area="section-1" data-bi-slot="1" data-bi-view="tabControl" data-bi-type="button" data-tab-hash="ID0EBH=Windows_11" targeted-os="" targeted-office-version="" targeted-windows-version="Windows11"><span class="focus">Windows 11</span></button><button class="tabControl__tab" id="section-1_tabControl-1_tab-2" role="tab" type="button" aria-controls="section-1_tabControl-1_tabPanel-2" data-bi-id="section-1_tabControl-1_tab-2" data-bi-bhvr="TAB" data-bi-name="Tab button" data-bi-compnm="TabControl" data-bi-hn="" data-bi-area="section-1" data-bi-slot="2" data-bi-view="tabControl" data-bi-type="button" data-tab-hash="ID0EBH=Windows_10" targeted-os="" targeted-office-version="" targeted-windows-version="Windows10"><span class="focus">Windows 10</span></button></div>
+    <div class="tabControl_tabPanelContainer" id="section-1_tabControl-1_tabPanelContainer" tabindex="-1">
+      <div class="tabControl__tabpanel" id="section-1_tabControl-1_tabPanel-1" role="tabpanel" aria-labelledby="section-1_tabControl-1_tab-1" tabindex="-1" hidden="">
+              
+              
+                <section aria-labelledby="ID0EDDBBDBH" class="ocpSection">
+                  <h2 id="ID0EDDBBDBH" class="">Run the Network troubleshooter</h2>
+                  
+                    <p>If you are using a Windows 11 device, start by running the automated Network and Internet troubleshooter in the Get Help app. It will automatically run diagnostics and attempt to fix most of the problems. If you are using an older version of Windows or a mobile device, please skip to <a href="#bkmk_general_troubleshooting" class="ocpInlineLink" aria-label=" General troubleshooting" data-bi-type="anchor">General troubleshooting</a> steps.</p>
+                    <p>
+                      <a href="ms-contact-support://smc-to-emerald/NetworkDiagnosticsTroubleshooter" target="_blank" role="button" class="ocpExternalLink supLinkButton" data-bi-type="anchor">Run the troubleshooter in Get Help</a>
+                    </p>
+                  
+                </section>
+                <section aria-labelledby="ID0EDBBBDBH" class="ocpSection">
+                  <h2 id="ID0EDBBBDBH" class="">Understand Wi-Fi icons</h2>
+                  
+                    <table aria-label="" class="plain">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p>
+                               <picture><img class="fluentImage" src="/images/en-us/abea83e1-6fc1-4aac-ac6d-2cd9ed40d14d" loading="lazy" alt="Connected to Wi-Fi icon that appears on the taskbar" width="38" style="aspect-ratio: 38/38"></picture>
+                            </p>
+                            <p>Wi-Fi Connected </p>
+                          </td>
+                          <td>
+                            <p>You’re connected to Wi-Fi and the internet. You should be in good shape. If you see this icon but you’re still having connectivity issues, the problem might be with a specific app or website or a firewall blocking your Internet connection. </p>
+                            <div class="ocpAlert">
+                    <p class="ocpAlertSection"><b class="ocpNote">Note: </b>If you see the signal bar moving up and down, it means your device is in the process of connecting to the Wi-Fi network. Once it stops moving and displays a connection level, you're connected.</p>
+                  </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                               <picture><img class="fluentImage" src="/images/en-us/c5b90728-dc41-4f0a-9c2a-7375ab53922f" loading="lazy" alt="When you're connected to a VPN over Wi-Fi, the Wi-Fi icon will display a small blue VPN shield." width="38" style="aspect-ratio: 38/38"></picture>
+                            </p>
+                            <p>VPN Connected</p>
+                          </td>
+                          <td>
+                            <p>You're connected to a recognized virtual private network (VPN). To learn more, see <a href="/en-us/windows/connect-to-a-vpn-in-windows-3d29aeb1-f497-f6b7-7633-115722c1009c" class="ocpArticleLink" data-bi-type="anchor">Connect to a VPN in Windows</a>.</p>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                               <picture><img class="fluentImage" src="/images/en-us/16e8aa60-3ef0-4add-b368-4101eec4a40b" loading="lazy" alt="No internet connection icon that appears on the taskbar" width="38" style="aspect-ratio: 38/42"></picture>​​​​​​​</p>
+                            <p>No Internet</p>
+                          </td>
+                          <td>
+                            <p>Your device doesn't have an internet connection. For Wi-Fi, this can appear for one or more reasons.</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <p></p>
+                  
+                </section>
+              
+            </div>
+      <div class="tabControl__tabpanel" id="section-1_tabControl-1_tabPanel-2" role="tabpanel" aria-labelledby="section-1_tabControl-1_tab-2" tabindex="-1">
+              
+              
+                <section aria-labelledby="ID0EDDBBBBH" class="ocpSection">
+                  <h2 id="ID0EDDBBBBH" class="">Run the Network troubleshooter</h2>
+                  
+                    <p>Start by running the automated Network troubleshooter in the Settings app. It will automatically run diagnostics and attempt to fix most of the problems. If you are using an older version of Windows or a mobile device, please skip to <a href="#bkmk_general_troubleshooting" class="ocpInlineLink" aria-label=" General troubleshooting" data-bi-type="anchor">General troubleshooting</a> steps.</p>
+                    <ul>
+            <li>
+                        <p>Select <b class="ocpLegacyBold">Start </b>&gt; <b class="ocpLegacyBold">Settings </b>&gt; <b class="ocpLegacyBold">Network and Internet.</b></p>
+                      </li>
+            <li>
+                        <p>
+                          <b class="ocpLegacyBold">​​​​​​​</b>Select <b class="ocpLegacyBold">Status </b>from the left-hand menu.</p>
+                      </li>
+            <li>
+                        <p>Scroll down and select <b class="ocpLegacyBold">Network troubleshooter</b>.</p>
+                      </li>
+            <li>
+                        <p>A new window titled <b class="ocpLegacyBold">Troubleshoot Problems</b> will open. Follow the on-screen instructions to complete the process.</p>
+                      </li>
+          </ul>
+                  
+                </section>
+                <section aria-labelledby="ID0EDBBBBBH" class="ocpSection">
+                  <h2 id="ID0EDBBBBBH" class="">Understand Wi-Fi icons</h2>
+                  
+                    <table aria-label="" class="plain">
+                      <tbody>
+                        <tr>
+                          <td>
+                            <p>
+                               <picture><img class="fluentImage" src="/images/en-us/70bf4133-12ea-4d4f-be05-128bb71d11ce" loading="lazy" alt="Connected to Wi-Fi" width="32" style="aspect-ratio: 32/32"></picture>  </p>
+                            <p>Wi-Fi Connected </p>
+                          </td>
+                          <td>
+                            <p>You’re connected to Wi-Fi and the internet. You should be in good shape. If you see this icon but you’re still having connectivity issues, the problem might be with a specific app or website or a firewall blocking your Internet connection. </p>
+                            <div class="ocpAlert">
+                    <p class="ocpAlertSection"><b class="ocpNote">Note: </b>If you see the signal bar moving up and down, it means your device is in the process of connecting to the Wi-Fi network. Once it stops moving and displays a connection level, you're connected.</p>
+                  </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p>
+                               <picture><img class="fluentImage" src="/images/en-us/f7091c8d-e0df-40cb-abfa-18e3be69b57a" loading="lazy" alt="No Internet connection" width="31" style="aspect-ratio: 31/31"></picture>​​​​​​​​​​​​​​</p>
+                            <p>No Internet</p>
+                          </td>
+                          <td>
+                            <p>Your device doesn't have an internet connection. For Wi-Fi, this can appear for one or more reasons.</p>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  
+                </section>
+              
+            </div>
+    </div>
+  </div>
+      </section><section aria-labelledby="ID0EFF" class="ocpSection" id="bkmk_general_troubleshooting" data-bi-id="bkmk_general_troubleshooting">
+        <h2 id="ID0EFF" class="">General troubleshooting</h2>
+        
+          <p>Please try the following general troubleshooting steps to help solve the Wi-Fi problem.</p>
+        
+        
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EZBF-button" aria-controls="ID0EZBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 1. Check your network connection status</div></button></h3>
+            <div class="ocpebw" id="ID0EZBF-panel" aria-labelledby="ID0EZBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <ul>
+          <li>
+                  <p>Select the <b class="ocpUI">Network</b>, <b class="ocpUI">Sound</b>, or <b class="ocpUI">Battery </b>icons (<span class="icon-fluent icon-wifi" aria-hidden="true"></span> <span class="icon-fluent icon-volume3" aria-hidden="true"></span> <span class="icon-fluent icon-mobbatterycharging9" aria-hidden="true"></span>) on the right side of the taskbar.</p>
+                </li>
+          <li>
+                  <p>Make sure that Wi-Fi is turned on.</p>
+                </li>
+          <li>
+                  <p>Check if your network name shows <b class="ocpLegacyBold">Connected </b>below it. If it displays a status other than <b class="ocpLegacyBold">Connected</b>, select a Wi-Fi network you recognize from the list of available networks. Then, click on the network and attempt to connect.</p>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EXBF-button" aria-controls="ID0EXBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 2. Check Airplane Mode</div></button></h3>
+            <div class="ocpebw" id="ID0EXBF-panel" aria-labelledby="ID0EXBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <ul>
+          <li>
+                  <p>Go to <b class="ocpLegacyBold">Settings </b>&gt; <b class="ocpLegacyBold">Network &amp; Internet</b> &gt; <b class="ocpLegacyBold">Airplane mode</b>.</p>
+                </li>
+          <li>
+                  <p>Ensure Airplane mode is turned off.</p>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EVBF-button" aria-controls="ID0EVBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 3. Forget and reconnect to the Wi-Fi Network</div></button></h3>
+            <div class="ocpebw" id="ID0EVBF-panel" aria-labelledby="ID0EVBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <ul>
+          <li>
+                  <p>
+                    In the Settings app <span class="icon-fluent icon-settingsapp" aria-hidden="true"></span> on your Windows device, select <b class="ocpUI">Network &amp; internet</b> &gt; <b class="ocpLegacyBold">Wi-Fi</b>, then select <b class="ocpLegacyBold">Manage known networks</b>.</p>
+                </li>
+          <li>
+                  <p>Select your Wi-Fi network and click <b class="ocpLegacyBold">Forget</b>.</p>
+                </li>
+          <li>
+                  <p>Reconnect to the network by selecting it and entering the password.</p>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0ETBF-button" aria-controls="ID0ETBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 4. Restart your modem and wireless router</div></button></h3>
+            <div class="ocpebw" id="ID0ETBF-panel" aria-labelledby="ID0ETBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>This helps create a new connection to your internet service provider (ISP). When you do this, everyone that is connected to your Wi-Fi network will be temporarily disconnected. The steps you take to restart your modem and router can vary, but here are the general steps.</p>
+              <div class="ocpAlert">
+          <p class="ocpAlertSection"><b class="ocpNote">Note: </b> If you have a cable modem/Wi-Fi router combo device, you only need to follow the steps for the single device.</p>
+        </div>
+              <ul>
+          <li>
+                  <p>Unplug the power cable for the router from the power source.</p>
+                </li>
+          <li>
+                  <p>Unplug the power cable for the modem from the power source. Some modems have a backup battery. If you unplug the modem and lights stay on, remove the battery from the modem.</p>
+                </li>
+          <li>
+                  <p>Wait at least 30 seconds or so. </p>
+                </li>
+          <li>
+                  <p>If you had to remove the battery from the modem, put it back in. Plug the modem back into the power source. The lights on the modem will blink. Wait for them to stop blinking.</p>
+                </li>
+          <li>
+                  <p>Plug your router back into the power source.</p>
+                </li>
+          <li>
+                  <p>Wait a few minutes for the modem and router to fully power on. You can usually tell when they’re ready by looking at the status lights on the two devices.</p>
+                </li>
+          <li>
+                  <p>On your PC, try to connect again.</p>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0ERBF-button" aria-controls="ID0ERBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 5. Adjust Wi-Fi channel and frequency</div></button></h3>
+            <div class="ocpebw" id="ID0ERBF-panel" aria-labelledby="ID0ERBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>Try connecting to a network on a different frequency band. Many consumer Wi-Fi routers broadcast at two different network frequency bands: 2.4 GHz and 5 GHz. These will appear as separate networks in the list of available Wi-Fi networks. If your list of available Wi-Fi networks includes both a 2.4 GHz network and a 5 GHz network, try connecting to the other network. To learn more, check out <a href="/en-us/windows/wi-fi-and-your-home-layout-e1ed42e7-a3c5-d1be-2abb-e8fad00ad32a" class="ocpArticleLink" data-bi-area="bkmk_general_troubleshooting" data-bi-type="anchor">Wi-Fi and your home layout</a>.</p>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EPBF-button" aria-controls="ID0EPBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 6. Try to connect to the same network on a different device</div></button></h3>
+            <div class="ocpebw" id="ID0EPBF-panel" aria-labelledby="ID0EPBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>On another laptop or phone, try to connect to the same network. If you can connect, the source of the problem is likely due to your device. </p>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0ENBF-button" aria-controls="ID0ENBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 7. Run network commands</div></button></h3>
+            <div class="ocpebw" id="ID0ENBF-panel" aria-labelledby="ID0ENBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>Try running these network commands to manually reset the TCP/IP stack, release and renew the IP address, and flush and reset the DNS client resolver cache:</p>
+              <ol type="1">
+          <li>
+                  <p>Select <b class="ocpUI">Search </b><span class="icon-mdl2 icon-search" aria-hidden="true"></span> on the taskbar, and type <b class="ocpLegacyBold">command prompt</b>. The <b class="ocpUI">Command Prompt </b>button will appear. To the right of it, select <b class="ocpUI">Run as administrator </b>&gt; <b class="ocpUI">Yes</b>.</p>
+                </li>
+          <li>
+                  <p>At the command prompt, run the following commands in the listed order, and then check to see if that fixes your connection problem:</p>
+                  <ul>
+              <li>
+                      <p>Type <b class="ocpLegacyBold">netsh winsock reset</b> and select<b class="ocpLegacyBold"> </b><b class="ocpUI">Enter</b><b class="ocpLegacyBold">.</b></p>
+                    </li>
+              <li>
+                      <p>Type <b class="ocpLegacyBold">netsh int ip reset</b> and select <b class="ocpUI">Enter</b>.</p>
+                    </li>
+              <li>
+                      <p>Type <b class="ocpLegacyBold">ipconfig /release</b> and select <b class="ocpUI">Enter</b>.</p>
+                    </li>
+              <li>
+                      <p>Type <b class="ocpLegacyBold">ipconfig /renew</b> and select <b class="ocpUI">Enter</b>.</p>
+                    </li>
+              <li>
+                      <p>Type <b class="ocpLegacyBold">ipconfig /flushdns</b> and select <b class="ocpUI">Enter</b>.</p>
+                    </li>
+            </ul>
+                </li>
+        </ol>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0ELBF-button" aria-controls="ID0ELBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 8. Uninstall the network adapter driver and restart</div></button></h3>
+            <div class="ocpebw" id="ID0ELBF-panel" aria-labelledby="ID0ELBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>If the previous steps didn’t work, try to uninstall the network adapter driver, and then restart your computer. Windows will automatically install the latest driver. Consider this approach if your network connection stopped working properly after a recent update.</p>
+              <p>Before uninstalling, make sure you have drivers available as a backup. Visit the PC manufacturer’s website and download the latest network adapter driver from there. If your PC can't connect to the internet, you'll need to download a driver on a different PC and save it to a USB flash drive so you can install the driver on your PC. You’ll need to know the PC manufacturer and model name or number.</p>
+              <ol type="1">
+          <li>
+                  <p>Select <b class="ocpUI">Search </b><span class="icon-mdl2 icon-search" aria-hidden="true"></span> on the taskbar, type <b class="ocpLegacyBold">device manager</b>, and then select <b class="ocpUI">Device Manager</b> from the list of results.</p>
+                </li>
+          <li>
+                  <p>Expand <b class="ocpUI">Network adapters</b>, and locate the network adapter for your device.</p>
+                </li>
+          <li>
+                  <p>Select the network adapter, press and hold (or right-click), and then select <b class="ocpUI">Uninstall device</b> &gt; check the <b class="ocpUI">Attempt to remove the driver for this device</b> check box &gt; <b class="ocpUI">Uninstall</b>.</p>
+                </li>
+          <li>
+                  <p>After uninstalling the driver, select <b class="ocpUI">Start </b><span class="icon-fluent icon-windowslogo" aria-hidden="true"></span> &gt; <b class="ocpUI">Power </b><span class="icon-fluent icon-powerbutton" aria-hidden="true"></span> &gt; <b class="ocpUI">Restart </b><span class="icon-fluent icon-updaterestore" aria-hidden="true"></span>.</p>
+                </li>
+        </ol>
+              <p>After your PC restarts, Windows will automatically look for and install the network adapter driver. Check to see if that fixes your connection problem. If Windows doesn't automatically install a driver, try to install the backup driver you saved before uninstalling.</p>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EJBF-button" aria-controls="ID0EJBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 9. Use the ping test to check if there's a problem with Wi-Fi router connection</div></button></h3>
+            <div class="ocpebw" id="ID0EJBF-panel" aria-labelledby="ID0EJBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>Check to see if there is a problem with the connection to your Wi-Fi router.  Do this by using a ping test.</p>
+              <ol type="1">
+          <li>
+                  <p>In the search box <span class="icon-mdl2 icon-search" aria-hidden="true"></span> on the taskbar, type <b class="ocpLegacyBold">command prompt</b>. The <b class="ocpUI">Command Prompt</b> button will appear. To the right of it, select <b class="ocpUI">Run as administrator</b> &gt; <b class="ocpUI">Yes</b>.</p>
+                </li>
+          <li>
+                  <p>At the command prompt, type <b class="ocpLegacyBold">ipconfig</b>, and then select <b class="ocpUI">Enter</b>. Look for the name of your Wi-Fi network within the results, and then find the IP address listed next to <b class="ocpUI">Default gateway</b> for that Wi-Fi network.  Write down that address if you need to. <i class="ocpItalic">For example:  192.168.1.1</i></p>
+                </li>
+          <li>
+                  <p>At the prompt, type <b class="ocpLegacyBold">ping &lt;DefaultGateway&gt;</b> and then select <b class="ocpUI">Enter</b>.  <i class="ocpItalic">For example, type <b class="ocpLegacyBold">ping 192.168.1.1</b> and select <b class="ocpUI">Enter</b>. </i> The results should be something like this:</p>
+                </li>
+        </ol>
+              <ul class="ocpNoBullet">
+          <li>
+                  <p>
+                    <span class="ocpCodeInline">Reply from 192.168.1.1: bytes=32 time=5ms TTL=64</span>
+                  </p>
+                </li>
+          <li>
+                  <p>
+                    <span class="ocpCodeInline">Reply from 192.168.1.1: bytes=32 time=5ms TTL=64</span>
+                  </p>
+                </li>
+          <li>
+                  <p>
+                    <span class="ocpCodeInline">Reply from 192.168.1.1: bytes=32 time=5ms TTL=64</span>
+                  </p>
+                </li>
+          <li>
+                  <p>
+                    <span class="ocpCodeInline">Reply from 192.168.1.1: bytes=32 time=5ms TTL=64</span>
+                  </p>
+                </li>
+          <li>
+                  <p>
+                    <span class="ocpCodeInline">Ping statistics for 192.168.1.1: Packets: Sent = 4, Received = 4, Lost = 0 (0% loss), Approximate round trip times in milli-seconds:  Minimum = 4ms, Maximum = 5ms, Average = 4ms</span>
+                  </p>
+                </li>
+        </ul>
+              <p>If you see results like this and are getting a reply, then you have a connection to your Wi-Fi router, so there might be a problem with your modem or ISP. Contact your ISP or check online on another device (if you can) to see if there's a service outage.</p>
+              <p>If the results of the ping test indicate that you are not getting a reply from the router, try connecting your PC directly to your modem by using an Ethernet cable (if you can). If you can connect to the internet using an Ethernet cable, it confirms the connection problem is due to the Wi-Fi router. Make sure you've installed the latest firmware and see the documentation for your router.</p>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EHBF-button" aria-controls="ID0EHBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 10. Disable power saving for Wi-Fi adapter</div></button></h3>
+            <div class="ocpebw" id="ID0EHBF-panel" aria-labelledby="ID0EHBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <ul>
+          <li>
+                  <p>Open <b class="ocpLegacyBold">Device Manager</b> and expand <b class="ocpLegacyBold">Network adapters</b>.</p>
+                </li>
+          <li>
+                  <p>Right-click your Wi-Fi adapter and choose <b class="ocpLegacyBold">Properties</b>.</p>
+                </li>
+          <li>
+                  <p>Navigate to the <b class="ocpLegacyBold">Power Management</b> tab.</p>
+                </li>
+          <li>
+                  <p>Uncheck <b class="ocpLegacyBold">Allow the computer to turn off this device to save power</b>.</p>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EFBF-button" aria-controls="ID0EFBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 11. Check for Windows updates</div></button></h3>
+            <div class="ocpebw" id="ID0EFBF-panel" aria-labelledby="ID0EFBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>Select <b class="ocpLegacyBold">Start</b> &gt; <b class="ocpLegacyBold">Settings </b>&gt; <b class="ocpLegacyBold">Windows Update</b> &gt; <b class="ocpLegacyBold">Check for updates.</b> Download and install any new updates.</p>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EDBF-button" aria-controls="ID0EDBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 12. Restart your PC</div></button></h3>
+            <div class="ocpebw" id="ID0EDBF-panel" aria-labelledby="ID0EDBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>Many updates require you to restart your device. Save your work and close all open applications. Then, select <b class="ocpLegacyBold">Start </b>&gt; <b class="ocpLegacyBold">Power</b>, and select <b class="ocpLegacyBold">Restart</b>.</p>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EBBF-button" aria-controls="ID0EBBF-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Step 13. Use network reset</div></button></h3>
+            <div class="ocpebw" id="ID0EBBF-panel" aria-labelledby="ID0EBBF-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>Using network reset should be the last step you try. Consider using it if the steps above don’t help to get you connected.</p>
+              <p>This can help solve connection problems you might have after upgrading from Windows 10 to Windows 11. It can also help to fix the problem where you can connect to the internet but can't connect to shared network drives. Network reset removes any network adapters you have installed and the settings for them. After your PC restarts, any network adapters are reinstalled, and the settings for them are set to the defaults.</p>
+              <ol type="1">
+          <li>
+                  <p>Select the <b class="ocpLegacyBold">Start </b><span class="icon-fluent icon-windowslogo" aria-hidden="true"></span> button, then enter <b class="ocpLegacyBold">settings</b>. Select <b class="ocpLegacyBold">Settings </b><span class="icon-fluent icon-settingsapp" aria-hidden="true"></span> &gt; <b class="ocpLegacyBold">Network &amp; internet</b></p>
+                  <ul>
+              <li>
+                      <p>
+                        <b class="ocpLegacyBold">​​​​​​​</b>On Windows 11, select <b class="ocpLegacyBold">Advanced network settings</b> &gt; <b class="ocpLegacyBold">Network reset</b>.<b class="ocpLegacyBold">​​​​​​​</b></p>
+                    </li>
+              <li>
+                      <p>On Windows 10, select <b class="ocpUI">Status</b> &gt; <b class="ocpUI">Network reset.</b></p>
+                    </li>
+            </ul>
+                </li>
+          <li>
+                  <p>On the <b class="ocpLegacyBold">Network reset</b> screen, select <b class="ocpLegacyBold">Reset now</b> &gt; <b class="ocpLegacyBold">Yes</b> to confirm.</p>
+                </li>
+          <li>
+                  <p>Wait for your PC to restart and see if that fixes the problem.​​​​​​​</p>
+                </li>
+        </ol>
+              <div class="ocpAlert">
+          <p class="ocpAlertSection"><b class="ocpNote">Notes: </b></p>
+          <ul class="ocpAlertSectionListContainer">
+            <li>
+                    <p>After using network reset, you might need to reinstall and set up other networking software you might be using, such as VPN client software or virtual switches from Hyper‑V (if you're using that or other network virtualization software).</p>
+                  </li>
+            <li>
+                    <p>Network reset might set each one of your known network connections to a public network profile. In a public network profile, your PC is not discoverable to other PCs and devices on the network, which can help make your PC more secure. To use a private network profile, see <a href="/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9#bkmk_network_profile" class="ocpInlineCrossLink" data-bi-area="bkmk_general_troubleshooting" data-bi-type="anchor">Essential network settings and tasks</a>.</p>
+                  </li>
+          </ul>
+        </div>
+            </div>
+    </div>
+          </div>
+        
+      </section><section aria-labelledby="ID0EFD" class="ocpSection">
+        <h2 id="ID0EFD" class="">Most common Wi-Fi problems</h2>
+        
+          <p>Below, you will find the most common Wi-Fi problems users have experienced and the steps to troubleshoot them.</p>
+        
+        
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0ENBD-button" aria-controls="ID0ENBD-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Connected to Internet but very slow speed</div></button></h3>
+            <div class="ocpebw" id="ID0ENBD-panel" aria-labelledby="ID0ENBD-button" role="region">
+      <div class="ocpExpandoBody">
+              <ul>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Check Signal Strength:</b> Ensure the device is close to the router and free of obstructions.</p>
+                </li>
+          <li>
+                  <p>​​​​​​​<b class="ocpLegacyBold">Disable Background Apps:</b></p>
+                  <ul>
+              <li>
+                      <p>Open Task Manager (<b class="ocpLegacyBold">Ctrl </b>+ <b class="ocpLegacyBold">Shift </b>+ <b class="ocpLegacyBold">Esc</b>).</p>
+                    </li>
+              <li>
+                      <p>End processes consuming high network bandwidth.</p>
+                    </li>
+            </ul>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Test Router Performance:</b> Connect another device to the Wi-Fi. If the issue persists, the router may require maintenance or replacement.</p>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0ELBD-button" aria-controls="ID0ELBD-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Wi-Fi option is missing</div></button></h3>
+            <div class="ocpebw" id="ID0ELBD-panel" aria-labelledby="ID0ELBD-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>If the Wi-Fi toggle option is missing or not visible in settings, follow the below troubleshooting steps.</p>
+              <ul>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Check Hardware Switch</b>: Some laptops have a physical Wi-Fi switch; ensure it is turned on.</p>
+                </li>
+          <li>
+                  <p>​​​​​​​<b class="ocpLegacyBold">Enable Wi-Fi Adapter:</b></p>
+                  <ul>
+              <li>
+                      <p>Open <b class="ocpLegacyBold">Device Manager</b> and expand <b class="ocpLegacyBold">Network adapters</b>.</p>
+                    </li>
+              <li>
+                      <p>Right-click your Wi-Fi adapter and select <b class="ocpLegacyBold">Enable device</b>.</p>
+                    </li>
+            </ul>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Restart WLAN Service:</b>
+                  </p>
+                  <ul>
+              <li>
+                      <p>Press <b class="ocpLegacyBold">Win </b>+ <b class="ocpLegacyBold">R</b>, type <i class="ocpItalic">services.msc</i>, and press Enter.</p>
+                    </li>
+              <li>
+                      <p>Find <b class="ocpLegacyBold">WLAN AutoConfig</b>, right-click, and select <b class="ocpLegacyBold">Restart</b>.</p>
+                    </li>
+            </ul>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EJBD-button" aria-controls="ID0EJBD-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Wi-Fi connection is dropping frequently</div></button></h3>
+            <div class="ocpebw" id="ID0EJBD-panel" aria-labelledby="ID0EJBD-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>If the Wi-Fi connection drops frequently, disrupting work or streaming, follow the below steps.</p>
+              <ul>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Check Power Settings</b>
+                  </p>
+                  <ul>
+              <li>
+                      <p>Go to <b class="ocpLegacyBold">Control Panel</b> &gt; <b class="ocpLegacyBold">Hardware and Sound</b> &gt; <b class="ocpLegacyBold">Power Options</b>.</p>
+                    </li>
+              <li>
+                      <p>Select your plan and click <b class="ocpLegacyBold">Change plan settings</b>.</p>
+                    </li>
+              <li>
+                      <p>Click <b class="ocpLegacyBold">Change advanced power settings</b> and expand <b class="ocpLegacyBold">Wireless Adapter Settings</b>.</p>
+                    </li>
+              <li>
+                      <p>Set <b class="ocpLegacyBold">Power Saving Mode</b> to <b class="ocpLegacyBold">Maximum Performance</b>.</p>
+                    </li>
+            </ul>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Adjust Router Channel:</b> Access your router’s admin page (refer to its manual) and change the wireless channel to reduce interference.</p>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EHBD-button" aria-controls="ID0EHBD-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">You're connected to Wi-Fi, but no Internet connection is detected (also known as limited connectivity)</div></button></h3>
+            <div class="ocpebw" id="ID0EHBD-panel" aria-labelledby="ID0EHBD-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>Your Windows PC is connected to your local network but isn’t connected to the Internet. If you select the No Internet connection icon, the words <b class="ocpLegacyBold">No Internet</b> will be displayed under the Wi-Fi network you're connected to. You can probably see other PCs and devices on your local network, but you can’t do things that require internet access, like surf the web, use email, or stream music and video.</p>
+              <p>To determine if your PC has limited connectivity with no Internet connection, Windows sends a small HTTP request to a server on the Internet. If it doesn’t get any information back from the server, then this icon will appear.</p>
+              <p>If the device connects to Wi-Fi, but internet access is unavailable, follow the below troubleshooting steps.</p>
+              <ul>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Turn off Wi-Fi </b>and turn it on again and reconnect to your wireless network.</p>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Renew IP Configuration</b>
+                  </p>
+                  <ul>
+              <li>
+                      <p>Open Command Prompt as Administrator.</p>
+                    </li>
+              <li>
+                      <p>Type <i class="ocpItalic">ipconfig /release</i> and press Enter.</p>
+                    </li>
+              <li>
+                      <p>Type <i class="ocpItalic">ipconfig /renew</i> and press Enter.</p>
+                    </li>
+            </ul>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Flush DNS Cache</b>
+                  </p>
+                  <ul>
+              <li>
+                      <p>Open Command Prompt as Administrator.</p>
+                    </li>
+              <li>
+                      <p>Type <i class="ocpItalic">ipconfig /flushdns</i> and press Enter.</p>
+                    </li>
+            </ul>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Check for Proxy Settings</b>
+                  </p>
+                  <ul>
+              <li>
+                      <p>Go to <b class="ocpLegacyBold">Settings </b>&gt; <b class="ocpLegacyBold">Network &amp; Internet</b> &gt; <b class="ocpLegacyBold">Proxy</b>.</p>
+                    </li>
+              <li>
+                      <p>Turn off any manual proxy settings.</p>
+                    </li>
+            </ul>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Check your IP address</b>
+                  </p>
+                  <ul>
+              <li>
+                      <p>
+                        <a href="/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9#bkmk_find_your_ip" class="ocpInlineCrossLink" data-bi-type="anchor">Find your IP address</a> and make sure it's not something like this —169.254.x.x. If your IP address looks like this, it means that Windows couldn’t get an IP address from your router. If you’re not using static IP addresses on your network, then check to make sure DHCP is enabled on your router. Check the documentation for your router to find out how to do this. If this fixes your Wi-Fi problem, the No connection icon will change to Wi-Fi connected in a few seconds.</p>
+                    </li>
+            </ul>
+                </li>
+          <li>
+                  <p>​​​​​​​<b class="ocpLegacyBold">Check your DNS server.</b> Verify that you have a DNS server listed and that you can ping it. ​​​​​​​To ping the DNS server:</p>
+                  <ul>
+              <li>
+                      <p>Open Command Prompt as Administrator. Type <b class="ocpLegacyBold">ipconfig /all | findstr /c:"DNS Servers"</b> and press Enter. Note the DNS Server IP address.</p>
+                    </li>
+              <li>
+                      <p>At the command prompt, type <b class="ocpLegacyBold">ping [DNS server address]</b>.</p>
+                    </li>
+              <li>
+                      <p>If you have a valid IP address but can’t ping your DNS server, you can change your DNS server to a different address and then try to ping the new address. There are many free public DNS servers. To find them, go to the web and search for public DNS servers. To learn how to change your DNS server in Windows, see <a href="/en-us/windows/essential-network-settings-and-tasks-in-windows-f21a9bbc-c582-55cd-35e0-73431160a1b9#bkmk_change_tcpip_settings" class="ocpInlineCrossLink" data-bi-type="anchor">Change TCP/IP settings</a>.</p>
+                      <p></p>
+                    </li>
+            </ul>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EFBD-button" aria-controls="ID0EFBD-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Wi-Fi authentication problem</div></button></h3>
+            <div class="ocpebw" id="ID0EFBD-panel" aria-labelledby="ID0EFBD-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>If you're unable to connect to Wi-Fi due to incorrect password errors despite entering the correct credentials, follow the below troubleshooting steps.</p>
+              <ul>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Verify Password: </b>Ensure the password is correct and matches the router's configuration.</p>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Reset Router</b>: Reboot the router or restore its factory settings.</p>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Update Router Firmware: </b>Refer to the router’s manual for steps to update its firmware.</p>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EDBD-button" aria-controls="ID0EDBD-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">Your wireless network adapter is recognized, but no Wi-Fi networks are found and you’re not connected to Wi-Fi</div></button></h3>
+            <div class="ocpebw" id="ID0EDBD-panel" aria-labelledby="ID0EDBD-button" role="region">
+      <div class="ocpExpandoBody">
+              <p>If you see the No Internet connection icon when you’re in range of Wi-Fi networks, it could mean one of the following:</p>
+              <ul>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">The physical Wi-Fi switch on your laptop or tablet is turned off.</b> Make sure it’s turned on.</p>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Wi-Fi is turned off in Wi-Fi settings</b>. Open <b class="ocpLegacyBold">Settings</b>, then select <b class="ocpLegacyBold">Network &amp; internet</b>. Make sure <b class="ocpLegacyBold">Wi-Fi</b> is turned on.</p>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Your adapter doesn’t support the frequency that your network is broadcasting on</b>. For example, your adapter might only support the 2.4 GHz frequency band, but your network is using the 5 GHz band. Check the documentation for your router to find out what frequency it’s using. To learn more about the differences between 2.4 GHz networks and 5 GHz networks, check out the section <a href="https://support.microsoft.com/windows6/e1ed42e7-a3c5-d1be-2abb-e8fad00ad32a#WindowsVersion=Windows_11" target="_blank" class="ocpExternalLink" data-bi-type="anchor">Wi-Fi and your home layout</a>.</p>
+                </li>
+          <li>
+                  <p>
+                    <b class="ocpLegacyBold">Your adapter supports your network frequency, but the wireless network adapter driver is filtering it out.</b> While it’s not common, this has been known to happen. Make sure your wireless network adapter allows the same network frequency as your wireless network by doing the following:</p>
+                  <ol type="a">
+              <li>
+                      <p>Select <b class="ocpLegacyBold">Search</b> on the taskbar, enter <b class="ocpLegacyBold">Device Manager</b>, and then select <b class="ocpLegacyBold">Device Manager</b> from the list of results.</p>
+                    </li>
+              <li>
+                      <p>In Device Manager, select <b class="ocpLegacyBold">Network adapters</b> &gt; the wireless network adapter name.</p>
+                    </li>
+              <li>
+                      <p>Press and hold (or right-click) your wireless network adapter, then select <b class="ocpLegacyBold">Properties</b>.</p>
+                    </li>
+              <li>
+                      <p>Select the <b class="ocpLegacyBold">Advanced</b> tab, look for a <b class="ocpLegacyBold">Wireless Mode</b> or <b class="ocpLegacyBold">Band</b> setting, and make sure it allows your network frequency.</p>
+                    </li>
+            </ol>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+          <div class="ocpSection">
+            <h3 class="ocpExpandoHead"><button ms.interactiontype="11" aria-expanded="false" class="expandoButtonLink" type="button" id="ID0EBBD-button" aria-controls="ID0EBBD-panel"><div class="ocpExpandoHeadChevronContainer" aria-hidden="true"><i class="ms-Icon--expandoCollapsed ocpExpander" role="none"></i></div>
+        <div class="ocpExpandoHeadTitleContainer" role="none">No network adapters are detected or enabled</div></button></h3>
+            <div class="ocpebw" id="ID0EBBD-panel" aria-labelledby="ID0EBBD-button" role="region">
+      <div class="ocpExpandoBody">
+              <p></p>
+              <p>If this is the case, here are some things you can try:</p>
+              <ul>
+          <li>
+                  <p>In the wireless network report, find your wireless adapter in the <b class="ocpLegacyBold">Network Adapters</b> section, and then check to see if a <b class="ocpLegacyBold">Problem number</b> is listed there. If listed, the number will correspond to the <a href="https://go.microsoft.com/fwlink/?linkid=826566" target="_blank" class="ocpExternalLink" data-bi-type="anchor">Device Manager error code</a> that tells you why the driver didn’t load.</p>
+                </li>
+          <li>
+                  <p>Verify that you have the latest driver by <a href="https://support.microsoft.com/en-us/windows/8a903416-6f45-0718-f5c7-375e92dddeb2#WindowsVersion=Windows_11" target="_blank" class="ocpExternalLink" data-bi-type="anchor">running Windows Update</a>, and check the <b class="ocpLegacyBold">Driver Version</b> and <b class="ocpLegacyBold">Driver Date</b> to see if they match the latest driver versions listed on your device manufacturer’s website. To find the driver date and version, in <b class="ocpLegacyBold">Device Manager</b>, expand <b class="ocpLegacyBold">Network adapters</b>, press and hold (or right-click) your wireless network adapter, select <b class="ocpLegacyBold">Properties</b>, and then select the <b class="ocpLegacyBold">Driver</b> tab.</p>
+                </li>
+          <li>
+                  <p>Make sure that the wireless network adapter isn’t disabled in Device Manager. To do this, in Device Manager, expand <b class="ocpLegacyBold">Network adapters</b>, press and hold (or right-click) your wireless network adapter, and then select <b class="ocpLegacyBold">Enable device</b>.</p>
+                </li>
+          <li>
+                  <p>If your wireless network adapter isn’t listed in Device Manager, then Windows doesn’t detect it. In this case, you might have to manually install the driver. Check your device manufacturer’s website for a driver that works in Windows.</p>
+                </li>
+        </ul>
+            </div>
+    </div>
+          </div>
+        
+      </section></article>
+
+
+
+
+
+
+
+
+
+	
+		
+
+
+<div class="ocArticleFooterShareContainer">
+	<div class="ocArticleFooterShareLinksWrapper" data-bi-area="share">
+		<a id="ocFacebookButton" class="ocShareButton" target="_blank" data-bi-bhvr="SOCIALSHARE" data-bi-name="facebook" data-bi-slot="1" ms.interactiontype="1" ms.ea_offer="SOC" ms.cmpgrp="Share" ms.ea_action="Goto" ms.pgarea="Body" title="Share on Facebook" aria-label="Share on Facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fwindows%2Ffix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c">
+				<picture>
+					<source srcset="/images/Facebook-GrayScale.webp" type="image/webp">
+					<img class="ocArticleFooterImage" src="/images/Facebook-GrayScale.png" alt="Facebook" ms.cmpgrp="content" ms.pgarea="Body" loading="lazy">
+				</picture>
+		</a>
+		<a id="ocLinkedInButton" class="ocShareButton" target="_blank" data-bi-bhvr="SOCIALSHARE" data-bi-name="linkedIn" data-bi-slot="2" ms.interactiontype="1" ms.ea_offer="SOC" ms.cmpgrp="Share" ms.ea_action="Goto" ms.pgarea="Body" title="Share on LinkedIn" aria-label="Share on LinkedIn" href="https://linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fwindows%2Ffix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c&amp;title=Fix%20Wi-Fi%20connection%20issues%20in%20Windows">
+				<picture>
+					<source srcset="/images/LinkedIn-GrayScale.webp" type="image/webp">
+					<img class="ocArticleFooterImage" src="/images/Linkedin-GrayScale.png" alt="LinkedIn" ms.cmpgrp="content" ms.pgarea="Body" loading="lazy">
+				</picture>
+		</a>
+		<a id="ocEmailButton" class="ocShareButton" target="_blank" data-bi-bhvr="SOCIALSHARE" data-bi-name="email" data-bi-slot="3" ms.interactiontype="1" ms.ea_offer="SOC" ms.cmpgrp="Share" ms.ea_action="Goto" ms.pgarea="Body" title="Share by email" aria-label="Share by email" data-name="I think you&#x27;d be interested in this: Fix Wi-Fi connection issues in Windows" href="mailto://?subject=I%20think%20you%27d%20be%20interested%20in%20this%3A%20Fix%20Wi-Fi%20connection%20issues%20in%20Windows&amp;body=Fix%20Wi-Fi%20connection%20issues%20in%20Windows%20https%3A%2F%2Fsupport.microsoft.com%2Fen-us%2Fwindows%2Ffix-wi-fi-connection-issues-in-windows-9424a1f7-6a3b-65a6-4d78-7f07eee84d2c">
+				<picture>
+					<source srcset="/images/Mail-GrayScale.webp" type="image/webp">
+					<img class="ocArticleFooterImage" src="/images/Mail-GrayScale.png" alt="Email" ms.cmpgrp="content" ms.pgarea="Body" loading="lazy">
+				</picture>
+
+		</a>
+	</div>
+</div>
+	
+
+	<div class="ocArticleFooterFeedPickerContainer" data-bi-area="share">
+		<a class="ocArticleFooterRssFeedPicker" aria-label="Subscribe to RSS Feeds" data-bi-bhvr="SOCIALFOLLOW" data-bi-name="subscriberssfeed" data-bi-slot="4" href="/en-us/rss-feed-picker">SUBSCRIBE RSS FEEDS</a>
+	</div>
+							
+	
+
+
+	
+		
+
+<div class="ocArticleFooterSection articleSupportBridge">
+	<div class="ocArticleFooterElementContainer" data-bi-area="article_footer">
+		<h3 class="ocArticleFooterElementSearchBox">Need more help?</h3>
+		<div class="searchBox">
+			
+
+<form id="supHomeAndLandingPageSearchBoxForm" class="supHomeAndLandingPageSearchBoxForm" method="GET" action="/search/results" autocomplete="off" role="search">
+	<div class="supHomeAndLandingPageSearchBoxContainer" role="presentation">
+		<input class="supHomeAndLandingPageSearchBox" id="supHomeAndLandingPageSearchBox" name="query" type="search" placeholder="How can we help you?" required/>
+		<input id="supHomeAndLandingPageIsEnrichedQuery" type="hidden" name="isEnrichedQuery" value="false" />
+		<button class="supHomeAndLandingPageSearchButton" id="searchsubmit" type="submit" title="Search" data-bi-mto>
+			<span class="supHomeAndLandingPageSearchIcon" aria-hidden="true"></span>
+		</button>
+	</div>
+</form>
+		</div>
+
+		<h3 class="bridgeHeading">Want more options?</h3>
+
+        <div class="ocpArticleContent"><div class="tabControl" id="section-1_tabControl-articleFooterSupportBridge" data-tab-control="articleFooterSupportBridge" data-os-targeting="false" data-office-version-targeting="false" data-windows-version-targeting="false">
+  <div class="tabControl__tablist" role="tablist"><button class="tabControl__tab" id="section-1_tabControl-articleFooterSupportBridge_tab-1" role="tab" type="button" aria-controls="section-1_tabControl-articleFooterSupportBridge_tabPanel-1" data-bi-id="section-1_tabControl-1_tab-1" data-bi-bhvr="TAB" data-bi-name="Tab button" data-bi-compnm="TabControl" data-bi-hn="" data-bi-area="section-1" data-bi-slot="1" data-bi-view="tabControl" data-bi-type="button" data-tab-hash="articleFooterSupportBridge=discoverBridge"><span class="icon-mdl2 icon-globe" aria-hidden="true"></span><span class="focus"> Discover</span></button><button class="tabControl__tab" id="section-1_tabControl-articleFooterSupportBridge_tab-2" role="tab" type="button" aria-controls="section-1_tabControl-articleFooterSupportBridge_tabPanel-2" data-bi-id="section-1_tabControl-1_tab-2" data-bi-bhvr="TAB" data-bi-name="Tab button" data-bi-compnm="TabControl" data-bi-hn="" data-bi-area="section-1" data-bi-slot="2" data-bi-view="tabControl" data-bi-type="button" data-tab-hash="articleFooterSupportBridge=communityBridge"><span class="icon-fluent icon-people community" aria-hidden="true"></span><span class="focus">Community</span></button><button class="tabControl__tab" id="section-1_tabControl-articleFooterSupportBridge_tab-3" role="tab" type="button" aria-controls="section-1_tabControl-articleFooterSupportBridge_tabPanel-3" data-bi-id="section-1_tabControl-1_tab-3" data-bi-bhvr="TAB" data-bi-name="Tab button" data-bi-compnm="TabControl" data-bi-hn="" data-bi-area="section-1" data-bi-slot="3" data-bi-view="tabControl" data-bi-type="button" data-tab-hash="articleFooterSupportBridge=contactUsBridge"><span class="icon-mdl2 icon-telemarketer" aria-hidden="true"></span><span class="focus">Contact Us</span></button></div>
+  <div class="tabControl_tabPanelContainer" id="section-1_tabControl-articleFooterSupportBridge_tabPanelContainer" tabindex="-1">
+    <div class="tabControl__tabpanel" id="section-1_tabControl-articleFooterSupportBridge_tabPanel-1" role="tabpanel" aria-labelledby="section-1_tabControl-articleFooterSupportBridge_tab-1" tabindex="-1">
+      <p class="supportBridgeText">Explore subscription benefits, browse training courses, learn how to secure your device, and more.</p>
+      <div data-bi-view="Grid 1x4" class="supARG supHomeAndLandingPageFeatureGrid">
+        <div class="supARG-row">
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-1" data-bi-view="Grid 1x4">
+            <p><picture><img class="fluentImage" src="/images/en-us/f4e85874-2a1a-438d-9c3c-17b069c454c0" loading="lazy" alt=""></picture></p>
+            <p class="supportBridgeCTA"><a href="https://www.microsoft.com/microsoft-365?ocid=cmmg4dr5b7t" target="_blank" class="ocpExternalLink" data-bi-view="Grid 1x4" data-bi-compnm="row-1,col-1" data-bi-type="anchor">Microsoft 365 subscription benefits</a></p>
+          </div>
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-2" data-bi-view="Grid 1x4">
+            <p><picture><img class="fluentImage" src="/images/en-us/a9241eee-a729-4513-97b4-5b87c381c21b" loading="lazy" alt=""></picture></p>
+            <p class="supportBridgeCTA"><a href="/en-us/training" class="ocpArticleLink" data-bi-view="Grid 1x4" data-bi-compnm="row-1,col-2" data-bi-type="anchor">Microsoft 365 training</a></p>
+          </div>
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-3" data-bi-view="Grid 1x4">
+            <p><picture><img class="fluentImage" src="/images/en-us/9e557d93-f803-44df-a274-1282d542cf63" loading="lazy" alt=""></picture></p>
+            <p class="supportBridgeCTA"><a href="/en-us/security" class="ocpArticleLink" data-bi-view="Grid 1x4" data-bi-compnm="row-1,col-3" data-bi-type="anchor">Microsoft security</a></p>
+          </div>
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-4" data-bi-view="Grid 1x4">
+            <p><picture><img class="fluentImage" src="/images/en-us/fbf6e41b-ddbe-43db-a616-7a8e48d43d18" loading="lazy" alt=""></picture></p>
+            <p class="supportBridgeCTA"><a href="/en-us/accessibility" class="ocpArticleLink" data-bi-view="Grid 1x4" data-bi-compnm="row-1,col-4" data-bi-type="anchor">Accessibility center</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tabControl__tabpanel" id="section-1_tabControl-articleFooterSupportBridge_tabPanel-2" role="tabpanel" aria-labelledby="section-1_tabControl-articleFooterSupportBridge_tab-2" tabindex="-1" hidden="">
+      <p class="supportBridgeText">
+                Communities help you ask and answer questions, give feedback, and hear from experts with rich knowledge.
+            </p>
+      <div data-bi-view="Grid 1x4" class="supARG supHomeAndLandingPageFeatureGrid">
+        <div class="supARG-row">
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-1" data-bi-view="Grid 1x4">
+            <p><picture><img class="fluentImage" src="/images/en-us/9255871d-06a6-4de5-9236-5fd7af100c5c" loading="lazy" alt=""></picture></p>
+            <p class="supportBridgeCTA"><a href="https://answers.microsoft.com" target="_blank" class="ocpExternalLink" data-bi-view="Grid 1x4" data-bi-compnm="row-1,col-1" data-bi-type="anchor">Ask the Microsoft Community</a></p>
+          </div>
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-2" data-bi-view="Grid 1x4">
+            <p><picture><img class="fluentImage" src="/images/en-us/ccb7c2a6-17dd-4cc3-88b7-8da966e59f59" loading="lazy" alt=""></picture></p>
+            <p class="supportBridgeCTA"><a href="https://techcommunity.microsoft.com/" target="_blank" class="ocpExternalLink" data-bi-view="Grid 1x4" data-bi-compnm="row-1,col-2" data-bi-type="anchor">Microsoft Tech Community</a></p>
+          </div>
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-3" data-bi-view="Grid 1x4">
+            <p><picture><img class="fluentImage" src="/images/en-us/bcd2fdf1-530a-482f-b96d-5f2f2a49ac66" loading="lazy" alt=""></picture></p>
+            <p class="supportBridgeCTA"><a href="https://insider.windows.com" target="_blank" class="ocpExternalLink" data-bi-view="Grid 1x4" data-bi-compnm="row-1,col-3" data-bi-type="anchor">Windows Insiders</a></p>
+          </div>
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-4" data-bi-view="Grid 1x4">
+            <p><picture><img class="fluentImage" src="/images/en-us/f4e85874-2a1a-438d-9c3c-17b069c454c0" loading="lazy" alt=""></picture></p>
+            <p class="supportBridgeCTA"><a href="https://insider.office.com" target="_blank" class="ocpExternalLink" data-bi-view="Grid 1x4" data-bi-compnm="row-1,col-4" data-bi-type="anchor">Microsoft 365 Insiders</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tabControl__tabpanel" id="section-1_tabControl-articleFooterSupportBridge_tabPanel-3" role="tabpanel" aria-labelledby="section-1_tabControl-articleFooterSupportBridge_tab-3" tabindex="-1" hidden="">
+      <p class="supportBridgeText">Find solutions to common problems or get help from a support agent.</p>
+      <div data-bi-view="Grid 1x4" class="supARG supHomeAndLandingPageFeatureGrid">
+        <div class="supARG-row">
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-1" data-bi-view="Grid 1x4">
+            <p><picture><img class="fluentImage" src="/images/en-us/4470ec79-00a3-4730-afac-81a256ffb26b" loading="lazy" alt=""></picture></p>
+            <p class="supportBridgeCTA"><a href="https://support.microsoft.com/contactus" target="_blank" class="ocpExternalLink" data-bi-view="Grid 1x4" data-bi-compnm="row-1,col-1" data-bi-type="anchor">Online support</a></p>
+          </div>
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-2" data-bi-view="Grid 1x4">
+            <p></p>
+            <p></p>
+          </div>
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-3" data-bi-view="Grid 1x4">
+            <p></p>
+            <p></p>
+          </div>
+          <div class="supARG-column-1-4" data-bi-compnm="row-1,col-4" data-bi-view="Grid 1x4">
+            <p></p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+	</div>
+	<div class="ocArticleFooterElement ocArticleFooterClearfix"> </div>
+</div>
+	
+
+						</main>
+
+								<div class="col-1-5 ucsRailContainer " id="rail-column"></div>
+					</div>
+				</div>
+				<div class="ucsStickyContainer">
+					<div class="ucsUpsellNotificationContainer"> </div>
+				</div>
+			</div>
+		</div>
+
+		<div id="ocFooterWrapper">
+			
+				
+
+
+	<div id="supWrapperToPreventFeedbackFlickering" data-enable-star-rating="False">
+		<section id="supFeedbackWrapper" class="prrFeedbackWrapper">
+			<div id="supColumnWrapper" class="prrColumnWrapper">
+				<div id="supFeedBackContainer">
+					<section id="supFB" class="ocFB">
+						<div id="supFBCont">
+							<form action="javascript:void(0);" id="extendedFeedbackForm" name="smartFeedbackForm" class="smartFeedbackForm supStickyFeedbackMarginBottom">
+								<div class="ocSmartFeedbackBegin extendedFeedbackArticleInfoUseful" role="region" aria-label="Provide feedback about this article">
+									<h2 id="beginFeedbackHeader" class="boldFont extendedFeedbackHeader">Was this information helpful?</h2>
+									<div class="feedbackButtons" role="group" aria-labelledby="beginFeedbackHeader">
+										<button class="ocFeedbackButton supStickyFeedbackButton feedbackSelection feedbackButtonBlue" name="buttonYes" type="button" data-bi-id="buttonYes" data-bi-mto>Yes</button>
+										<button class="ocFeedbackButton supStickyFeedbackButton feedbackSelection feedbackButtonBlue" name="buttonNo" type="button" data-bi-id="buttonNo" data-bi-mto>No</button>
+									</div>
+								</div>
+								<div id="extendedFeedback" class="ocSmartFeedbackReply ocHidden">
+									<div id="extendedFeedbackHeader" class="supStickyFeedbackHeader">
+										<label for="feedbackText" class="ocFeedbackHeaderIfArticleHelpful ocHidden">
+											<span class="boldFont" aria-hidden="true">Thank you! Any more feedback for Microsoft?</span>
+										</label>
+										<label for="feedbackText" class="ocFeedbackHeaderIfArticleNotHelpful ocHidden">
+											<span class="boldFont" aria-hidden="true">Can you help us improve?</span> (Send feedback to Microsoft so we can help.)
+										</label>
+									</div>
+
+									
+
+									<fieldset id="extendedFeedbackArticleExperience" class="feedbackGroup">
+										<legend class="extendedFeedbackQuestionLabels">What affected your experience?</legend>
+										<div class="ocFeedbackHeaderIfArticleHelpful ocHidden">
+			<div id="articleExperience_helpful_0">
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="helpful_0" name="helpful_0" value="Resolved my issue" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Resolved my issue"></span>
+				<span class="experienceOptionLabels">Resolved my issue</span>
+			</label>
+		</div>
+
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="helpful_1" name="helpful_1" value="Clear instructions" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Clear instructions"></span>
+				<span class="experienceOptionLabels">Clear instructions</span>
+			</label>
+		</div>
+			</div>
+			<div id="articleExperience_helpful_1">
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="helpful_2" name="helpful_2" value="Easy to follow" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Easy to follow"></span>
+				<span class="experienceOptionLabels">Easy to follow</span>
+			</label>
+		</div>
+
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="helpful_3" name="helpful_3" value="No jargon" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="No jargon"></span>
+				<span class="experienceOptionLabels">No jargon</span>
+			</label>
+		</div>
+			</div>
+			<div id="articleExperience_helpful_2">
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="helpful_4" name="helpful_4" value="Pictures helped" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Pictures helped"></span>
+				<span class="experienceOptionLabels">Pictures helped</span>
+			</label>
+		</div>
+
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="helpful_5" name="helpful_5" value="Other" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Other"></span>
+				<span class="experienceOptionLabels">Other</span>
+			</label>
+		</div>
+			</div>
+										</div>
+										<div class="ocFeedbackHeaderIfArticleNotHelpful ocHidden">
+			<div id="articleExperience_notHelpful_0">
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="notHelpful_0" name="notHelpful_0" value="Didn&#x27;t match my screen" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Didn't match my screen"></span>
+				<span class="experienceOptionLabels">Didn't match my screen</span>
+			</label>
+		</div>
+
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="notHelpful_1" name="notHelpful_1" value="Incorrect instructions" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Incorrect instructions"></span>
+				<span class="experienceOptionLabels">Incorrect instructions</span>
+			</label>
+		</div>
+			</div>
+			<div id="articleExperience_notHelpful_1">
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="notHelpful_2" name="notHelpful_2" value="Too technical" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Too technical"></span>
+				<span class="experienceOptionLabels">Too technical</span>
+			</label>
+		</div>
+
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="notHelpful_3" name="notHelpful_3" value="Not enough information" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Not enough information"></span>
+				<span class="experienceOptionLabels">Not enough information</span>
+			</label>
+		</div>
+			</div>
+			<div id="articleExperience_notHelpful_2">
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="notHelpful_4" name="notHelpful_4" value="Not enough pictures" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Not enough pictures"></span>
+				<span class="experienceOptionLabels">Not enough pictures</span>
+			</label>
+		</div>
+
+		<div class="experienceOption">
+			<label class="articleExperienceOptionsLabels">
+				<input class="articleExperienceOptionsCheckbox" type="checkbox" tabindex="-1" id="notHelpful_5" name="notHelpful_5" value="Other" data-bi-dnt />
+				<span class="checkboxTick" tabindex="0" role="checkbox" aria-label="Other"></span>
+				<span class="experienceOptionLabels">Other</span>
+			</label>
+		</div>
+			</div>
+										</div>
+									</fieldset>
+
+									<div id="extendedFeedbackVerbatim" class="verbatimFeedback feedbackGroup">
+										<label for="verbatimFeedbackInput" class="extendedFeedbackQuestionLabels">Any additional feedback? (Optional)</label>
+										<textarea id="verbatimFeedbackInput" class="ocSmartFeedbackTextArea" name="feedbackText" rows="6" cols="40" maxlength="250" placeholder="To protect your privacy, do not provide any personal information such as email address, phone number, product key, password, or credit card number."></textarea>
+									</div>
+									<div id="extendedFeedbackFormSubmit" class="feedbackButtons">
+										<button id="buttonFeedbackVerbatimSubmit" class="ocFeedbackButton supStickyFeedbackButton ocButtonSendComment feedbackButtonBlue" type="submit" data-bi-id="buttonFeedbackVerbatimSubmit" data-bi-mto disabled>Submit feedback</button>
+									</div>
+									<div id="privacyStatement">
+										<span>By pressing submit, your feedback will be used to improve Microsoft products and services.</span>
+										<span id="aadPrivacySubtext" class="ocHidden">Your IT admin will be able to collect this data.</span>
+										<a id="privacyLink" href="https://privacy.microsoft.com/en-US/privacystatement"><span>Privacy Statement.</span></a>
+									</div>
+								</div>
+							</form>
+							<div class="ocFeedbackFinalThankYouMessage ocHidden supStickyFeedbackHeader supStickyFeedbackMarginBottom feedbackThankYou">
+								<h2><span class="c-glyph glyph-heart-fill postFeedbackThankyouHeart" aria-hidden="true"></span>Thank you for your feedback!</h2>
+							</div>
+						</div>
+					</section>
+				</div>
+				<a href="javascript:" id="supDisableStickyFeedbackButton" class="ocHidden extendedFeedbackCancel" role="button" ms.interactiontype="11" aria-label="Close dialog" data-bi-bhvr="HIDE" data-bi-area="Feedback" ms.cmpgrp="content" ms.pgarea="Body" data-bi-id="buttonFeedbackCancel" data-bi-mto>&times;</a>
+			</div>
+		</section>
+	</div>
+
+			
+
+			
+            <div id="footerArea" class="uhf"  data-m='{"cN":"footerArea","cT":"Area_coreuiArea","id":"a2Body","sN":2,"aN":"Body"}'>
+                <div id="footerRegion"      data-region-key="footerregion" data-m='{"cN":"footerRegion","cT":"Region_coreui-region","id":"r1a2","sN":1,"aN":"a2"}' >
+
+    <div  id="footerUniversalFooter" data-m='{"cN":"footerUniversalFooter","cT":"Module_coreui-universalfooter","id":"m1r1a2","sN":1,"aN":"r1a2"}'  data-module-id="Category|footerRegion|coreui-region|footerUniversalFooter|coreui-universalfooter">
+        
+
+
+
+<footer id="uhf-footer" class="c-uhff context-uhf"  data-uhf-mscc-rq="false" data-footer-footprint="/SMCConvergence/MSSMCConvergenceFooter, fromService: True" data-m='{"cN":"Uhf footer_cont","cT":"Container","id":"c1m1r1a2","sN":1,"aN":"m1r1a2"}'>
+        <nav class="c-uhff-nav" aria-label="Footer Resource links" data-m='{"cN":"Footer nav_cont","cT":"Container","id":"c1c1m1r1a2","sN":1,"aN":"c1m1r1a2"}'>
+            
+                <div class="c-uhff-nav-row">
+                    <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn1_cont","cT":"Container","id":"c1c1c1m1r1a2","sN":1,"aN":"c1c1m1r1a2"}'>
+                        <div class="c-heading-4" role="heading" aria-level="2">What&#39;s new</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="Surface Pro What&#39;s new" class="c-uhff-link" href="https://www.microsoft.com/surface/devices/surface-pro" data-m='{"cN":"Footer_WhatsNew_NewSurfacePro_nav","id":"n1c1c1c1m1r1a2","sN":1,"aN":"c1c1c1m1r1a2"}'>Surface Pro</a>
+                            </li>
+                            <li>
+                                <a aria-label="Surface Laptop What&#39;s new" class="c-uhff-link" href="https://www.microsoft.com/surface/devices/surface-laptop" data-m='{"cN":"Footer_WhatsNew_SurfaceLaptop_nav","id":"n2c1c1c1m1r1a2","sN":2,"aN":"c1c1c1m1r1a2"}'>Surface Laptop</a>
+                            </li>
+                            <li>
+                                <a aria-label="Surface Laptop Studio 2 What&#39;s new" class="c-uhff-link" href="https://www.microsoft.com/en-us/d/Surface-Laptop-Studio-2/8rqr54krf1dz" data-m='{"cN":"Footer_WhatsNew_SurfaceLaptopStudio2_nav","id":"n3c1c1c1m1r1a2","sN":3,"aN":"c1c1c1m1r1a2"}'>Surface Laptop Studio 2</a>
+                            </li>
+                            <li>
+                                <a aria-label="Surface Laptop Go 3 What&#39;s new" class="c-uhff-link" href="https://www.microsoft.com/en-us/d/Surface-Laptop-Go-3/8p0wwgj6c6l2" data-m='{"cN":"Footer_WhatsNew_SurfaceLaptopGo3_nav","id":"n4c1c1c1m1r1a2","sN":4,"aN":"c1c1c1m1r1a2"}'>Surface Laptop Go 3</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Copilot What&#39;s new" class="c-uhff-link" href="https://www.microsoft.com/en-us/microsoft-copilot" data-m='{"cN":"Footer_WhatsNew_CopilotMicrosoft_nav","id":"n5c1c1c1m1r1a2","sN":5,"aN":"c1c1c1m1r1a2"}'>Microsoft Copilot</a>
+                            </li>
+                            <li>
+                                <a aria-label="AI in Windows What&#39;s new" class="c-uhff-link" href="https://www.microsoft.com/en-us/windows/copilot-ai-features" data-m='{"cN":"Whatsnew_AIinWindows_nav","id":"n6c1c1c1m1r1a2","sN":6,"aN":"c1c1c1m1r1a2"}'>AI in Windows</a>
+                            </li>
+                            <li>
+                                <a aria-label="Explore Microsoft products What&#39;s new" class="c-uhff-link" href="https://www.microsoft.com/en-us/microsoft-products-and-apps" data-m='{"cN":"Footer_WhatsNew_ExploreMicrosoftProducts_nav","id":"n7c1c1c1m1r1a2","sN":7,"aN":"c1c1c1m1r1a2"}'>Explore Microsoft products</a>
+                            </li>
+                            <li>
+                                <a aria-label="Windows 11 apps What&#39;s new" class="c-uhff-link" href="https://www.microsoft.com/windows/windows-11-apps" data-m='{"cN":"Footer_WhatsNew_Windows_11_apps_nav","id":"n8c1c1c1m1r1a2","sN":8,"aN":"c1c1c1m1r1a2"}'>Windows 11 apps</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                    <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn2_cont","cT":"Container","id":"c2c1c1m1r1a2","sN":2,"aN":"c1c1m1r1a2"}'>
+                        <div class="c-heading-4" role="heading" aria-level="2">Microsoft Store</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="Account profile Microsoft Store" class="c-uhff-link" href="https://account.microsoft.com/" data-m='{"cN":"Footer_StoreandSupport_AccountProfile_nav","id":"n1c2c1c1m1r1a2","sN":1,"aN":"c2c1c1m1r1a2"}'>Account profile</a>
+                            </li>
+                            <li>
+                                <a aria-label="Download Center Microsoft Store" class="c-uhff-link" href="https://www.microsoft.com/en-us/download" data-m='{"cN":"Footer_StoreandSupport_DownloadCenter_nav","id":"n2c2c1c1m1r1a2","sN":2,"aN":"c2c1c1m1r1a2"}'>Download Center</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Store support Microsoft Store" class="c-uhff-link" href="https://go.microsoft.com/fwlink/?linkid=2139749" data-m='{"cN":"Footer_StoreandSupport_SalesAndSupport_nav","id":"n3c2c1c1m1r1a2","sN":3,"aN":"c2c1c1m1r1a2"}'>Microsoft Store support</a>
+                            </li>
+                            <li>
+                                <a aria-label="Returns Microsoft Store" class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/returns" data-m='{"cN":"Footer_StoreandSupport_Returns_nav","id":"n4c2c1c1m1r1a2","sN":4,"aN":"c2c1c1m1r1a2"}'>Returns</a>
+                            </li>
+                            <li>
+                                <a aria-label="Order tracking Microsoft Store" class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/order-tracking" data-m='{"cN":"Footer_StoreandSupport_OrderTracking_nav","id":"n5c2c1c1m1r1a2","sN":5,"aN":"c2c1c1m1r1a2"}'>Order tracking</a>
+                            </li>
+                            <li>
+                                <a aria-label="Certified Refurbished Microsoft Store" class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/certified-refurbished-products" data-m='{"cN":"Footer_StoreandSupport_StoreLocations_nav","id":"n6c2c1c1m1r1a2","sN":6,"aN":"c2c1c1m1r1a2"}'>Certified Refurbished</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Store Promise Microsoft Store" class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020" data-m='{"cN":"Footer_StoreandSupport_MicrosoftPromise_nav","id":"n7c2c1c1m1r1a2","sN":7,"aN":"c2c1c1m1r1a2"}'>Microsoft Store Promise</a>
+                            </li>
+                            <li>
+                                <a aria-label="Flexible Payments Microsoft Store" class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc" data-m='{"cN":"Footer_StoreandSupport_Financing_nav","id":"n8c2c1c1m1r1a2","sN":8,"aN":"c2c1c1m1r1a2"}'>Flexible Payments</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                    <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn3_cont","cT":"Container","id":"c3c1c1m1r1a2","sN":3,"aN":"c1c1m1r1a2"}'>
+                        <div class="c-heading-4" role="heading" aria-level="2">Education</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="Microsoft in education Education" class="c-uhff-link" href="https://www.microsoft.com/en-us/education" data-m='{"cN":"Footer_Education_MicrosoftInEducation_nav","id":"n1c3c1c1m1r1a2","sN":1,"aN":"c3c1c1m1r1a2"}'>Microsoft in education</a>
+                            </li>
+                            <li>
+                                <a aria-label="Devices for education Education" class="c-uhff-link" href="https://www.microsoft.com/en-us/education/devices/overview" data-m='{"cN":"Footer_Education_DevicesforEducation_nav","id":"n2c3c1c1m1r1a2","sN":2,"aN":"c3c1c1m1r1a2"}'>Devices for education</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Teams for Education Education" class="c-uhff-link" href="https://www.microsoft.com/en-us/education/products/teams" data-m='{"cN":"Footer_Education_MicrosoftTeamsforEducation_nav","id":"n3c3c1c1m1r1a2","sN":3,"aN":"c3c1c1m1r1a2"}'>Microsoft Teams for Education</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft 365 Education Education" class="c-uhff-link" href="https://www.microsoft.com/en-us/education/products/microsoft-365" data-m='{"cN":"Footer_Education_Microsoft365Education_nav","id":"n4c3c1c1m1r1a2","sN":4,"aN":"c3c1c1m1r1a2"}'>Microsoft 365 Education</a>
+                            </li>
+                            <li>
+                                <a aria-label="How to buy for your school Education" class="c-uhff-link" href="https://www.microsoft.com/education/how-to-buy" data-m='{"cN":"Footer_Howtobuyforyourschool_nav","id":"n5c3c1c1m1r1a2","sN":5,"aN":"c3c1c1m1r1a2"}'>How to buy for your school</a>
+                            </li>
+                            <li>
+                                <a aria-label="Educator training and development Education" class="c-uhff-link" href="https://education.microsoft.com/" data-m='{"cN":"Footer_Education_EducatorTrainingDevelopment_nav","id":"n6c3c1c1m1r1a2","sN":6,"aN":"c3c1c1m1r1a2"}'>Educator training and development</a>
+                            </li>
+                            <li>
+                                <a aria-label="Deals for students and parents Education" class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/education" data-m='{"cN":"Footer_Education_DealsForStudentsandParents_nav","id":"n7c3c1c1m1r1a2","sN":7,"aN":"c3c1c1m1r1a2"}'>Deals for students and parents</a>
+                            </li>
+                            <li>
+                                <a aria-label="AI for education Education" class="c-uhff-link" href="https://www.microsoft.com/en-us/education/ai-in-education" data-m='{"cN":"Footer_Education_Azureforstudents_nav","id":"n8c3c1c1m1r1a2","sN":8,"aN":"c3c1c1m1r1a2"}'>AI for education</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="c-uhff-nav-row">
+                    <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn4_cont","cT":"Container","id":"c4c1c1m1r1a2","sN":4,"aN":"c1c1m1r1a2"}'>
+                        <div class="c-heading-4" role="heading" aria-level="2">Business</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="Microsoft Cloud Business" class="c-uhff-link" href="https://www.microsoft.com/en-us/microsoft-cloud" data-m='{"cN":"Footer_Business_Microsoft_Cloud_nav","id":"n1c4c1c1m1r1a2","sN":1,"aN":"c4c1c1m1r1a2"}'>Microsoft Cloud</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Security Business" class="c-uhff-link" href="https://www.microsoft.com/en-us/security" data-m='{"cN":"Footer_Business_Microsoft Security_nav","id":"n2c4c1c1m1r1a2","sN":2,"aN":"c4c1c1m1r1a2"}'>Microsoft Security</a>
+                            </li>
+                            <li>
+                                <a aria-label="Dynamics 365 Business" class="c-uhff-link" href="https://www.microsoft.com/en-us/dynamics-365" data-m='{"cN":"Footer_Business_MicrosoftDynamics365_nav","id":"n3c4c1c1m1r1a2","sN":3,"aN":"c4c1c1m1r1a2"}'>Dynamics 365</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft 365 Business" class="c-uhff-link" href="https://www.microsoft.com/en-us/microsoft-365/business" data-m='{"cN":"Footer_Business_M365_nav","id":"n4c4c1c1m1r1a2","sN":4,"aN":"c4c1c1m1r1a2"}'>Microsoft 365</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Power Platform Business" class="c-uhff-link" href="https://www.microsoft.com/en-us/power-platform" data-m='{"cN":"Footer_DeveloperAndIT_Power Platform_nav","id":"n5c4c1c1m1r1a2","sN":5,"aN":"c4c1c1m1r1a2"}'>Microsoft Power Platform</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Teams Business" class="c-uhff-link" href="https://www.microsoft.com/en-us/microsoft-teams/group-chat-software" data-m='{"cN":"Footer_Business_Microsoft365_nav","id":"n6c4c1c1m1r1a2","sN":6,"aN":"c4c1c1m1r1a2"}'>Microsoft Teams</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft 365 Copilot Business" class="c-uhff-link" href="https://www.microsoft.com/en-us/microsoft-365/copilot/copilot-for-work" data-m='{"cN":"Footer_CopilotMicrosoft365_nav","id":"n7c4c1c1m1r1a2","sN":7,"aN":"c4c1c1m1r1a2"}'>Microsoft 365 Copilot</a>
+                            </li>
+                            <li>
+                                <a aria-label="Small Business Business" class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore" data-m='{"cN":"Footer_Business-SmallBusiness_nav","id":"n8c4c1c1m1r1a2","sN":8,"aN":"c4c1c1m1r1a2"}'>Small Business</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                    <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn5_cont","cT":"Container","id":"c5c1c1m1r1a2","sN":5,"aN":"c1c1m1r1a2"}'>
+                        <div class="c-heading-4" role="heading" aria-level="2">Developer &amp; IT</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="Azure Developer &amp; IT" class="c-uhff-link" href="https://azure.microsoft.com/en-us/" data-m='{"cN":"Footer_DeveloperAndIT_MicrosoftAzure_nav","id":"n1c5c1c1m1r1a2","sN":1,"aN":"c5c1c1m1r1a2"}'>Azure</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Developer Developer &amp; IT" class="c-uhff-link" href="https://developer.microsoft.com/en-us/" data-m='{"cN":"Footer_DeveloperAndIT_MicrosoftDeveloper_nav","id":"n2c5c1c1m1r1a2","sN":2,"aN":"c5c1c1m1r1a2"}'>Microsoft Developer</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Learn Developer &amp; IT" class="c-uhff-link" href="https://learn.microsoft.com/" data-m='{"cN":"Footer_DeveloperAndIT_MicrosoftLearn_nav","id":"n3c5c1c1m1r1a2","sN":3,"aN":"c5c1c1m1r1a2"}'>Microsoft Learn</a>
+                            </li>
+                            <li>
+                                <a aria-label="Support for AI marketplace apps Developer &amp; IT" class="c-uhff-link" href="https://www.microsoft.com/isv/isv-success?ocid=cmm3atxvn98" data-m='{"cN":"Footer_DeveloperAndIT_ExploreISVSuccess_nav","id":"n4c5c1c1m1r1a2","sN":4,"aN":"c5c1c1m1r1a2"}'>Support for AI marketplace apps</a>
+                            </li>
+                            <li>
+                                <a aria-label="Microsoft Tech Community Developer &amp; IT" class="c-uhff-link" href="https://techcommunity.microsoft.com/" data-m='{"cN":"Footer_DeveloperAndIT_MicrosoftTechCommunity_nav","id":"n5c5c1c1m1r1a2","sN":5,"aN":"c5c1c1m1r1a2"}'>Microsoft Tech Community</a>
+                            </li>
+                            <li>
+                                <a aria-label="Azure Marketplace Developer &amp; IT" class="c-uhff-link" href="https://azuremarketplace.microsoft.com/en-us/" data-m='{"cN":"Footer_DeveloperAndIT_AzureMarketplace_nav","id":"n6c5c1c1m1r1a2","sN":6,"aN":"c5c1c1m1r1a2"}'>Azure Marketplace</a>
+                            </li>
+                            <li>
+                                <a aria-label="AppSource Developer &amp; IT" class="c-uhff-link" href="https://appsource.microsoft.com/en-us/" data-m='{"cN":"Footer_DeveloperAndIT_AppSource_nav","id":"n7c5c1c1m1r1a2","sN":7,"aN":"c5c1c1m1r1a2"}'>AppSource</a>
+                            </li>
+                            <li>
+                                <a aria-label="Visual Studio Developer &amp; IT" class="c-uhff-link" href="https://visualstudio.microsoft.com/" data-m='{"cN":"Footer_DeveloperAndIT_MicrosoftVisualStudio_nav","id":"n8c5c1c1m1r1a2","sN":8,"aN":"c5c1c1m1r1a2"}'>Visual Studio</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                    <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn6_cont","cT":"Container","id":"c6c1c1m1r1a2","sN":6,"aN":"c1c1m1r1a2"}'>
+                        <div class="c-heading-4" role="heading" aria-level="2">Company</div>
+                        <ul class="c-list f-bare">
+                            <li>
+                                <a aria-label="Careers Company" class="c-uhff-link" href="https://careers.microsoft.com/" data-m='{"cN":"Footer_Company_Careers_nav","id":"n1c6c1c1m1r1a2","sN":1,"aN":"c6c1c1m1r1a2"}'>Careers</a>
+                            </li>
+                            <li>
+                                <a aria-label="About Microsoft Company" class="c-uhff-link" href="https://www.microsoft.com/about" data-m='{"cN":"Footer_Company_AboutMicrosoft_nav","id":"n2c6c1c1m1r1a2","sN":2,"aN":"c6c1c1m1r1a2"}'>About Microsoft</a>
+                            </li>
+                            <li>
+                                <a aria-label="Company news Company" class="c-uhff-link" href="https://news.microsoft.com/" data-m='{"cN":"Footer_Company_CompanyNews_nav","id":"n3c6c1c1m1r1a2","sN":3,"aN":"c6c1c1m1r1a2"}'>Company news</a>
+                            </li>
+                            <li>
+                                <a aria-label="Privacy at Microsoft Company" class="c-uhff-link" href="https://privacy.microsoft.com/en-us" data-m='{"cN":"Footer_Company_PrivacyAtMicrosoft_nav","id":"n4c6c1c1m1r1a2","sN":4,"aN":"c6c1c1m1r1a2"}'>Privacy at Microsoft</a>
+                            </li>
+                            <li>
+                                <a aria-label="Investors Company" class="c-uhff-link" href="https://www.microsoft.com/investor/default.aspx" data-m='{"cN":"Footer_Company_Investors_nav","id":"n5c6c1c1m1r1a2","sN":5,"aN":"c6c1c1m1r1a2"}'>Investors</a>
+                            </li>
+                            <li>
+                                <a aria-label="Diversity and inclusion Company" class="c-uhff-link" href="https://www.microsoft.com/en-us/diversity/" data-m='{"cN":"Footer_Company_DiversityAndInclusion_nav","id":"n6c6c1c1m1r1a2","sN":6,"aN":"c6c1c1m1r1a2"}'>Diversity and inclusion</a>
+                            </li>
+                            <li>
+                                <a aria-label="Accessibility Company" class="c-uhff-link" href="https://www.microsoft.com/en-us/accessibility" data-m='{"cN":"Footer_Company_Accessibility_nav","id":"n7c6c1c1m1r1a2","sN":7,"aN":"c6c1c1m1r1a2"}'>Accessibility</a>
+                            </li>
+                            <li>
+                                <a aria-label="Sustainability Company" class="c-uhff-link" href="https://www.microsoft.com/en-us/sustainability/" data-m='{"cN":"Footer_Company_Sustainability_nav","id":"n8c6c1c1m1r1a2","sN":8,"aN":"c6c1c1m1r1a2"}'>Sustainability</a>
+                            </li>
+
+                        </ul>
+                        
+                    </div>
+                </div>
+        </nav>
+    <div class="c-uhff-base">
+                <a id="locale-picker-link" aria-label="Content Language Selector. Currently set to English (United States)" class="c-uhff-link c-uhff-lang-selector c-glyph glyph-world" href="https://support.microsoft.com/en-us/worldwide" data-m='{"cN":"locale_picker(US)_nav","id":"n7c1c1m1r1a2","sN":7,"aN":"c1c1m1r1a2"}'>English (United States)</a>
+
+            <a data-m='{"id":"n8c1c1m1r1a2","sN":8,"aN":"c1c1m1r1a2"}' href="https://aka.ms/yourcaliforniaprivacychoices" class='c-uhff-link c-uhff-ccpa'>
+        <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16" width="43">
+            <title>Your Privacy Choices Opt-Out Icon</title>
+            <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"/>
+            <path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"/>
+            <path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"/>
+            <path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"/>
+        </svg>
+        <span>Your Privacy Choices</span>
+    </a>
+
+        <noscript>
+                <a data-m='{"id":"n9c1c1m1r1a2","sN":9,"aN":"c1c1m1r1a2"}' href="https://aka.ms/yourcaliforniaprivacychoices" class='c-uhff-link c-uhff-ccpa'>
+        <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16" width="43">
+            <title>Your Privacy Choices Opt-Out Icon</title>
+            <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"/>
+            <path d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z" style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"/>
+            <path d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z" style="fill:#fff"/>
+            <path d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z" style="fill:#06f"/>
+        </svg>
+        <span>Your Privacy Choices</span>
+    </a>
+
+        </noscript>
+            <a data-m='{"id":"n10c1c1m1r1a2","sN":10,"aN":"c1c1m1r1a2"}' href="https://go.microsoft.com/fwlink/?linkid=2259814" class="c-uhff-link c-uhff-consumer">
+        <span>Consumer Health Privacy</span>
+    </a>
+
+        <nav aria-label="Microsoft corporate links">
+            <ul class="c-list f-bare" data-m='{"cN":"Corp links_cont","cT":"Container","id":"c11c1c1m1r1a2","sN":11,"aN":"c1c1m1r1a2"}'>
+                                <li  id="c-uhff-footer_sitemap">
+                    <a class="c-uhff-link" href="https://www.microsoft.com/en-us/sitemap1.aspx" data-mscc-ic="false" data-m='{"cN":"Footer_Sitemap_nav","id":"n1c11c1c1m1r1a2","sN":1,"aN":"c11c1c1m1r1a2"}'>Sitemap</a>
+                </li>
+                <li  id="c-uhff-footer_contactus">
+                    <a class="c-uhff-link" href="https://support.microsoft.com/contactus" data-mscc-ic="false" data-m='{"cN":"Footer_ContactUs_nav","id":"n2c11c1c1m1r1a2","sN":2,"aN":"c11c1c1m1r1a2"}'>Contact Microsoft</a>
+                </li>
+                <li  id="c-uhff-footer_privacyandcookies">
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-mscc-ic="false" data-m='{"cN":"Footer_PrivacyandCookies_nav","id":"n3c11c1c1m1r1a2","sN":3,"aN":"c11c1c1m1r1a2"}'>Privacy </a>
+                </li>
+                <li class=" x-hidden" id="c-uhff-footer_managecookies">
+                    <a class="c-uhff-link" href="#" data-mscc-ic="false" data-m='{"cN":"Footer_ManageCookies_nav","id":"n4c11c1c1m1r1a2","sN":4,"aN":"c11c1c1m1r1a2"}'>Manage cookies</a>
+                </li>
+                <li  id="c-uhff-footer_termsofuse">
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=206977" data-mscc-ic="false" data-m='{"cN":"Footer_TermsOfUse_nav","id":"n5c11c1c1m1r1a2","sN":5,"aN":"c11c1c1m1r1a2"}'>Terms of use</a>
+                </li>
+                <li  id="c-uhff-footer_trademarks">
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?linkid=2196228" data-mscc-ic="false" data-m='{"cN":"Footer_Trademarks_nav","id":"n6c11c1c1m1r1a2","sN":6,"aN":"c11c1c1m1r1a2"}'>Trademarks</a>
+                </li>
+                <li  id="c-uhff-footer_safetyandeco">
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?linkid=2196227" data-mscc-ic="false" data-m='{"cN":"Footer_SafetyAndEco_nav","id":"n7c11c1c1m1r1a2","sN":7,"aN":"c11c1c1m1r1a2"}'>Safety &amp; eco</a>
+                </li>
+                <li  id="c-uhff-recycling">
+                    <a class="c-uhff-link" href="https://www.microsoft.com/en-us/legal/compliance/recycling" data-mscc-ic="false" data-m='{"cN":"Recycling_nav","id":"n8c11c1c1m1r1a2","sN":8,"aN":"c11c1c1m1r1a2"}'>Recycling</a>
+                </li>
+                <li  id="c-uhff-footer_aboutourads">
+                    <a class="c-uhff-link" href="https://choice.microsoft.com" data-mscc-ic="false" data-m='{"cN":"Footer_AboutourAds_nav","id":"n9c11c1c1m1r1a2","sN":9,"aN":"c11c1c1m1r1a2"}'>About our ads</a>
+                </li>
+
+                <li>&#169; Microsoft 2025</li>
+                
+            </ul>
+        </nav>
+        
+    </div>
+    
+</footer>
+
+<script id="uhf-footer-ccpa">
+    const globalPrivacyControlEnabled = navigator.globalPrivacyControl;
+
+    const GPC_DataSharingOptIn = (globalPrivacyControlEnabled) ? false : checkThirdPartyAdsOptOutCookie();
+
+    if(window.onGPCLoaded) {
+        window.onGPCLoaded();
+    }
+    
+    function checkThirdPartyAdsOptOutCookie() {
+        try {
+            const ThirdPartyAdsOptOutCookieName = '3PAdsOptOut';
+            var cookieValue = getCookie(ThirdPartyAdsOptOutCookieName);
+            return cookieValue != 1;
+        } catch {
+            return true;
+        }
+    }
+
+    function getCookie(cookieName) {
+        var cookieValue = document.cookie.match('(^|;)\\s*' + cookieName + '\\s*=\\s*([^;]+)');
+        return (cookieValue) ? cookieValue[2] : '';
+    }
+</script>
+
+
+
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+
+    
+		</div>
+	</div>
+
+	
+	
+		<script src="/lib/jquery/dist/jquery.min.js?v=9_aliU8dGd2tb6OSsuzixeV4y_faTqgFtohetphbbj0" crossorigin="anonymous" integrity="sha384-ZvpUoO/+PpLXR1lu4jmpXWu80pZlYUAfxl5NsBMWOEPSjUn/6Z/hRTt8+pR6L4N2">
+		</script>
+		<script src="/lib/oneds/dist/ms.analytics-web-4.0.2.min.js?v=O7wAAOKAVN2-OLLnoh3KjWb9pW6khEi85GWLxrUYqXA">
+		</script>
+	
+
+	
+<script src="/lib/uhf/dist/uhfbundle.js?v=of4Bk4iHW2lu2zc7UaUcCo47rVLNSJYX0ELAcivbHkg"></script>
+
+<script src="https://mem.gfx.ms/meversion?partner=SMCConvergence&market=en-us&uhf=1" defer></script>
+
+	<script src="/js/TabControl.min.js?v=xwEBryftfVeCnZQEcMrHh70Rw7qWo5RBGAM65Ie6n9E"></script>
+	<script src="/js/Support.Main.min.js?v=ahX0ESGHKMdSX6piAwXqYY0T7Ot8VGVg6ny7am_oVeM"></script>
+
+		
+
+
+
+<script type="text/javascript">
+	(function () {
+		function getCookie(name) {
+			var cookies = document.cookie.split('; ');
+			for (var i = 0; i < cookies.length; i++) {
+				var kvp = cookies[i].split('=');
+				if (kvp[0] === name) {
+					return decodeURIComponent(kvp[1]);
+				}
+			}
+			return null;
+		}
+
+		if (typeof window.oneDS === 'object') {
+			window.analytics = new window.oneDS.ApplicationInsights();
+			var config = {
+				instrumentationKey: "ac04587c8d6b439297eee84d88c95e8b-e1b6c3bf-fa11-485c-aebc-a825e1f68c8f-7432",
+				disableCookiesUsage: true,
+				cookieCfg: {
+					ignoreCookies: ["MicrosoftApplicationsTelemetryDeviceId", "MSFPC"]
+				},
+				channelConfiguration: {
+					eventsLimitInMem: 50
+				},
+				propertyConfiguration: {
+					gpcDataSharingOptIn: false,
+					callback: {
+						userConsentDetails: () => {
+							const consentDetails = {
+								Required: true,
+								Analytics: false,
+								Advertising: false,
+								SocialMedia: false
+							};
+
+							return consentDetails;
+						}
+					}
+				},
+				webAnalyticsConfiguration: {
+					autoCapture: {
+						pageView: true,
+						onLoad: true,
+						onUnload: true,
+						click: true,
+						scroll: true,
+						resize: true,
+						lineage: false,
+						jsError: true,
+						msTags: true
+					},
+					autoPopulateParentIdAndParentName: true,
+					isLoggedIn: false,
+					urlCollectHash: true,
+
+							urlCollectQuery: true,
+												
+					useDefaultContentName: true,
+					useShortNameForContentBlob: false,
+					syncMuid: false,
+				}
+			};
+
+			var isFirstTime = true;
+			var jsLocalId = null;
+
+
+			//Telemetry initializers are used to modify the contents of collected telemetry before being sent from the user's browser
+			window.analytics.addTelemetryInitializer(function (e) {
+				if (isFirstTime) {
+					var context = window.analytics.getPropertyManager().getPropertiesContext();
+					var ext = e.ext = e.ext || {};
+
+					if (jsLocalId) {
+						// Set the localId so it's set automatically for all future events
+						context.user.setLocalId(jsLocalId);
+
+						var userExt = ext.user = ext.user || {};
+						userExt.localId = jsLocalId;
+					}
+
+					isFirstTime = false;
+				}
+			});
+			window.analytics.initialize(config, []);
+		}
+	})();
+</script>
+
+	
+
+<script type="text/javascript">
+	$(function () {
+		var signInUrl = "/en-us/authentication/signin";
+		var signOutUrl = "/en-us/authentication/signout";
+		var switchAccountUrl = "/en-us/authentication/switchaccount";
+		var shellOptions = {
+			meControlOptions: {
+				apiGeneration: 'GEN2',
+				authProviderConfig: {
+					type: 'webAadWithMsaProxy',
+					appSignInUrl: signInUrl,
+					appSignInToUrl: signInUrl,
+					appSignOutUrl: signOutUrl,
+					appSwitchUrl: switchAccountUrl,
+					appSwitchToUrl: switchAccountUrl,
+					aad: {
+						signOutUrl: 'https://login.microsoftonline.com:443/uxlogout?appid=ee272b19-4411-433f-8f28-5c13cb6fd407\u0026wreply=https%3A%2F%2Fsupport.microsoft.com%2Fsignin-oidc\u0026shouldforgetuser=False',
+						signOutAndForgetUrl: 'https://login.microsoftonline.com:443/uxlogout?appid=ee272b19-4411-433f-8f28-5c13cb6fd407\u0026wreply=https%3A%2F%2Fsupport.microsoft.com%2Fsignin-oidc\u0026shouldforgetuser=True',
+						forgetUrl: 'https://login.microsoftonline.com:443/forgetuser',
+						rememberedAccountsUrl: 'https://login.microsoftonline.com:443/savedusers?appid=ee272b19-4411-433f-8f28-5c13cb6fd407\u0026wreply=https%3A%2F%2Fsupport.microsoft.com%2Fsignin-oidc',
+					},
+				},
+			}
+		};
+
+		if (window.msCommonShell) {
+			window.msCommonShell.load(shellOptions);
+		}
+		else {
+			window.onShellReadyToLoad = function () {
+				window.onShellReadyToLoad = null;
+				window.msCommonShell.load(shellOptions);
+			};
+		}
+	});
+</script>
+
+<script defer type="text/javascript" src="/js/SilentSignInManager.Main.min.js?v=YhJIc9eIReDAmfom1ivxwN61e3gQDko8Dw4oru_ZXi4"></script>
+<script type="text/javascript">
+	$(async function () {
+		await window.manageSilentSignIn.handleAllSilentSignIn();
+	})
+</script>
+		
+
+
+	<script>
+		if (window.UcsCreative === undefined) {
+			window.UcsCreative = {};
+		}
+	</script>
+	<script type="text/javascript">
+
+		window.silentSigninProgress = true;
+
+		var silentSigninStartLog = {
+			actionType: 'A',
+			content: {
+				contentId: 'silentSignInStarted'
+			}
+		};
+		window.analytics.captureContentUpdate(silentSigninStartLog);
+	</script>
+	<iframe id="iframeOP" width="1" height="1" name="iframeOP" class="d-none" sandbox="allow-same-origin allow-forms allow-scripts" src="/en-us/authentication/silentsignin?ru=%2Fen-us%2Fsilentsigninhandler" hidden></iframe>
+
+
+	<script defer src="/js/feedback.js?v=vbvaO9lwMf9by3a0J9Ls2cRheSLDhg9mLlH7GKxcxZE"></script>
+	<script src="/js/shimmerExperiment.Main.min.js?v=srYmQ6fE_kpOEpNK2BnwKTzAAYG3jYCRr__zYXzrlrE"></script>
+	<script src="/js/PromotionBanner.Main.min.js?v=SP-MZEm-8ZnyBsehxJQD4Q3GNBqdSh-JRrBC3eZuMV8"></script>
+	
+	
+	<script defer src="/js/Article.Main.min.js?v=7PbQ36aVJvddmi7ForZP4pfrz5gu5ODt57QcdW1w-SQ"></script>
+	<script defer src="/js/MeControlCallout.Main.min.js?v=tLNC8gJXmcpgKnVZCzJOdJOwkDcmcgvOTKeTIHyDJVw"></script>
+	
+
+	<script type="text/javascript">
+		if (occe && occe.Resources) {
+				occe.Resources.addLocalizedStrings({"L_TabControl_AriaLabel_TabsOverflowDropdownIcon_Collapsed":"More tabs dropdown. Collapsed. Press the Enter key to expand dropdown.","L_TabControl_AriaLabel_TabsOverflowDropdownIcon_Expanded":"More tabs dropdown. Expanded. Press the Tab key to navigate through available tabs.","L_IA_Feedback_Recorded":"Thanks for your feedback.","L_TrainingTips_AriaLabel_NextArrow":"Press the Enter key to hear the next tip.","L_TrainingTips_AriaLabel_PrevArrow":"Press the Enter key to hear the previous tip.","L_TrainingTips_AriaLabel_Close":"Dialog close button. Press the Enter key to collapse the tip dialog.","L_Feedback_ThankYou":"Thank you for your feedback!"});
+		}
+	</script>
+
+	
+	<script type="text/javascript">
+		$('.supLeftNavDefaultMobileViewButton, .supLeftNavMultimediaMobileViewButton').on('click', function () {
+			$('.supLeftNavMobileView').css('display', 'block');
+			$('#ocBodyWrapper').css('position', 'fixed');
+			$('#supLeftNavMobileDisplayTitle').focus();
+		});
+
+		$('.supLeftNavMobileViewCloseButton').on('click', function () {
+			$('.supLeftNavMobileView').css('display', 'none');
+			$('#ocBodyWrapper').css('position', 'inherit');
+		});
+
+		$(window).on('resize', function () {
+			$('.supLeftNavMobileView').css('display', 'none');
+			$('#ocBodyWrapper').css('position', 'relative');
+		});
+	</script>
+
+	
+	
+
+	
+</body>
+</html>

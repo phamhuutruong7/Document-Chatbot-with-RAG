@@ -1,0 +1,209 @@
+DELL INSPIRON 24 5000 ALL-IN-ONE SETUP GUIDE
+Model: Inspiron 5415 AIO (24-inch)
+===============================================
+
+UNBOXING & INITIAL SETUP
+------------------------
+Box Contents:
+✓ Dell Inspiron 24 5000 All-in-One PC
+✓ Wireless keyboard and mouse
+✓ 90W AC adapter and power cord
+✓ Quick Setup Guide
+✓ Regulatory information
+
+Setup Steps:
+1. Remove PC from box carefully (support base)
+2. Place on stable surface near power outlet
+3. Connect power adapter to back of PC
+4. Insert batteries in keyboard/mouse (AA included)
+5. Press power button (bottom right of screen)
+
+HARDWARE SPECIFICATIONS
+----------------------
+Display:
+• 23.8" Full HD (1920 x 1080) Touch Screen
+• IPS technology, wide viewing angles
+• Edge-to-edge glass with anti-glare coating
+• 10-point multi-touch support
+
+Performance:
+• AMD Ryzen 5 5500U processor (6-core, 2.1GHz)
+• 8GB DDR4-3200 RAM (upgradeable to 32GB)
+• 256GB PCIe NVMe SSD + 1TB HDD
+• AMD Radeon graphics (integrated)
+
+Connectivity:
+• Wi-Fi 6 (802.11ax) + Bluetooth 5.1
+• 2x USB 3.2 Gen 1 Type-A ports
+• 1x USB 3.2 Gen 1 Type-C port
+• 1x HDMI 1.4 output
+• 1x RJ45 Ethernet port
+• 1x 3.5mm headphone/microphone combo
+• SD card reader (side access)
+
+FIRST BOOT CONFIGURATION
+------------------------
+Power On Process:
+1. Press power button (bottom-right bezel)
+2. Dell logo appears (30-45 seconds)
+3. Windows 11 Welcome screen
+4. Follow on-screen setup wizard
+
+Windows 11 Setup:
+• Select region and language
+• Connect to Wi-Fi network
+• Sign in with Microsoft account (recommended)
+• Set up PIN for quick sign-in
+• Configure privacy settings
+• Install initial Windows updates
+
+Wireless Peripherals:
+• Keyboard/mouse auto-pair on first boot
+• If not working: press Connect button (bottom)
+• Low battery: replace AA batteries
+• Range: up to 30 feet from PC
+
+DISPLAY CONFIGURATION
+--------------------
+Touch Screen Calibration:
+1. Settings > System > Display
+2. Click "Advanced display settings"
+3. Select "Display adapter properties"
+4. Click "Calibrate" tab
+5. Follow calibration wizard
+
+External Monitor Setup:
+• Connect via HDMI port (back panel)
+• Windows + P to select display mode:
+  - PC screen only
+  - Duplicate (mirror)
+  - Extend (dual monitor)
+  - Second screen only
+
+Resolution Settings:
+• Native: 1920 x 1080 (recommended)
+• Scaling: 100% (default for 24" screen)
+• Refresh rate: 60Hz (standard)
+
+PERFORMANCE OPTIMIZATION
+-----------------------
+Storage Management:
+• SSD (C:): Windows and programs (256GB)
+• HDD (D:): Documents, media files (1TB)
+• Move large files to D: drive for best performance
+• Keep 20% free space on C: drive
+
+Memory & Performance:
+• 8GB RAM sufficient for basic tasks
+• Upgrade to 16GB for heavy multitasking
+• RAM slots: 1 occupied, 1 available
+• Maximum supported: 32GB (2x16GB)
+
+Startup Optimization:
+• Disable unnecessary startup programs
+• Task Manager > Startup tab
+• Disable programs you don't need immediately
+• Keep antivirus and system tools enabled
+
+NETWORKING SETUP
+---------------
+Wi-Fi Configuration:
+1. Click Wi-Fi icon in system tray
+2. Select your network from list
+3. Enter password when prompted
+4. Check "Connect automatically"
+5. Test connection with web browser
+
+Ethernet Connection:
+• Plug cable into RJ45 port (back)
+• Windows automatically detects connection
+• Ethernet takes priority over Wi-Fi
+• Faster speeds for streaming/downloads
+
+Bluetooth Devices:
+1. Settings > Devices > Bluetooth
+2. Click "Add Bluetooth or other device"
+3. Select device type (mouse, headphones, etc.)
+4. Follow pairing instructions
+5. Device appears in connected list
+
+COMMON ISSUES & SOLUTIONS
+-------------------------
+Touch Screen Not Responding:
+• Clean screen with microfiber cloth
+• Restart PC to reset touch drivers
+• Check Windows Update for driver updates
+• Calibrate touch screen in display settings
+
+Poor Wi-Fi Performance:
+• Move closer to router (within 30 feet)
+• Restart router and PC
+• Update Wi-Fi drivers in Device Manager
+• Check for interference (microwaves, phones)
+• Use 5GHz band if available
+
+Slow Performance:
+• Check available storage on C: drive
+• Close unused browser tabs
+• Restart PC to clear memory
+• Run Disk Cleanup utility
+• Check for malware with Windows Defender
+
+Keyboard/Mouse Issues:
+• Replace batteries (low battery indicator)
+• Re-pair devices using Connect button
+• Check for obstructions between device and PC
+• Update drivers via Windows Update
+
+MAINTENANCE & CARE
+-----------------
+Screen Cleaning:
+• Use microfiber cloth, slightly damp
+• Clean in circular motions, no pressure
+• Avoid harsh chemicals or abrasives
+• Turn off PC before cleaning
+
+Ventilation:
+• Keep rear vents clear (6 inches minimum)
+• Use compressed air monthly on vents
+• Don't block side ventilation slots
+• Ensure ambient temperature under 80°F
+
+Software Updates:
+• Enable automatic Windows updates
+• Update Dell applications monthly
+• Check for BIOS updates quarterly
+• Keep antivirus definitions current
+
+WARRANTY & SUPPORT
+------------------
+Standard Warranty:
+• 1 year limited hardware warranty
+• 1 year technical support
+• Mail-in service for repairs
+• Advanced exchange available
+
+Support Options:
+• Dell SupportAssist (pre-installed)
+• Online chat: dell.com/support
+• Phone: 1-800-WWW-DELL (1-800-999-3355)
+• Email support available
+• Video tutorials: dell.com/learn
+
+Extended Support:
+• Premium Support Plus available
+• ProSupport for business users
+• Accidental damage protection
+• On-site service options
+
+SPECIFICATIONS SUMMARY
+---------------------
+Model: Dell Inspiron 24 5000 (5415)
+Processor: AMD Ryzen 5 5500U
+RAM: 8GB DDR4 (expandable)
+Storage: 256GB SSD + 1TB HDD
+Display: 23.8" FHD Touch
+Operating System: Windows 11 Home
+Warranty: 1 year limited
+
+© 2024 Dell Inc. All rights reserved.

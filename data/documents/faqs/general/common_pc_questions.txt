@@ -1,0 +1,32 @@
+
+Frequently Asked Questions - PC Support
+
+Q: My computer won't turn on. What should I check?
+A: First, verify the power cable is securely connected to both the computer and wall outlet. Check if the power supply switch (if present) is in the ON position. Try a different power outlet. If using a power strip, ensure it's turned on. Look for any LED lights on the motherboard or power button.
+
+Q: Why is my computer running slowly?
+A: Common causes include too many startup programs, insufficient RAM, full hard drive, malware infection, or outdated drivers. Try restarting, running disk cleanup, checking for viruses, and updating Windows and drivers.
+
+Q: How often should I clean my computer?
+A: Clean dust from your computer every 3-6 months, or more frequently in dusty environments. Use compressed air to blow out dust from fans, heat sinks, and vents. Always power off and unplug before cleaning.
+
+Q: What's the difference between sleep mode and hibernate?
+A: Sleep mode keeps your session in RAM and uses minimal power, allowing quick wake-up. Hibernate saves your session to the hard drive and uses no power, but takes longer to resume. Use sleep for short breaks, hibernate for longer periods.
+
+Q: How do I know if I need more RAM?
+A: Check Task Manager's Performance tab. If memory usage is consistently above 80%, you may benefit from more RAM. Signs include slow performance, long loading times, and frequent hard drive activity.
+
+Q: Why does my computer get hot?
+A: Heat is normal during operation, but excessive heat indicates problems. Check that fans are working, vents aren't blocked, and thermal paste on the CPU is adequate. High CPU usage from running programs also generates heat.
+
+Q: What should I do if I spill liquid on my computer?
+A: Immediately power off and unplug the computer. Remove the battery if it's a laptop. Don't turn it on until completely dry (24-48 hours). For keyboards, remove keys and clean underneath. Consider professional cleaning for motherboards.
+
+Q: How do I back up my important files?
+A: Use external drives, cloud storage (OneDrive, Google Drive), or Windows backup features. The 3-2-1 rule: 3 copies of important data, 2 different storage types, 1 offsite backup.
+
+Q: When should I replace my computer?
+A: Consider replacement when repair costs exceed 50% of a new computer's price, when it can't run required software, or when it's over 5-7 years old and experiencing frequent problems.
+
+Q: How do I choose between repair and replacement?
+A: Factors include age of computer, cost of repair, availability of parts, your budget, and current performance needs. Generally, repairs are cost-effective for computers under 4 years old.

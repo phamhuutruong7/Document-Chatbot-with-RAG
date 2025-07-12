@@ -1,0 +1,62 @@
+
+CPU Troubleshooting Guide
+
+COMMON CPU PROBLEMS:
+
+1. OVERHEATING:
+Symptoms: Random shutdowns, blue screens, throttling
+Solutions:
+- Check CPU cooler mounting
+- Replace thermal paste
+- Verify fan operation
+- Improve case airflow
+- Check ambient temperature
+
+2. HIGH CPU USAGE:
+Symptoms: Slow performance, fan noise, heat
+Solutions:
+- Check Task Manager for running processes
+- End unnecessary background tasks
+- Scan for malware/viruses
+- Update device drivers
+- Check for Windows updates
+
+3. CPU NOT DETECTED:
+Symptoms: No boot, no display, diagnostic beeps
+Solutions:
+- Reseat CPU in socket
+- Check for bent pins (Intel)
+- Verify power connections
+- Clear CMOS/BIOS settings
+- Test with known good CPU
+
+4. BLUE SCREEN ERRORS:
+Symptoms: System crashes with blue screen
+Solutions:
+- Check CPU temperatures
+- Test system memory
+- Update BIOS firmware
+- Reset to default settings
+- Run hardware diagnostics
+
+5. POOR PERFORMANCE:
+Symptoms: Slow system response
+Solutions:
+- Check CPU utilization in Task Manager
+- Verify correct CPU speed in BIOS
+- Update chipset drivers
+- Check for thermal throttling
+- Disable power saving modes
+
+TEMPERATURE MONITORING:
+- Normal idle: 30-50°C
+- Normal load: 60-80°C
+- Dangerous: Above 85°C
+- Use HWMonitor or Core Temp software
+
+PREVENTIVE MAINTENANCE:
+- Clean dust from cooler monthly
+- Replace thermal paste annually
+- Monitor temperatures regularly
+- Keep BIOS updated
+- Ensure adequate case ventilation

@@ -1,0 +1,240 @@
+ASUS ROG STRIX GT15 GAMING DESKTOP GUIDE
+Model: G15CF-DB766 ROG Strix GT15
+=====================================
+
+GAMING SETUP QUICKSTART
+-----------------------
+Unboxing Priority:
+1. Remove PC from packaging (keep upright)
+2. Remove all protective foam/plastic
+3. Connect power cable (750W PSU)
+4. Connect gaming monitor (DisplayPort recommended)
+5. Connect gaming peripherals (USB)
+6. First boot and driver installation
+
+Essential First Steps:
+• Download ROG Armoury Crate software
+• Install latest NVIDIA GeForce drivers
+• Configure gaming monitor settings
+• Set up RGB lighting preferences
+• Create system restore point
+
+HIGH-PERFORMANCE SPECIFICATIONS
+------------------------------
+Processing Power:
+• Intel Core i7-12700F (12-core, up to 4.9GHz)
+• 16GB DDR4-3200 RAM (2x8GB, 4 slots total)
+• Supports up to 128GB memory
+
+Graphics Performance:
+• NVIDIA GeForce RTX 4060 Ti (16GB GDDR6)
+• Ray tracing and DLSS 3.0 support
+• 4K gaming capable at high settings
+• VR ready (Oculus, Steam VR compatible)
+
+Storage Configuration:
+• 1TB PCIe Gen4 NVMe SSD (primary)
+• 2TB HDD (7200 RPM, secondary storage)
+• M.2 slots: 2 total (1 occupied)
+• SATA ports: 4 available
+
+Cooling System:
+• ROG custom air cooling
+• 3x case fans (intake/exhaust)
+• CPU cooler: Tower-style with heatpipes
+• GPU: Triple-fan custom cooling
+• Thermal monitoring via Armoury Crate
+
+GAMING OPTIMIZATION
+------------------
+Graphics Settings:
+• NVIDIA Control Panel configuration
+• Set performance mode for gaming
+• Enable G-SYNC (compatible monitors)
+• Configure per-game profiles
+• Ray tracing settings per title
+
+Memory & Performance:
+• Enable XMP profile in BIOS (DDR4-3200)
+• Set Windows to High Performance mode
+• Disable unnecessary startup programs
+• Configure virtual memory (pagefile)
+• Regular driver updates critical
+
+Storage Optimization:
+• Install games on SSD for fast loading
+• Move older games to HDD storage
+• Keep 20% free space on system drive
+• Enable Windows Storage Sense
+• Regular disk cleanup and defrag
+
+Network Gaming:
+• Ethernet preferred over Wi-Fi
+• Enable Windows Game Mode
+• Configure router QoS for gaming
+• Use DNS servers: 8.8.8.8, 1.1.1.1
+• Monitor ping and latency
+
+RGB LIGHTING CONTROL
+--------------------
+Armoury Crate Setup:
+1. Download from ASUS website
+2. Install and restart PC
+3. Access Aura Sync for lighting
+4. Sync with compatible peripherals
+5. Create custom lighting profiles
+
+Lighting Zones:
+• Front panel ROG logo
+• Internal case lighting
+• Memory module RGB (if equipped)
+• Graphics card RGB accents
+• Motherboard RGB headers
+
+Popular Effects:
+• Static (solid color)
+• Breathing (fade in/out)
+• Rainbow (color cycle)
+• Reactive (responds to system activity)
+• Music mode (responds to audio)
+
+GAME PERFORMANCE MONITORING
+---------------------------
+Built-in Tools:
+• ROG GameVisual for display optimization
+• PerformanceGuard for FPS monitoring
+• CPU and GPU temperature monitoring
+• Memory usage tracking
+• Network performance stats
+
+Third-Party Tools:
+• MSI Afterburner (GPU monitoring)
+• HWiNFO64 (detailed system info)
+• Steam Overlay (FPS counter)
+• Discord Overlay (voice while gaming)
+• OBS (streaming/recording)
+
+COOLING & THERMAL MANAGEMENT
+---------------------------
+Temperature Monitoring:
+• CPU: Target under 80°C gaming
+• GPU: Target under 83°C gaming
+• System: Monitor via Armoury Crate
+• Fan curves: Auto or custom settings
+• Thermal throttling prevention
+
+Maintenance Schedule:
+• Monthly: Clean dust filters
+• Quarterly: Internal dust removal
+• Annually: Thermal paste replacement
+• Check fan operation regularly
+• Monitor temperatures during gaming
+
+Airflow Optimization:
+• Front: 2x intake fans (cool air in)
+• Rear: 1x exhaust fan (hot air out)
+• Keep case vents unobstructed
+• Maintain positive air pressure
+• Cable management for airflow
+
+COMMON GAMING ISSUES
+-------------------
+Low Frame Rates:
+• Update graphics drivers (NVIDIA GeForce)
+• Lower game settings (shadows, effects)
+• Close background applications
+• Check thermal throttling
+• Verify game installed on SSD
+
+Game Crashes:
+• Update game and launcher
+• Verify game files integrity
+• Check system temperature
+• Update DirectX and Visual C++
+• Disable overclocking temporarily
+
+Online Gaming Lag:
+• Use wired ethernet connection
+• Close bandwidth-heavy applications
+• Configure router QoS settings
+• Check for Windows updates
+• Test with different servers
+
+Hardware Issues:
+• Reseat RAM modules
+• Check all cable connections
+• Update BIOS firmware
+• Test components individually
+• Monitor system stability
+
+OVERCLOCKING GUIDANCE
+--------------------
+Safe Overclocking:
+• Use Armoury Crate auto-tuning
+• Start with memory (XMP profiles)
+• Monitor temperatures closely
+• Test stability with stress tests
+• Create restore points before changes
+
+CPU Overclocking:
+• Intel K-series processors only
+• Gradual frequency increases
+• Monitor voltage and temperature
+• Stress test with Prime95
+• 24-hour stability testing recommended
+
+GPU Overclocking:
+• Use MSI Afterburner or ASUS tools
+• Increase power limit first
+• Small memory clock increases
+• Test with games or 3DMark
+• Watch for artifacts or crashes
+
+MAINTENANCE & UPDATES
+--------------------
+Weekly Tasks:
+• Restart PC to clear memory
+• Check for Windows updates
+• Update game launchers
+• Clear temporary files
+• Monitor storage space
+
+Monthly Tasks:
+• Clean dust filters
+• Update graphics drivers
+• Check BIOS updates
+• Run full antivirus scan
+• Backup important game saves
+
+Quarterly Tasks:
+• Deep clean internal components
+• Update all hardware drivers
+• Check for firmware updates
+• Performance benchmark testing
+• Review and update software
+
+TECHNICAL SUPPORT
+-----------------
+ASUS Support:
+• Website: asus.com/support
+• Phone: 1-812-282-2787
+• Live chat available
+• Email support
+• Community forums
+
+Warranty Coverage:
+• 2-year global warranty
+• Advanced replacement available
+• International warranty valid
+• Extended warranty options
+• Gaming-specific support team
+
+Before Contacting Support:
+• Note exact error messages
+• Document when issue started
+• List recent hardware/software changes
+• Have model/serial number ready
+• Try basic troubleshooting steps
+
+© 2024 ASUS. All rights reserved.
+ROG logo is a trademark of ASUS.

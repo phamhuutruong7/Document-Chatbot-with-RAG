@@ -1,0 +1,38 @@
+
+Dell OptiPlex Desktop Setup Guide
+
+PACKAGE CONTENTS:
+- OptiPlex desktop computer
+- Power cable
+- Keyboard and mouse
+- Quick setup guide
+- Warranty information
+
+INITIAL SETUP:
+1. Connect monitor cable to graphics port
+2. Connect keyboard and mouse to USB ports
+3. Connect power cable to computer and wall outlet
+4. Press power button to start
+
+FIRST BOOT:
+- System will perform initial setup
+- Follow Windows configuration wizard
+- Create user account and password
+- Connect to Wi-Fi if needed
+
+SPECIFICATIONS:
+- Processor: Intel Core i5
+- Memory: 8GB DDR4 RAM
+- Storage: 256GB SSD
+- Graphics: Intel UHD Graphics
+- Ports: 6x USB, 2x DisplayPort, 1x HDMI
+
+TROUBLESHOOTING:
+- No display: Check monitor cable connections
+- Won't turn on: Verify power cable connections
+- Slow performance: Close unnecessary programs
+- No internet: Check network cable or Wi-Fi settings
+
+SUPPORT:
+For technical support, visit dell.com/support or call 1-800-DELL-HELP
+Warranty covers parts and labor for 1 year from purchase date.

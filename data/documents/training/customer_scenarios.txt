@@ -1,0 +1,229 @@
+CUSTOMER SERVICE SCENARIOS FOR PC SUPPORT
+========================================
+
+SCENARIO 1: FIRST-TIME BUYER
+---------------------------
+Customer Profile: Sarah, 28, work-from-home professional
+Issue: Needs help choosing and setting up first desktop PC
+
+Customer: "Hi, I work from home and need a reliable computer for video calls, 
+document editing, and light photo editing. I've never bought a desktop before. 
+What would you recommend?"
+
+Support Response Strategy:
+• Ask about budget range ($500-1500+ categories)
+• Determine workspace constraints (desk size, monitor needs)
+• Assess technical comfort level
+• Recommend appropriate specs:
+  - Intel i5 or AMD Ryzen 5 for productivity
+  - 16GB RAM for multitasking
+  - 256GB+ SSD for speed
+  - Integrated graphics sufficient
+• Offer setup service or detailed setup guide
+• Explain warranty and support options
+
+Follow-up Questions:
+• "What's your budget range?"
+• "Do you have a monitor, keyboard, and mouse?"
+• "How comfortable are you with technology?"
+• "Do you prefer pre-built or need help assembling?"
+
+SCENARIO 2: GAMING ENTHUSIAST
+----------------------------
+Customer Profile: Mike, 22, college student and gamer
+Issue: Wants high-performance gaming PC within budget
+
+Customer: "I want to play the latest games at high settings, maybe do some 
+streaming. I have about $1200 to spend. What can I get?"
+
+Support Response Strategy:
+• Focus on GPU as primary gaming component
+• Balance CPU to avoid bottlenecks
+• Emphasize upgradability for future
+• Recommend:
+  - RTX 4060 Ti or RX 7600 XT graphics
+  - Intel i5-13400F or AMD Ryzen 5 7600X
+  - 16GB DDR4/DDR5 RAM
+  - 1TB NVMe SSD
+  - Quality PSU for stability
+• Discuss monitor requirements (1080p vs 1440p)
+• Explain Ray Tracing and DLSS benefits
+
+Gaming-Specific Advice:
+• "What games do you play most?"
+• "What monitor resolution do you prefer?"
+• "Are you interested in streaming or content creation?"
+• "Do you plan to upgrade components later?"
+
+SCENARIO 3: ELDERLY CUSTOMER
+---------------------------
+Customer Profile: Robert, 68, retired, basic computer needs
+Issue: Current PC is slow, needs simple replacement
+
+Customer: "My computer takes forever to start up and crashes a lot. I just 
+need something simple for email, web browsing, and storing photos."
+
+Support Response Strategy:
+• Emphasize simplicity and reliability
+• Focus on ease of use over performance
+• Recommend:
+  - Intel i3 or AMD Ryzen 3 (adequate power)
+  - 8GB RAM (sufficient for basic tasks)
+  - 256GB SSD (fast boot times)
+  - Integrated graphics (cost-effective)
+  - Pre-installed Windows with setup service
+• Offer extended warranty and support
+• Provide clear, simple setup instructions
+
+Elderly-Friendly Approach:
+• Speak slowly and clearly
+• Avoid technical jargon
+• Offer hands-on demonstrations
+• Provide written instructions
+• Schedule follow-up check-ins
+
+SCENARIO 4: SMALL BUSINESS OWNER
+-------------------------------
+Customer Profile: Lisa, 35, runs small marketing agency
+Issue: Needs multiple PCs for office, budget-conscious
+
+Customer: "I need 4 computers for my office. My employees do graphic design, 
+web development, and video editing. What's the most cost-effective solution?"
+
+Support Response Strategy:
+• Discuss bulk pricing and business accounts
+• Assess individual vs. shared resource needs
+• Recommend tiered approach:
+  - Workstation for video editing (high-end)
+  - Mid-range for graphic design
+  - Basic for admin tasks
+• Consider warranty and business support
+• Suggest network setup and shared storage
+
+Business Considerations:
+• "What's your total budget for all systems?"
+• "Do you need immediate deployment or phased?"
+• "What software will you be running?"
+• "Do you need on-site support services?"
+
+SCENARIO 5: STUDENT WITH BUDGET CONSTRAINTS
+------------------------------------------
+Customer Profile: Emma, 19, college student
+Issue: Needs reliable PC for school, very limited budget
+
+Customer: "I'm starting college and need a computer for writing papers, 
+research, and online classes. I only have $400 to spend."
+
+Support Response Strategy:
+• Focus on essential functionality
+• Consider refurbished options
+• Recommend:
+  - Budget AMD or Intel processor
+  - 8GB RAM minimum
+  - 256GB SSD (speed over capacity)
+  - Integrated graphics adequate
+  - Reliable brand with warranty
+• Suggest student discounts
+• Offer payment plan options
+
+Budget-Friendly Options:
+• Refurbished business computers
+• Last-generation components
+• Student pricing programs
+• Extended payment plans
+• Basic warranty coverage
+
+SCENARIO 6: CREATIVE PROFESSIONAL
+--------------------------------
+Customer Profile: David, 30, freelance video editor
+Issue: Needs powerful workstation for 4K video editing
+
+Customer: "I edit 4K videos and do motion graphics. My current PC can't 
+handle the workload. I need something that won't slow me down."
+
+Support Response Strategy:
+• Prioritize CPU and GPU for rendering
+• Emphasize large, fast storage
+• Recommend:
+  - Intel i7/i9 or AMD Ryzen 7/9
+  - 32GB+ RAM for large projects
+  - Professional GPU (RTX 4070+)
+  - Multiple NVMe SSDs for workflow
+  - High-quality monitor support
+• Discuss workflow optimization
+• Consider RAID storage for backup
+
+Creative Workflow Needs:
+• "What video editing software do you use?"
+• "What's your typical project file size?"
+• "Do you work with multiple monitors?"
+• "How important is color accuracy?"
+
+SCENARIO 7: FAMILY COMPUTER
+--------------------------
+Customer Profile: Jennifer, 42, mother of three
+Issue: Needs family-friendly PC for household use
+
+Customer: "We need a computer the whole family can use. The kids do homework, 
+my husband works on spreadsheets, and I manage our finances online."
+
+Support Response Strategy:
+• Balance performance with cost
+• Emphasize durability and reliability
+• Recommend:
+  - Mid-range processor for multitasking
+  - 16GB RAM for multiple users
+  - Large storage for family files
+  - Parental controls and security
+  - Extended warranty for peace of mind
+• Discuss user account setup
+• Provide family-friendly software recommendations
+
+Family-Specific Considerations:
+• "How many people will use it regularly?"
+• "What age range for the children?"
+• "Do you need parental control software?"
+• "What's your biggest concern about shared use?"
+
+COMMON CUSTOMER OBJECTIONS
+-------------------------
+
+"It's too expensive"
+Response: "I understand budget is important. Let me show you some alternatives 
+that still meet your core needs. We also offer financing options and can 
+prioritize the most important features for your situation."
+
+"I don't understand the technical specs"
+Response: "That's completely normal! Let me explain this in simple terms. 
+Think of RAM as your desk space - more space means you can work on more 
+things at once. The processor is like your brain speed - faster means 
+everything happens quicker."
+
+"I'm worried about it becoming outdated"
+Response: "That's a valid concern. I'll recommend components that will stay 
+relevant for 3-5 years for your use case. We can also discuss upgrade 
+paths so you can improve performance later without replacing everything."
+
+"I had bad experiences with computers before"
+Response: "I'm sorry to hear that. Many issues come from not having the 
+right specs for your needs. Let's make sure we get exactly what you need, 
+and I'll explain our support options so you have help if anything comes up."
+
+CUSTOMER SUCCESS METRICS
+-----------------------
+
+Satisfaction Indicators:
+• Customer completes purchase confidently
+• Understands product capabilities and limitations  
+• Knows how to get support when needed
+• Feels purchase meets their specific needs
+• Would recommend store to others
+
+Follow-up Checklist:
+• Call within 48 hours of purchase
+• Verify setup went smoothly
+• Address any initial questions
+• Remind about warranty terms
+• Ask for feedback on sales process
+
+© 2024 PC Customer Support Training Materials

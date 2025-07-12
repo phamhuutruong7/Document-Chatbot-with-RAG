@@ -1,0 +1,392 @@
+BUDGET PC BUILDING GUIDE
+======================
+
+BUDGET CATEGORIES
+----------------
+
+ULTRA-BUDGET ($300-500):
+Target Users:
+• Basic computing needs
+• Students with tight budgets
+• Office work and web browsing
+• Email and document editing
+
+Performance Expectations:
+• Smooth web browsing
+• Office applications (Word, Excel)
+• Light photo editing
+• 1080p video streaming
+• Basic games (older titles, low settings)
+
+Component Strategy:
+• Refurbished or older generation parts
+• Integrated graphics solutions
+• Minimal but sufficient RAM
+• Value-oriented motherboards
+• Basic but reliable power supplies
+
+Example Build - "Essential Computer":
+• AMD Ryzen 5 5600G (with integrated graphics) - $140
+• ASRock B450M PRO4 - $60
+• 8GB DDR4-3200 (1x8GB) Corsair Vengeance LPX - $25
+• Kingston NV2 250GB NVMe SSD - $20
+• EVGA 450 BR Power Supply - $35
+• Cooler Master MasterBox Q300L - $35
+• Basic keyboard and mouse combo - $25
+• Total: ~$340
+
+Performance Notes:
+• Integrated Radeon graphics suitable for esports titles
+• Single RAM stick allows future 16GB upgrade
+• NVMe SSD provides responsive system performance
+• Expandable with dedicated graphics card later
+
+LOW-BUDGET ($500-700):
+Target Users:
+• Light gaming enthusiasts
+• Home office workers
+• Students needing more performance
+• Media consumption focus
+
+Performance Expectations:
+• 1080p gaming at 30-60 FPS (medium settings)
+• Smooth multitasking
+• Content streaming and creation
+• Photo editing
+• Programming and development
+
+Component Strategy:
+• Entry-level discrete graphics
+• 16GB RAM for multitasking
+• Larger SSD for games and applications
+• Reliable mainstream components
+
+Example Build - "Budget Gaming Starter":
+• AMD Ryzen 5 5600G - $140
+• MSI B450M PRO-B - $55
+• 16GB DDR4-3200 (2x8GB) G.Skill Ripjaws V - $45
+• NVIDIA GTX 1660 Super (used/refurb) - $180
+• Kingston NV2 500GB NVMe SSD - $35
+• EVGA 600 BR Power Supply - $50
+• Fractal Design Core 1000 - $45
+• AMD Wraith Stealth cooler (included)
+• Total: ~$550
+
+Performance Notes:
+• GTX 1660 Super handles most games at 1080p medium-high
+• 16GB RAM sufficient for gaming and productivity
+• Upgrade path to modern GPU without bottlenecking
+
+MID-BUDGET ($700-1000):
+Target Users:
+• Serious gamers on budget
+• Content creators starting out
+• Professionals needing reliable performance
+• Future-proofing focused buyers
+
+Performance Expectations:
+• 1080p gaming at 60+ FPS (high settings)
+• 1440p gaming at 30-60 FPS (medium settings)
+• Video editing and streaming
+• Programming and development
+• VR-ready performance
+
+Component Strategy:
+• Modern mid-range graphics card
+• Current-generation CPU
+• Fast NVMe storage
+• Quality power supply with headroom
+• Better case with good airflow
+
+Example Build - "Sweet Spot Performance":
+• AMD Ryzen 5 7600 - $200
+• MSI B650M PRO-A - $90
+• 16GB DDR5-5200 (2x8GB) G.Skill Flare X5 - $80
+• NVIDIA RTX 4060 - $300
+• Samsung 980 500GB NVMe SSD - $45
+• Corsair CV650 Power Supply - $60
+• Fractal Design Core 1000 - $45
+• AMD Wraith Stealth cooler (included)
+• Total: ~$820
+
+Performance Notes:
+• RTX 4060 provides excellent 1080p performance
+• DDR5 memory for future compatibility
+• PCIe 4.0 SSD for fast loading times
+• Room for upgrades within power budget
+
+BUDGET COMPONENT SELECTION
+--------------------------
+
+CPU Selection for Budget Builds:
+AMD Options:
+• Ryzen 5 5600G: Integrated graphics, 6 cores, excellent value
+• Ryzen 5 5600: 6 cores, requires discrete GPU, higher performance
+• Ryzen 5 7600: Current gen, DDR5, best future-proofing
+
+Intel Options:
+• Core i3-12100F: 4 cores, budget gaming, requires GPU
+• Core i5-12400F: 6 cores, excellent gaming performance
+• Core i5-13400F: Latest gen, higher clocks, best mid-budget
+
+CPU Considerations:
+• Integrated graphics save money initially
+• 6+ cores recommended for modern gaming
+• Consider upgrade path and socket longevity
+• Check motherboard compatibility and costs
+
+GPU Selection for Budget Builds:
+New Budget GPUs:
+• NVIDIA RTX 4060: $300, excellent 1080p, ray tracing
+• AMD RX 7600: $270, strong 1080p performance, good value
+• NVIDIA RTX 4060 Ti: $400, 1440p capable, future-proof
+
+Used/Refurbished Options:
+• GTX 1660 Super: $120-150, solid 1080p performance
+• RTX 3060: $200-250, ray tracing, 12GB VRAM
+• RX 6600: $180-220, excellent 1080p, low power
+
+GPU Considerations:
+• Used market can offer excellent value
+• Consider power consumption and PSU requirements
+• Ray tracing vs raw performance trade-offs
+• VRAM amount for future games
+
+Memory for Budget Builds:
+Capacity Recommendations:
+• 8GB minimum for basic computing
+• 16GB sweet spot for gaming and productivity
+• 32GB only for content creation or professional work
+
+Speed Considerations:
+• DDR4-3200 minimum for AMD Ryzen
+• DDR4-3600 optimal for most systems
+• DDR5 for future builds, higher cost currently
+• Timing impact minimal for budget builds
+
+Budget Memory Strategy:
+• Start with 1x8GB, upgrade to 2x8GB later
+• Prioritize capacity over speed in budget builds
+• Ensure motherboard supports desired speeds
+• Check QVL for compatibility
+
+Storage for Budget Builds:
+Primary Storage:
+• 250GB SSD minimum for OS and essential programs
+• 500GB SSD recommended for gaming
+• NVMe preferred over SATA for speed
+• Quality matters more than pure speed
+
+Secondary Storage:
+• 1TB HDD for mass storage if needed
+• External drives for backup
+• Cloud storage for important files
+• Upgrade storage as budget allows
+
+Storage Strategy:
+• Start with SSD-only setup
+• Add HDD later for mass storage
+• Prioritize SSD space for frequently used programs
+• Monitor storage usage and upgrade accordingly
+
+BUDGET BUILD STRATEGIES
+----------------------
+
+Upgrade Path Planning:
+Phase 1 - Essential Build:
+• Basic components for immediate needs
+• Integrated graphics or entry GPU
+• Minimum viable RAM
+• Quality PSU with upgrade headroom
+
+Phase 2 - Performance Upgrade:
+• Add discrete graphics card
+• Increase RAM to 16GB
+• Add more storage
+• Improve cooling if needed
+
+Phase 3 - Future Enhancement:
+• Upgrade to higher-tier GPU
+• Add more storage or upgrade to faster
+• Enhance cooling system
+• Consider CPU upgrade if bottlenecked
+
+Component Prioritization:
+Never Compromise On:
+• Power supply quality and wattage
+• Motherboard basic features and compatibility
+• SSD for primary storage
+• Case airflow and cable management
+
+Acceptable Budget Compromises:
+• Entry-level CPU cooler (upgrade later)
+• Single channel RAM (add second stick later)
+• Basic case (upgrade for aesthetics later)
+• Integrated graphics initially
+
+Money-Saving Strategies:
+• Buy during sales events (Black Friday, etc.)
+• Consider open-box and refurbished items
+• Mix new and used components strategically
+• Bundle deals for peripherals
+• Mail-in rebates and cashback offers
+
+USED COMPONENT BUYING
+--------------------
+
+Safe Used Component Categories:
+Low Risk:
+• Cases (check for damage and included accessories)
+• Monitors (test thoroughly for dead pixels)
+• Keyboards and mice (clean and test all functions)
+• Speakers and basic peripherals
+
+Medium Risk:
+• CPUs (rarely fail, check pins on AMD)
+• RAM (test thoroughly, check for stability)
+• Storage drives (check SMART data and health)
+• Power supplies (check age and warranty)
+
+Higher Risk:
+• Graphics cards (check for mining damage)
+• Motherboards (many failure points)
+• Liquid cooling (check for leaks and age)
+
+Used Component Inspection:
+Physical Inspection:
+• Check for physical damage
+• Look for burn marks or discoloration
+• Verify all connectors present
+• Check for bent pins or damaged slots
+
+Testing Procedures:
+• Stress test GPUs before buying
+• Run memory tests on used RAM
+• Check storage health with diagnostic tools
+• Verify all ports and features work
+
+Warranty Considerations:
+• Check remaining manufacturer warranty
+• Understand return policies
+• Consider extended protection plans
+• Document condition upon receipt
+
+BUDGET BUILDING TIPS
+-------------------
+
+Tool Requirements:
+Essential Tools:
+• Phillips head screwdriver (magnetic tip preferred)
+• Anti-static wrist strap (optional but recommended)
+• Zip ties for cable management
+• Thermal paste (usually included with cooler)
+
+Free Software Tools:
+• Ninite for easy software installation
+• MSI Afterburner for GPU monitoring
+• HWiNFO64 for system monitoring
+• Steam for game library management
+
+Cost-Saving Assembly Tips:
+• Take time with cable management (improves airflow)
+• Install motherboard standoffs correctly
+• Apply thermal paste properly (pea-sized amount)
+• Check all connections before first boot
+
+Common Budget Build Mistakes:
+Avoid These Errors:
+• Cheaping out on power supply
+• Buying incompatible RAM
+• Insufficient PSU wattage for upgrades
+• Poor case airflow planning
+• Forgetting Windows license cost
+
+Planning Mistakes:
+• Not considering peripherals in budget
+• Ignoring shipping costs and taxes
+• Unrealistic performance expectations
+• Poor upgrade path planning
+
+PERFORMANCE OPTIMIZATION
+-----------------------
+
+Free Performance Gains:
+BIOS/UEFI Settings:
+• Enable XMP/DOCP for RAM
+• Update to latest BIOS version
+• Enable PCI Express generation
+• Configure fan curves for optimal cooling
+
+Windows Optimization:
+• Disable unnecessary startup programs
+• Enable High Performance power plan
+• Update all drivers to latest versions
+• Disable Windows animations for older hardware
+
+Software Optimization:
+• Use MSI Afterburner for GPU overclocking
+• Monitor temperatures during stress testing
+• Clean install Windows for best performance
+• Regular system maintenance and cleanup
+
+Budget Overclocking:
+Safe Overclocking:
+• Start with GPU memory overclocking
+• Gradually increase core clocks
+• Monitor temperatures closely
+• Test stability with gaming or benchmarks
+
+RAM Overclocking:
+• Enable XMP profiles first
+• Manually tune timings if experienced
+• Stress test for stability
+• Monitor for system crashes
+
+Cooling on a Budget:
+• Good case airflow more important than expensive coolers
+• Additional case fans cost-effective upgrade
+• Proper cable management improves airflow
+• Regular dust cleaning maintains performance
+
+FUTURE UPGRADE PLANNING
+----------------------
+
+Upgrade Priority Order:
+1. Graphics Card (biggest gaming performance impact)
+2. RAM capacity (8GB to 16GB significant improvement)
+3. Storage (add more SSD space or upgrade to NVMe)
+4. CPU (when becoming bottleneck for GPU)
+5. Peripherals (monitor, keyboard, mouse improvements)
+
+Budget for Upgrades:
+Annual Upgrade Budget:
+• Set aside $100-200 per year for upgrades
+• Prioritize based on actual performance needs
+• Take advantage of sales and discounts
+• Consider selling old components to fund upgrades
+
+Performance Monitoring:
+Track These Metrics:
+• Frame rates in games you play
+• System responsiveness in daily tasks
+• Temperature levels under load
+• Storage space utilization
+• RAM usage during multitasking
+
+When to Upgrade:
+Graphics Card:
+• Consistently below 60 FPS in desired games
+• Unable to run new games at acceptable settings
+• Ray tracing desired for enhanced visuals
+
+RAM:
+• High memory usage (>80%) during normal tasks
+• System slowdown when multitasking
+• Browser tabs causing memory warnings
+
+Storage:
+• Running low on space (<20% free)
+• Slow loading times for programs and games
+• Desire for additional storage capacity
+
+© 2024 Budget PC Building Guide

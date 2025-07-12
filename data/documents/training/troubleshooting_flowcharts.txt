@@ -1,0 +1,252 @@
+PC TROUBLESHOOTING FLOWCHARTS
+============================
+
+FLOWCHART 1: PC WON'T START
+---------------------------
+START: Customer reports PC won't turn on
+
+Step 1: Power Supply Check
+├─ Is power cable connected? 
+│  ├─ NO → Connect power cable → Try power button
+│  └─ YES → Continue to Step 2
+│
+Step 2: Power Source Verification  
+├─ Is outlet working?
+│  ├─ NO → Try different outlet → Test again
+│  └─ YES → Continue to Step 3
+│
+Step 3: Power Button Response
+├─ Any lights/fans when pressing power?
+│  ├─ NO → Continue to Step 4
+│  └─ YES → Continue to Step 6
+│
+Step 4: Power Supply Unit (PSU) Test
+├─ Try different power cable
+├─ Check PSU switch (I/O position)
+├─ Listen for PSU fan
+│  ├─ No response → Replace PSU
+│  └─ Some response → Continue to Step 5
+│
+Step 5: Motherboard Power Connections
+├─ Check 24-pin motherboard connector
+├─ Check 8-pin CPU power connector
+├─ Reseat both connections firmly
+│  └─ Test again → If still no response → Replace motherboard
+│
+Step 6: POST (Power-On Self-Test) Issues
+├─ Fans spin but no display?
+│  ├─ YES → Continue to Display Troubleshooting
+│  └─ NO → Continue to Memory Test
+│
+Memory Test Procedure:
+├─ Remove all RAM modules
+├─ Install one module in slot 1
+├─ Test boot → If successful, add modules one by one
+├─ If single module fails → Try different module
+└─ If all modules fail → Test different RAM slots
+
+RESOLUTION PATHS:
+• Power cable issue → 5 minutes, $0
+• Outlet problem → Immediate, $0  
+• PSU failure → 30 minutes, $80-150
+• Motherboard failure → 45 minutes, $100-200
+• RAM issue → 15 minutes, $50-150
+
+FLOWCHART 2: SLOW PERFORMANCE
+-----------------------------
+START: Customer reports slow computer
+
+Step 1: Startup Time Assessment
+├─ How long to reach desktop?
+│  ├─ >5 minutes → Critical issue, continue Step 2
+│  ├─ 2-5 minutes → Moderate issue, continue Step 3  
+│  └─ <2 minutes → Minor optimization, continue Step 4
+
+Step 2: Critical Performance Issues
+├─ Check hard drive health
+│  ├─ Use CrystalDiskInfo or similar
+│  ├─ Bad sectors/SMART errors? → Replace HDD/SSD
+│  └─ Drive healthy → Continue Step 3
+│
+├─ Check memory usage
+│  ├─ >80% usage at idle → Add more RAM
+│  └─ Normal usage → Continue malware scan
+
+Step 3: Moderate Performance Issues  
+├─ Check startup programs
+│  ├─ Task Manager → Startup tab
+│  ├─ Disable unnecessary programs
+│  └─ Restart and test improvement
+│
+├─ Run disk cleanup
+│  ├─ Delete temporary files
+│  ├─ Empty recycle bin
+│  ├─ Clear browser cache
+│  └─ Test performance
+
+Step 4: General Optimization
+├─ Windows Updates
+│  ├─ Install pending updates
+│  ├─ Update drivers
+│  └─ Restart system
+│
+├─ Antivirus full scan
+│  ├─ Run complete system scan
+│  ├─ Remove detected threats
+│  └─ Configure real-time protection
+
+PERFORMANCE IMPROVEMENT TIMELINE:
+• Startup program cleanup → 15 minutes, immediate improvement
+• Disk cleanup → 30 minutes, moderate improvement  
+• SSD upgrade → 45 minutes, dramatic improvement
+• RAM upgrade → 20 minutes, significant improvement
+• Fresh Windows install → 2-3 hours, maximum improvement
+
+FLOWCHART 3: INTERNET CONNECTION ISSUES
+--------------------------------------
+START: Customer can't connect to internet
+
+Step 1: Connection Type Identification
+├─ Ethernet (wired) connection?
+│  ├─ YES → Continue Ethernet troubleshooting
+│  └─ NO → Continue Wi-Fi troubleshooting
+
+ETHERNET TROUBLESHOOTING:
+Step 2E: Physical Connection Check
+├─ Cable firmly connected to PC and router?
+│  ├─ NO → Reconnect both ends → Test
+│  └─ YES → Continue Step 3E
+│
+Step 3E: Cable and Port Testing
+├─ Try different ethernet cable
+├─ Try different port on router  
+├─ Check cable for damage
+│  ├─ Problem resolved → Replace cable
+│  └─ Still no connection → Continue Step 4E
+│
+Step 4E: Network Adapter Status
+├─ Device Manager → Network Adapters
+├─ Is ethernet adapter listed and enabled?
+│  ├─ NO → Install/update drivers
+│  └─ YES → Continue IP configuration
+│
+Step 5E: IP Configuration Reset
+├─ Command Prompt (Admin)
+├─ ipconfig /release
+├─ ipconfig /flushdns
+├─ ipconfig /renew
+└─ Test connection
+
+WI-FI TROUBLESHOOTING:
+Step 2W: Wi-Fi Adapter Status  
+├─ Is Wi-Fi turned on in Windows?
+│  ├─ NO → Enable Wi-Fi → Continue Step 3W
+│  └─ YES → Continue Step 3W
+│
+Step 3W: Network Visibility
+├─ Can you see your network name?
+│  ├─ NO → Router issue → Restart router
+│  └─ YES → Continue Step 4W
+│
+Step 4W: Connection Authentication
+├─ Enter correct Wi-Fi password
+├─ Try "Forget" and reconnect to network
+├─ Check for typing errors (case sensitive)
+│  ├─ Connects but no internet → Continue Step 5W
+│  └─ Won't connect → Continue Router troubleshooting
+
+Step 5W: Internet Access Test
+├─ Connected to Wi-Fi but no websites load?
+├─ Try different websites (google.com, facebook.com)  
+├─ Check DNS settings
+│  ├─ Set DNS to 8.8.8.8 and 8.8.4.4
+│  └─ Test again
+
+ROUTER TROUBLESHOOTING:
+├─ Unplug router for 30 seconds
+├─ Plug back in, wait 2 minutes
+├─ Test other devices (phone, tablet)
+├─ If other devices work → PC network problem
+└─ If no devices work → Contact ISP
+
+FLOWCHART 4: BLUE SCREEN ERRORS (BSOD)
+-------------------------------------
+START: Customer gets blue screen crashes
+
+Step 1: Error Information Collection
+├─ Note the STOP code (e.g., 0x0000007E)
+├─ Note any file names mentioned
+├─ Record when crashes occur (startup, specific programs)
+└─ Continue Step 2
+
+Step 2: Recent Changes Assessment
+├─ New hardware installed recently?
+│  ├─ YES → Remove new hardware → Test stability
+│  └─ NO → Continue Step 3
+│
+├─ New software/drivers installed?
+│  ├─ YES → Uninstall recent software → Test
+│  └─ NO → Continue Step 3
+
+Step 3: Memory Test
+├─ Boot from Windows Memory Diagnostic
+├─ Run complete memory test (may take hours)
+│  ├─ Errors found → Replace RAM modules
+│  └─ No errors → Continue Step 4
+
+Step 4: Driver Issues
+├─ Boot into Safe Mode
+├─ Check Device Manager for warning symbols
+├─ Update all drivers, especially:
+│  ├─ Graphics drivers
+│  ├─ Network drivers  
+│  ├─ Storage drivers
+│  └─ Test stability in normal mode
+
+Step 5: System File Check
+├─ Command Prompt (Admin)
+├─ sfc /scannow
+├─ Wait for completion
+│  ├─ Errors found and fixed → Restart and test
+│  └─ Cannot fix some files → Continue Step 6
+
+Step 6: Advanced Troubleshooting
+├─ Check Event Viewer for detailed errors
+├─ Run chkdsk /f on system drive
+├─ Consider hardware testing:
+│  ├─ CPU stress test
+│  ├─ GPU stress test
+│  └─ Hard drive health check
+
+COMMON BSOD CAUSES:
+• Faulty RAM → 40% of cases
+• Driver conflicts → 30% of cases  
+• Overheating → 15% of cases
+• Hardware failure → 10% of cases
+• Corrupt Windows files → 5% of cases
+
+ESCALATION CRITERIA
+==================
+
+When to Escalate to Senior Technician:
+├─ Hardware replacement needed >$200
+├─ Customer requests manager
+├─ Multiple failed troubleshooting attempts
+├─ Suspected motherboard/CPU failure
+└─ Data recovery situation
+
+When to Schedule On-Site Visit:
+├─ Customer uncomfortable with phone support
+├─ Complex network setup required  
+├─ Multiple computer setup
+├─ Senior customer requesting assistance
+└─ Business customer with downtime concerns
+
+When to Recommend Replacement:
+├─ Repair cost >60% of replacement cost
+├─ Multiple component failures
+├─ Computer >5 years old with major issues
+├─ Customer expresses interest in upgrade
+└─ Performance no longer meets needs
+
+© 2024 PC Support Flowchart System

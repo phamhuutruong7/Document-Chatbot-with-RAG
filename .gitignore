@@ -61,13 +61,13 @@ ipython_config.py
 # Streamlit
 .streamlit/
 
-# Document storage (uploaded files)
+# Temporary upload and processing files (ignore these)
 uploads/
-documents/
 temp/
 tmp/
+logs/
 
-# Vector database files
+# Vector database files (ignore these - they'll be regenerated)
 *.db
 *.sqlite
 *.sqlite3
@@ -75,9 +75,15 @@ chroma_db/
 faiss_index/
 *.index
 
-# Log files
-*.log
-logs/
+# Pinecone local cache (if any)
+pinecone_cache/
+
+# Embeddings cache
+embeddings_cache/
+
+# Document processing artifacts
+.document_cache/
+processed_docs/
 
 # OS generated files
 .DS_Store
@@ -100,3 +106,18 @@ Thumbs.db
 *.temp
 .tmp/
 .temp/
+
+# Keep data/ folder structure but ignore contents
+data/vectorstore/
+data/embeddings_cache/
+!data/.gitkeep
+!data/documents/.gitkeep
+!data/vectorstore/.gitkeep
+
+# Downloaded documents (you may want to keep these)
+# Uncomment the next line if you want to ignore downloaded PDFs
+# data/documents/**/*.pdf
+
+# Script execution logs
+logs/
+scripts/__pycache__/

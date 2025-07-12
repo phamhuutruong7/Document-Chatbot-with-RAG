@@ -1,0 +1,397 @@
+PC PERFORMANCE BENCHMARKING & TESTING GUIDE
+===========================================
+
+SYSTEM PERFORMANCE TESTING OVERVIEW
+-----------------------------------
+
+Why Benchmark?
+• Verify hardware is performing as expected
+• Compare different configurations
+• Identify bottlenecks in system performance
+• Validate stability after overclocking
+• Troubleshoot performance issues
+• Document baseline for future comparisons
+
+Types of Performance Tests:
+• CPU Performance: Processing power, multi-threading
+• GPU Performance: Gaming, rendering, compute tasks
+• Memory Performance: Bandwidth, latency, stability
+• Storage Performance: Read/write speeds, IOPS
+• System Stability: Long-term reliability testing
+• Thermal Performance: Temperature monitoring under load
+
+CPU BENCHMARKING
+---------------
+
+Popular CPU Benchmarks:
+
+Cinebench R23:
+• Purpose: CPU rendering performance
+• Test type: 3D rendering workload
+• Duration: 10 minutes (multi-core), 10 minutes (single-core)
+• Good for: Comparing processors, thermal testing
+• Scores: Higher is better
+• Typical results:
+  - Intel i5-13400: ~24,000 multi-core, ~1,800 single-core
+  - AMD Ryzen 5 7600X: ~22,000 multi-core, ~1,900 single-core
+
+CPU-Z Bench:
+• Purpose: Quick CPU performance test
+• Test type: Mathematical calculations
+• Duration: 1-2 minutes
+• Good for: Quick comparisons, validation
+• Results: Single-thread and multi-thread scores
+
+Prime95:
+• Purpose: CPU stress testing and stability
+• Test type: Mathematical calculations (torture test)
+• Duration: 1-24 hours (stability testing)
+• Good for: Overclocking validation, thermal testing
+• Warning: Generates extreme heat, monitor temperatures
+
+Geekbench 6:
+• Purpose: Cross-platform CPU performance
+• Test type: Real-world workloads
+• Duration: 5-10 minutes
+• Good for: Comparing different architectures
+• Results: Single-core and multi-core scores
+
+CPU Performance Factors:
+Base Clock Speed:
+• Higher GHz = faster single-threaded performance
+• Important for: Gaming, single-threaded applications
+• Typical range: 3.0-4.0 GHz base
+
+Boost Clock Speed:
+• Temporary speed increases under load
+• Duration limited by thermal and power constraints
+• Typical boost: +0.5-1.5 GHz above base
+
+Core Count:
+• More cores = better multi-threaded performance
+• Diminishing returns beyond workload requirements
+• Gaming: 6-8 cores optimal
+• Content creation: 8-16+ cores beneficial
+
+GPU BENCHMARKING
+---------------
+
+3DMark Benchmarks:
+
+Time Spy (DirectX 12):
+• Purpose: Modern gaming performance
+• Resolution: 1440p equivalent workload
+• Good for: Comparing graphics cards
+• Typical scores:
+  - RTX 4060: ~8,500 graphics score
+  - RTX 4070: ~13,500 graphics score
+  - RTX 4080: ~20,000 graphics score
+
+Fire Strike (DirectX 11):
+• Purpose: Traditional gaming performance
+• Resolution: 1080p equivalent workload
+• Good for: Older hardware comparisons
+• Still relevant for many current games
+
+Port Royal (Ray Tracing):
+• Purpose: Ray tracing performance
+• Tests: Real-time ray tracing workloads
+• Good for: RTX/RDNA2+ graphics cards
+• Results show ray tracing capability
+
+Gaming Benchmarks:
+
+Built-in Game Benchmarks:
+• Shadow of the Tomb Raider
+• Cyberpunk 2077
+• Assassin's Creed Odyssey
+• Metro Exodus Enhanced Edition
+• F1 23
+
+Frame Rate Monitoring:
+Tools for Real-Time Monitoring:
+• MSI Afterburner + RivaTuner
+• NVIDIA GeForce Experience
+• AMD Radeon Software
+• Steam FPS Counter
+• FRAPS (older but reliable)
+
+Key Metrics:
+• Average FPS: Overall performance indicator
+• 1% Low FPS: Worst-case performance (smoothness)
+• 0.1% Low FPS: Extreme low points (stuttering)
+• Frame time consistency: Smoothness measure
+
+Resolution and Settings Impact:
+1080p Performance:
+• Entry-level cards: 60+ FPS medium settings
+• Mid-range cards: 100+ FPS high settings
+• High-end cards: 144+ FPS ultra settings
+
+1440p Performance:
+• Mid-range cards: 60+ FPS high settings
+• High-end cards: 100+ FPS ultra settings
+• Enthusiast cards: 144+ FPS ultra settings
+
+4K Performance:
+• High-end cards: 60+ FPS high settings
+• Enthusiast cards: 60+ FPS ultra settings
+• DLSS/FSR often required for smooth gameplay
+
+MEMORY PERFORMANCE TESTING
+--------------------------
+
+Memory Speed Testing:
+
+AIDA64 Memory Benchmark:
+• Tests: Read, Write, Copy, Latency
+• Duration: 2-5 minutes
+• Results in GB/s and nanoseconds
+• Good for: Comparing memory configurations
+
+Intel Memory Latency Checker (MLC):
+• Purpose: Detailed memory subsystem analysis
+• Tests: Bandwidth and latency at various loads
+• Good for: Professional analysis
+• Results: Detailed charts and graphs
+
+Passmark MemTest86:
+• Purpose: Memory stability and error checking
+• Duration: 1-8+ hours depending on memory size
+• Critical for: System stability validation
+• Must detect: Any memory errors indicate problems
+
+Memory Performance Factors:
+Speed (MHz):
+• DDR4: 2133-4000+ MHz common
+• DDR5: 4800-6400+ MHz common
+• Higher speed = better performance in memory-sensitive tasks
+
+Timings (Latency):
+• Primary timings: CL-tRCD-tRP-tRAS
+• Lower numbers = lower latency = better performance
+• Example: CL16 vs CL14 (CL14 is better)
+
+Capacity:
+• 8GB: Minimum for modern usage
+• 16GB: Sweet spot for gaming and productivity
+• 32GB+: Content creation and professional work
+
+STORAGE PERFORMANCE TESTING
+---------------------------
+
+SSD/HDD Benchmarks:
+
+CrystalDiskMark:
+• Tests: Sequential and random read/write speeds
+• Block sizes: 4KB (random) to 1MB+ (sequential)
+• Duration: 5-10 minutes
+• Results: MB/s for different test scenarios
+
+AS SSD Benchmark:
+• Purpose: SSD-specific testing
+• Tests: Random 4KB performance (important for OS)
+• Good for: Comparing SSD performance
+• Results: Access times and IOPS
+
+ATTO Disk Benchmark:
+• Tests: Various transfer sizes (512B to 64MB)
+• Good for: Understanding performance curves
+• Results: Performance across different file sizes
+
+Storage Performance Factors:
+Sequential Performance:
+• Large file transfers (videos, backups)
+• Typical SSD: 500-7000 MB/s
+• Typical HDD: 100-200 MB/s
+
+Random 4KB Performance:
+• Operating system responsiveness
+• Application loading times
+• Typical SSD: 20,000-100,000+ IOPS
+• Typical HDD: 100-200 IOPS
+
+SYSTEM STABILITY TESTING
+------------------------
+
+Stress Testing Tools:
+
+Prime95 + FurMark Combination:
+• Purpose: Maximum system stress
+• Tests: CPU and GPU simultaneously
+• Duration: 30 minutes minimum for initial test
+• Warning: Extreme power consumption and heat
+
+AIDA64 System Stability Test:
+• Tests: CPU, memory, graphics simultaneously
+• Duration: Configurable (1-24+ hours)
+• Good for: Balanced system stress testing
+• Monitors: Temperatures, voltages, fan speeds
+
+MemTest86+ (Memory Testing):
+• Purpose: Memory stability verification
+• Duration: Several hours to overnight
+• Critical: Must pass with zero errors
+• Run after: Any memory overclocking
+
+Stress Testing Protocols:
+Initial Stability (30 minutes each):
+1. CPU stress test (Prime95 or AIDA64)
+2. GPU stress test (FurMark or 3DMark loop)
+3. Memory test (MemTest86+ quick test)
+4. Combined stress test (lighter loads)
+
+Extended Stability (8-24 hours):
+• Overnight stability testing
+• Monitor temperatures throughout
+• Check for crashes, errors, or shutdowns
+• Validate after overclocking changes
+
+THERMAL MONITORING
+-----------------
+
+Temperature Monitoring Tools:
+
+HWiNFO64:
+• Comprehensive system monitoring
+• Real-time and logging capabilities
+• Sensor accuracy validation
+• Good for: Detailed thermal analysis
+
+Core Temp:
+• CPU temperature monitoring
+• Minimal resource usage
+• Good for: Basic temperature checking
+• Accurate for Intel and AMD processors
+
+MSI Afterburner:
+• GPU temperature monitoring
+• Custom fan curves
+• Real-time overlay in games
+• Good for: Graphics card thermal management
+
+Safe Operating Temperatures:
+CPU Temperatures:
+• Idle: 30-50°C (depending on ambient)
+• Gaming/Load: 60-80°C (safe operating range)
+• Maximum: 90-100°C (thermal throttling begins)
+• Dangerous: >100°C (potential damage)
+
+GPU Temperatures:
+• Idle: 30-50°C
+• Gaming/Load: 60-83°C (normal operating range)
+• Maximum: 83-90°C (thermal throttling)
+• Critical: >90°C (potential damage/shutdown)
+
+System Temperatures:
+• Motherboard: <60°C
+• Memory: <85°C
+• NVMe SSD: <70°C (some can handle 85°C+)
+• Power Supply: <50°C (internal components)
+
+PERFORMANCE OPTIMIZATION
+------------------------
+
+Common Performance Bottlenecks:
+
+CPU Bottleneck:
+• Symptoms: CPU usage 95-100%, GPU usage <90%
+• Common in: Strategy games, simulation games
+• Solutions: Faster CPU, reduce CPU-intensive settings
+
+GPU Bottleneck:
+• Symptoms: GPU usage 95-100%, CPU usage <80%
+• Common in: Most modern games at high settings
+• Solutions: Lower graphics settings, upgrade GPU
+
+Memory Bottleneck:
+• Symptoms: High memory usage, slow responsiveness
+• Common with: <16GB RAM, slow memory speeds
+• Solutions: More RAM, faster memory, close applications
+
+Storage Bottleneck:
+• Symptoms: Long loading times, system freezes
+• Common with: Traditional HDDs, fragmented drives
+• Solutions: Upgrade to SSD, defragmentation
+
+Optimization Strategies:
+Windows Optimization:
+• Disable unnecessary startup programs
+• Enable high performance power plan
+• Update graphics drivers regularly
+• Keep Windows updated
+• Regular disk cleanup and defragmentation (HDD only)
+
+Game-Specific Optimization:
+• Update game to latest version
+• Optimize graphics settings for target frame rate
+• Close unnecessary background applications
+• Use fullscreen mode instead of windowed
+• Disable Windows Game Mode if causing issues
+
+Hardware Optimization:
+• Enable XMP/DOCP for memory
+• Ensure adequate cooling for sustained performance
+• Update BIOS/UEFI to latest version
+• Check for firmware updates (SSD, GPU)
+• Maintain clean system (dust removal)
+
+BENCHMARK INTERPRETATION
+-----------------------
+
+Understanding Results:
+Relative Performance:
+• Compare against similar hardware
+• Use multiple benchmarks for validation
+• Consider real-world usage patterns
+• Account for system differences
+
+Performance Per Dollar:
+• Calculate cost/performance ratios
+• Consider upgrade vs. new system costs
+• Factor in longevity and future needs
+• Include power consumption costs
+
+Troubleshooting Poor Performance:
+Systematic Approach:
+1. Verify hardware is recognized correctly
+2. Check temperatures under load
+3. Update all drivers and firmware
+4. Run individual component tests
+5. Compare results to known good systems
+6. Check for background software impact
+
+Common Issues:
+• Thermal throttling reducing performance
+• Incorrect memory speeds (no XMP enabled)
+• Background applications consuming resources
+• Outdated drivers limiting performance
+• Incorrect power plan settings
+• Hardware not seated properly
+
+DOCUMENTATION AND TRACKING
+--------------------------
+
+Performance Record Keeping:
+Baseline Documentation:
+• Record initial system specifications
+• Document baseline benchmark scores
+• Note system configuration details
+• Save screenshots of results
+• Track testing dates and conditions
+
+Change Tracking:
+• Document any hardware/software changes
+• Re-run benchmarks after modifications
+• Compare before/after performance
+• Note any stability issues
+• Track temperature changes
+
+Long-term Monitoring:
+• Quarterly performance checks
+• Annual comprehensive testing
+• Track performance degradation over time
+• Schedule maintenance based on results
+• Plan upgrades based on performance trends
+
+© 2024 PC Performance Testing Guide

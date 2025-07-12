@@ -1,0 +1,879 @@
+ <!DOCTYPE html>
+		<html
+			class="layout layout-sidecar-left   show-table-of-contents landing show-breadcrumb default-focus"
+			lang="en-us"
+			dir="ltr"
+			data-authenticated="false"
+			data-auth-status-determined="false"
+			data-target="docs"
+			x-ms-format-detection="none"
+		>
+			
+		<head>
+			<title>What&#39;s new in Windows | Microsoft Learn</title>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta name="color-scheme" content="light dark" />
+
+			<meta name="description" content="Find out about new features and capabilities in the latest release of Windows client for IT professionals." />
+			<link rel="canonical" href="https://learn.microsoft.com/en-us/windows/whats-new/" /> 
+
+			<!-- Non-customizable open graph and sharing-related metadata -->
+			<meta name="twitter:card" content="summary_large_image" />
+			<meta name="twitter:site" content="@MicrosoftLearn" />
+			<meta property="og:type" content="website" />
+			<meta property="og:image:alt" content="Microsoft Learn" />
+			<meta property="og:image" content="https://learn.microsoft.com/en-us/media/open-graph-image.png" />
+			<!-- Page specific open graph and sharing-related metadata -->
+			<meta property="og:title" content="What&#39;s new in Windows" />
+			<meta property="og:url" content="https://learn.microsoft.com/en-us/windows/whats-new/" />
+			<meta property="og:description" content="Find out about new features and capabilities in the latest release of Windows client for IT professionals." />
+			<meta name="platform_id" content="28cc4537-bdc2-3f91-392e-0f690f00e7f9" /> <meta name="scope" content="Windows 10" />
+			<meta name="locale" content="en-us" />
+			 <meta name="adobe-target" content="true" />
+			<meta name="uhfHeaderId" content="MSDocsHeader-Windows" />
+
+			<meta name="page_type" content="landing" />
+
+			<!--page specific meta tags-->
+			
+
+			<!-- custom meta tags -->
+			
+		<meta name="summary" content="Find out about new features and capabilities in the latest release of Windows client for IT professionals." />
+	
+		<meta name="schema" content="Landing" />
+	
+		<meta name="recommendations" content="true" />
+	
+		<meta name="ms.collection" content="highpri" />
+	
+		<meta name="ms.collection" content="tier1" />
+	
+		<meta name="breadcrumb_path" content="/windows/resources/breadcrumb/toc.json" />
+	
+		<meta name="feedback_system" content="Standard" />
+	
+		<meta name="feedback_product_url" content="https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332" />
+	
+		<meta name="ms.service" content="windows-client" />
+	
+		<meta name="ms.subservice" content="itpro-fundamentals" />
+	
+		<meta name="ms.topic" content="landing-page" />
+	
+		<meta name="author" content="mestew" />
+	
+		<meta name="ms.author" content="mstewart" />
+	
+		<meta name="manager" content="bpardi" />
+	
+		<meta name="ms.date" content="2024-07-01T00:00:00Z" />
+	
+		<meta name="ms.localizationpriority" content="medium" />
+	
+		<meta name="document_id" content="6a94f73e-2f69-c298-beec-da25cd3d6e44" />
+	
+		<meta name="document_version_independent_id" content="911598d2-c1e0-7bbc-43bb-518f1d88ddec" />
+	
+		<meta name="updated_at" content="2025-06-04T22:40:00Z" />
+	
+		<meta name="original_content_git_url" content="https://github.com/MicrosoftDocs/windows-docs-pr/blob/live/windows/whats-new/index.yml" />
+	
+		<meta name="gitcommit" content="https://github.com/MicrosoftDocs/windows-docs-pr/blob/6a38084bf4be577673f248784195ba1c171e6703/windows/whats-new/index.yml" />
+	
+		<meta name="git_commit_id" content="6a38084bf4be577673f248784195ba1c171e6703" />
+	
+		<meta name="site_name" content="Docs" />
+	
+		<meta name="depot_name" content="TechNet.win-whats-new" />
+	
+		<meta name="toc_rel" content="toc.json" />
+	
+		<meta name="feedback_help_link_type" content="" />
+	
+		<meta name="feedback_help_link_url" content="" />
+	
+		<meta name="asset_id" content="index" />
+	
+		<meta name="moniker_range_name" content="" />
+	
+		<meta name="item_type" content="Content" />
+	
+		<meta name="source_path" content="windows/whats-new/index.yml" />
+	
+		<meta name="github_feedback_content_git_url" content="https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/whats-new/index.yml" />
+	 
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/bcbcbad5-4208-4783-8035-8481272c98b8" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/19ec6774-09b8-473e-a17e-b17b518bbad7" data-source="generated" />
+	
+		<meta name="cmProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/e0ffb20c-01c6-407b-a9bd-29111652a1dc" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/43b2e5aa-8a6d-4de2-a252-692232e5edc8" data-source="generated" />
+	
+		<meta name="spProducts" content="https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/ade36b61-c646-4bd8-87ee-f3a843461962" data-source="generated" />
+	
+		<meta name="spProducts" content="https://authoring-docs-microsoft.poolparty.biz/devrel/3904bce4-d817-48cf-85fd-b6146fca83b7" data-source="generated" />
+	
+
+			<!-- assets and js globals -->
+			<link rel="stylesheet" href="/static/assets/0.4.03113.6967-7ee45c90/styles/site-ltr.css" />
+			<link rel="preconnect" href="//mscom.demdex.net" crossorigin />
+						<link rel="dns-prefetch" href="//target.microsoft.com" />
+						<link rel="dns-prefetch" href="//microsoftmscompoc.tt.omtrdc.net" />
+						<link
+							rel="preload"
+							as="script"
+							href="/static/third-party/adobe-target/at-js/2.9.0/at.js"
+							integrity="sha384-1/viVM50hgc33O2gOgkWz3EjiD/Fy/ld1dKYXJRUyjNYVEjSUGcSN+iPiQF7e4cu"
+							crossorigin="anonymous"
+							id="adobe-target-script"
+							type="application/javascript"
+						/>
+			<script src="https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js"></script>
+			<script src="https://js.monitor.azure.com/scripts/c/ms.jsll-4.min.js"></script>
+			<script src="/_themes/docs.theme/master/en-us/_themes/global/deprecation.js"></script>
+
+			<!-- msdocs global object -->
+			<script id="msdocs-script">
+		var msDocs = {
+  "environment": {
+    "accessLevel": "online",
+    "azurePortalHostname": "portal.azure.com",
+    "reviewFeatures": false,
+    "supportLevel": "production",
+    "systemContent": true,
+    "siteName": "learn",
+    "legacyHosting": false
+  },
+  "data": {
+    "contentLocale": "en-us",
+    "contentDir": "ltr",
+    "userLocale": "en-us",
+    "userDir": "ltr",
+    "pageTemplate": "Landing",
+    "brand": "",
+    "context": {},
+    "standardFeedback": false,
+    "showFeedbackReport": false,
+    "feedbackHelpLinkType": "",
+    "feedbackHelpLinkUrl": "",
+    "feedbackSystem": "Standard",
+    "feedbackGitHubRepo": "",
+    "feedbackProductUrl": "https://support.microsoft.com/windows/send-feedback-to-microsoft-with-the-feedback-hub-app-f59187f8-8739-22d6-ba93-f66612949332",
+    "extendBreadcrumb": false,
+    "isEditDisplayable": true,
+    "isPrivateUnauthorized": false,
+    "hideViewSource": false,
+    "isPermissioned": false,
+    "hasRecommendations": false,
+    "contributors": [
+      {
+        "name": "aczechowski",
+        "url": "https://github.com/aczechowski"
+      },
+      {
+        "name": "paolomatarazzo",
+        "url": "https://github.com/paolomatarazzo"
+      },
+      {
+        "name": "greg-lindsay",
+        "url": "https://github.com/greg-lindsay"
+      },
+      {
+        "name": "MandiOhlinger",
+        "url": "https://github.com/MandiOhlinger"
+      },
+      {
+        "name": "DCtheGeek",
+        "url": "https://github.com/DCtheGeek"
+      }
+    ]
+  },
+  "functions": {}
+};;
+	</script>
+
+			<!-- base scripts, msdocs global should be before this -->
+			<script src="/static/assets/0.4.03113.6967-7ee45c90/scripts/en-us/index-docs.js"></script>
+			
+
+			<!-- json-ld -->
+			
+		</head>
+	
+			<body
+				id="body"
+				data-bi-name="body"
+				class="layout-body "
+				lang="en-us"
+				dir="ltr"
+			>
+				<header class="layout-body-header">
+		<div class="header-holder has-default-focus">
+			
+		<a
+			href="#main"
+			
+			style="z-index: 1070"
+			class="outline-color-text visually-hidden-until-focused position-fixed inner-focus focus-visible top-0 left-0 right-0 padding-xs text-align-center background-color-body"
+			
+		>
+			Skip to main content
+		</a>
+	
+
+			<div hidden id="cookie-consent-holder" data-test-id="cookie-consent-container"></div>
+			<!-- Unsupported browser warning -->
+			<div
+				id="unsupported-browser"
+				style="background-color: white; color: black; padding: 16px; border-bottom: 1px solid grey;"
+				hidden
+			>
+				<div style="max-width: 800px; margin: 0 auto;">
+					<p style="font-size: 24px">This browser is no longer supported.</p>
+					<p style="font-size: 16px; margin-top: 16px;">
+						Upgrade to Microsoft Edge to take advantage of the latest features, security updates, and technical support.
+					</p>
+					<div style="margin-top: 12px;">
+						<a
+							href="https://go.microsoft.com/fwlink/p/?LinkID=2092881 "
+							style="background-color: #0078d4; border: 1px solid #0078d4; color: white; padding: 6px 12px; border-radius: 2px; display: inline-block;"
+						>
+							Download Microsoft Edge
+						</a>
+						<a
+							href="https://learn.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge"
+							style="background-color: white; padding: 6px 12px; border: 1px solid #505050; color: #171717; border-radius: 2px; display: inline-block;"
+						>
+							More info about Internet Explorer and Microsoft Edge
+						</a>
+					</div>
+				</div>
+			</div>
+			<!-- site header -->
+			<header
+				id="ms--site-header"
+				data-test-id="site-header-wrapper"
+				role="banner"
+				itemscope="itemscope"
+				itemtype="http://schema.org/Organization"
+			>
+				<div
+					id="ms--mobile-nav"
+					class="site-header display-none-tablet padding-inline-none gap-none"
+					data-bi-name="mobile-header"
+					data-test-id="mobile-header"
+				></div>
+				<div
+					id="ms--primary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L1-header"
+					data-test-id="primary-header"
+				></div>
+				<div
+					id="ms--secondary-nav"
+					class="site-header display-none display-flex-tablet"
+					data-bi-name="L2-header"
+					data-test-id="secondary-header"
+				></div>
+			</header>
+			
+		<!-- banner -->
+		<div data-banner>
+			<div id="disclaimer-holder"></div>
+			
+		</div>
+		<!-- banner end -->
+	
+		</div>
+	</header>
+				 <section
+					id="layout-body-menu"
+					class="layout-body-menu display-flex"
+					data-bi-name="menu"
+			  >
+					<div
+		id="left-container"
+		class="left-container display-none display-block-tablet padding-inline-sm padding-bottom-sm width-full"
+	>
+		<nav
+			id="affixed-left-container"
+			class="margin-top-sm-tablet position-sticky display-flex flex-direction-column"
+			aria-label="Primary"
+		></nav>
+	</div>
+			  </section>
+
+				<main
+					id="main"
+					role="main"
+					class="layout-body-main "
+					data-bi-name="content"
+					lang="en-us"
+					dir="ltr"
+				>
+					
+			<div data-main-column class="padding-sm padding-top-none padding-top-sm-tablet">
+				
+		<div id="article-header" class="margin-bottom-xs display-none-print">
+			<div class="display-flex align-items-center justify-content-space-between">
+				
+		<details
+			id="article-header-breadcrumbs-overflow-popover"
+			class="popover"
+			data-for="article-header-breadcrumbs"
+		>
+			<summary
+				class="button button-clear button-primary button-sm inner-focus"
+				aria-label="All breadcrumbs"
+			>
+				<span class="icon">
+					<span class="docon docon-more"></span>
+				</span>
+			</summary>
+			<div id="article-header-breadcrumbs-overflow" class="popover-content padding-none"></div>
+		</details>
+
+		<bread-crumbs
+			id="article-header-breadcrumbs"
+			data-test-id="article-header-breadcrumbs"
+			class="overflow-hidden flex-grow-1 margin-right-sm margin-right-md-tablet margin-right-lg-desktop margin-left-negative-xxs padding-left-xxs"
+		></bread-crumbs>
+	 
+		<div
+			id="article-header-page-actions"
+			class="opacity-none margin-left-auto display-flex flex-wrap-no-wrap align-items-stretch"
+		>
+			 
+
+			<details class="popover popover-right" id="article-header-page-actions-overflow">
+				<summary
+					class="justify-content-flex-start button button-clear button-sm button-primary inner-focus"
+					aria-label="More actions"
+					title="More actions"
+				>
+					<span class="icon" aria-hidden="true">
+						<span class="docon docon-more-vertical"></span>
+					</span>
+				</summary>
+				<div class="popover-content">
+					
+		<button
+			data-page-action-item="overflow-mobile"
+			type="button"
+			class="button-block button-sm has-inner-focus button button-clear display-none-tablet justify-content-flex-start text-align-left"
+			data-bi-name="contents-expand"
+			data-contents-button
+			data-popover-close
+		>
+			<span class="icon">
+				<span class="docon docon-editor-list-bullet" aria-hidden="true"></span>
+			</span>
+			<span class="contents-expand-title">Table of contents</span>
+		</button>
+	 
+		<a
+			id="lang-link-overflow"
+			class="button-sm has-inner-focus button button-clear button-block justify-content-flex-start text-align-left"
+			data-bi-name="language-toggle"
+			data-page-action-item="overflow-all"
+			data-check-hidden="true"
+			data-read-in-link
+			href="#"
+			hidden
+		>
+			<span class="icon" aria-hidden="true" data-read-in-link-icon>
+				<span class="docon docon-locale-globe"></span>
+			</span>
+			<span data-read-in-link-text>Read in English</span>
+		</a>
+	 
+					  
+		<a
+			data-contenteditbtn
+			class="button button-clear button-block button-sm inner-focus justify-content-flex-start text-align-left text-decoration-none"
+			data-bi-name="edit"
+			
+			href="https://github.com/MicrosoftDocs/windows-itpro-docs/blob/public/windows/whats-new/index.yml"
+			data-original_content_git_url="https://github.com/MicrosoftDocs/windows-docs-pr/blob/live/windows/whats-new/index.yml"
+			data-original_content_git_url_template="{repo}/blob/{branch}/windows/whats-new/index.yml"
+			data-pr_repo=""
+			data-pr_branch=""
+		>
+			<span class="icon" aria-hidden="true">
+				<span class="docon docon-edit-outline"></span>
+			</span>
+			<span>Edit</span>
+		</a>
+	
+					
+		<hr class="margin-block-xxs" />
+		<h4 class="font-size-sm padding-left-xxs">Share via</h4>
+		
+					<a
+						class="button button-clear button-sm inner-focus button-block justify-content-flex-start text-align-left text-decoration-none share-facebook"
+						data-bi-name="facebook"
+						data-page-action-item="overflow-all"
+						href="#"
+					>
+						<span class="icon color-primary" aria-hidden="true">
+							<span class="docon docon-facebook-share"></span>
+						</span>
+						<span>Facebook</span>
+					</a>
+
+					<a
+						href="#"
+						class="button button-clear button-sm inner-focus button-block justify-content-flex-start text-align-left text-decoration-none share-twitter"
+						data-bi-name="twitter"
+						data-page-action-item="overflow-all"
+					>
+						<span class="icon color-text" aria-hidden="true">
+							<span class="docon docon-xlogo-share"></span>
+						</span>
+						<span>x.com</span>
+					</a>
+
+					<a
+						href="#"
+						class="button button-clear button-sm inner-focus button-block justify-content-flex-start text-align-left text-decoration-none share-linkedin"
+						data-bi-name="linkedin"
+						data-page-action-item="overflow-all"
+					>
+						<span class="icon color-primary" aria-hidden="true">
+							<span class="docon docon-linked-in-logo"></span>
+						</span>
+						<span>LinkedIn</span>
+					</a>
+					<a
+						href="#"
+						class="button button-clear button-sm inner-focus button-block justify-content-flex-start text-align-left text-decoration-none share-email"
+						data-bi-name="email"
+						data-page-action-item="overflow-all"
+					>
+						<span class="icon color-primary" aria-hidden="true">
+							<span class="docon docon-mail-message"></span>
+						</span>
+						<span>Email</span>
+					</a>
+			  
+	 
+				</div>
+			</details>
+		</div>
+	
+			</div>
+		</div>
+	
+				<!-- azure disclaimer -->
+				
+				<div class="content">
+<section id="landing-head">
+	<div class="padding-top-xxs padding-bottom-xs">
+		<div class="columns">
+			<div class="column is-full">
+				<h1 class="font-size-h2">What's new in Windows</h1>
+					<p class="margin-top-xxs has-line-height-reset">Find out about new features and capabilities in the latest release of Windows client for IT professionals.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="landing-content" class="padding-block-xs">
+	<div class="columns is-masonry is-three-masonry-columns">
+			<div class="column is-12 is-4-desktop">
+				<div class="box box-shadow-medium margin-none margin-xxs-desktop">
+					<h2 class="margin-none font-size-h6">Windows 11 planning</h2>
+						<h3 class="display-flex is-uppercase font-size-sm border-top margin-bottom-xxs margin-top-xs padding-top-xs has-text-subtle">
+							<span class="margin-right-xxs align-self-center font-size-h5 docon docon-topic-overview" aria-hidden="true"></span>
+							Overview
+						</h3>
+						<ul class="margin-none has-line-height-reset">
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="windows-11-overview" data-linktype="relative-path">Windows 11 overview</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="windows-11-requirements" data-linktype="relative-path">Windows 11 requirements</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="windows-11-plan" data-linktype="relative-path">Plan for Windows 11</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="windows-11-prepare" data-linktype="relative-path">Prepare for Windows 11</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="windows-licensing" data-linktype="relative-path">Windows commercial licensing overview</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+			<div class="column is-12 is-4-desktop">
+				<div class="box box-shadow-medium margin-none margin-xxs-desktop">
+					<h2 class="margin-none font-size-h6">Windows 11</h2>
+						<h3 class="display-flex is-uppercase font-size-sm border-top margin-bottom-xxs margin-top-xs padding-top-xs has-text-subtle">
+							<span class="margin-right-xxs align-self-center font-size-h5 docon docon-topic-whats-new" aria-hidden="true"></span>
+							What's new
+						</h3>
+						<ul class="margin-none has-line-height-reset">
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="whats-new-windows-11-version-24h2" data-linktype="relative-path">What's new in Windows 11, version 24H2</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="whats-new-windows-11-version-23h2" data-linktype="relative-path">What's new in Windows 11, version 23H2</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="whats-new-windows-11-version-22h2" data-linktype="relative-path">What's new in Windows 11, version 22H2</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+			<div class="column is-12 is-4-desktop">
+				<div class="box box-shadow-medium margin-none margin-xxs-desktop">
+					<h2 class="margin-none font-size-h6">Windows 10</h2>
+						<h3 class="display-flex is-uppercase font-size-sm border-top margin-bottom-xxs margin-top-xs padding-top-xs has-text-subtle">
+							<span class="margin-right-xxs align-self-center font-size-h5 docon docon-topic-whats-new" aria-hidden="true"></span>
+							What's new
+						</h3>
+						<ul class="margin-none has-line-height-reset">
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="extended-security-updates" data-linktype="relative-path">Extended Security Updates (ESU) program for Windows 10</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="whats-new-windows-10-version-22h2" data-linktype="relative-path">What's new in Windows 10, version 22H2</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+			<div class="column is-12 is-4-desktop">
+				<div class="box box-shadow-medium margin-none margin-xxs-desktop">
+					<h2 class="margin-none font-size-h6">Windows Enterprise LTSC</h2>
+						<h3 class="display-flex is-uppercase font-size-sm border-top margin-bottom-xxs margin-top-xs padding-top-xs has-text-subtle">
+							<span class="margin-right-xxs align-self-center font-size-h5 docon docon-topic-whats-new" aria-hidden="true"></span>
+							What's new
+						</h3>
+						<ul class="margin-none has-line-height-reset">
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="ltsc/overview" data-linktype="relative-path">Windows Enterprise LTSC overview</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="ltsc/whats-new-windows-11-2024" data-linktype="relative-path">What's new in Windows 11 Enterprise LTSC 2024</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="ltsc/whats-new-windows-10-2021" data-linktype="relative-path">What's new in Windows 10 Enterprise LTSC 2021</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="ltsc/whats-new-windows-10-2019" data-linktype="relative-path">What's new in Windows 10 Enterprise LTSC 2019</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="ltsc/whats-new-windows-10-2016" data-linktype="relative-path">What's new in Windows 10 Enterprise LTSC 2016</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="ltsc/whats-new-windows-10-2015" data-linktype="relative-path">What's new in Windows 10 Enterprise LTSC 2015</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+			<div class="column is-12 is-4-desktop">
+				<div class="box box-shadow-medium margin-none margin-xxs-desktop">
+					<h2 class="margin-none font-size-h6">Deprecated features</h2>
+						<h3 class="display-flex is-uppercase font-size-sm border-top margin-bottom-xxs margin-top-xs padding-top-xs has-text-subtle">
+							<span class="margin-right-xxs align-self-center font-size-h5 docon docon-topic-reference" aria-hidden="true"></span>
+							Reference
+						</h3>
+						<ul class="margin-none has-line-height-reset">
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="deprecated-features" data-linktype="relative-path">Windows features we're no longer developing</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="removed-features" data-linktype="relative-path">Features and functionality removed in Windows</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="feature-lifecycle#terminology" data-linktype="relative-path">Lifecycle terminology</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+			<div class="column is-12 is-4-desktop">
+				<div class="box box-shadow-medium margin-none margin-xxs-desktop">
+					<h2 class="margin-none font-size-h6">Learn more</h2>
+						<h3 class="display-flex is-uppercase font-size-sm border-top margin-bottom-xxs margin-top-xs padding-top-xs has-text-subtle">
+							<span class="margin-right-xxs align-self-center font-size-h5 docon docon-topic-overview" aria-hidden="true"></span>
+							Overview
+						</h3>
+						<ul class="margin-none has-line-height-reset">
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="/en-us/windows/release-health/windows11-release-information" data-linktype="absolute-path">Windows 11 release information</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="/en-us/windows/release-health/" data-linktype="absolute-path">Windows release health dashboard</a>
+							</li>
+							<li class="is-unstyled padding-block-xxs">
+								<a class="has-external-link-indicator font-size-sm display-block" href="https://www.microsoft.com/windows/business/compare-windows-11" data-linktype="external">Compare Windows 11 Editions</a>
+							</li>
+						</ul>
+				</div>
+			</div>
+	</div>
+</section>
+</div>
+			</div>
+		
+				</main>
+				  <div class="layout-body-footer " data-bi-name="layout-footer">
+		<footer
+			id="footer"
+			data-test-id="footer"
+			data-bi-name="footer"
+			class="footer-layout has-padding has-default-focus border-top  uhf-container"
+			role="contentinfo"
+		>
+			<div class="display-flex gap-xs flex-wrap-wrap is-full-height padding-right-lg-desktop">
+				
+		<a
+			data-mscc-ic="false"
+			href="#"
+			data-bi-name="select-locale"
+			class="locale-selector-link flex-shrink-0 button button-sm button-clear external-link-indicator"
+			id=""
+			title=""
+			><span class="icon" aria-hidden="true"
+				><span class="docon docon-world"></span></span
+			><span class="local-selector-link-text">en-us</span></a
+		>
+	
+				<div class="ccpa-privacy-link" data-ccpa-privacy-link hidden>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://aka.ms/yourcaliforniaprivacychoices"
+			data-bi-name="your-privacy-choices"
+			class="button button-sm button-clear flex-shrink-0 external-link-indicator"
+			id=""
+			title=""
+			>
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			viewBox="0 0 30 14"
+			xml:space="preserve"
+			height="16"
+			width="43"
+			aria-hidden="true"
+			focusable="false"
+		>
+			<path
+				d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"
+			></path>
+			<path
+				d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+				style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"
+			></path>
+			<path
+				d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+				style="fill:#fff"
+			></path>
+			<path
+				d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+				style="fill:#06f"
+			></path>
+		</svg>
+	
+			<span>Your Privacy Choices</span></a
+		>
+	
+	</div>
+				<div class="flex-shrink-0">
+		<div class="dropdown has-caret-up">
+			<button
+				data-test-id="theme-selector-button"
+				class="dropdown-trigger button button-clear button-sm has-inner-focus theme-dropdown-trigger"
+				aria-controls="{{ themeMenuId }}"
+				aria-expanded="false"
+				title="Theme"
+				data-bi-name="theme"
+			>
+				<span class="icon">
+					<span class="docon docon-sun" aria-hidden="true"></span>
+				</span>
+				<span>Theme</span>
+				<span class="icon expanded-indicator" aria-hidden="true">
+					<span class="docon docon-chevron-down-light"></span>
+				</span>
+			</button>
+			<div class="dropdown-menu" id="{{ themeMenuId }}" role="menu">
+				<ul class="theme-selector padding-xxs" data-test-id="theme-dropdown-menu">
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="light"
+						>
+							<span class="theme-light margin-right-xxs">
+								<span
+									class="theme-selector-icon border display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Light </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="dark"
+						>
+							<span class="theme-dark margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> Dark </span>
+						</button>
+					</li>
+					<li class="theme display-block">
+						<button
+							class="button button-clear button-sm theme-control button-block justify-content-flex-start text-align-left"
+							data-theme-to="high-contrast"
+						>
+							<span class="theme-high-contrast margin-right-xxs">
+								<span
+									class="border theme-selector-icon display-inline-block has-body-background"
+									aria-hidden="true"
+								>
+									<svg class="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 14">
+										<rect width="22" height="14" class="has-fill-body-background" />
+										<rect x="5" y="5" width="12" height="4" class="has-fill-secondary" />
+										<rect x="5" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="8" y="2" width="2" height="1" class="has-fill-secondary" />
+										<rect x="11" y="2" width="3" height="1" class="has-fill-secondary" />
+										<rect x="1" y="1" width="2" height="2" class="has-fill-secondary" />
+										<rect x="5" y="10" width="7" height="2" rx="0.3" class="has-fill-primary" />
+										<rect x="19" y="1" width="2" height="2" rx="1" class="has-fill-secondary" />
+									</svg>
+								</span>
+							</span>
+							<span role="menuitem"> High contrast </span>
+						</button>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+			</div>
+			<ul class="links" data-bi-name="footerlinks">
+				<li class="manage-cookies-holder" hidden=""></li>
+				<li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/principles-for-ai-generated-content"
+			data-bi-name="aiDisclaimer"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>AI Disclaimer</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/previous-versions/"
+			data-bi-name="archivelink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Previous Versions</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://techcommunity.microsoft.com/t5/microsoft-learn-blog/bg-p/MicrosoftLearnBlog"
+			data-bi-name="bloglink"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Blog</a
+		>
+	
+	</li> <li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/contribute"
+			data-bi-name="contributorGuide"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Contribute</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://go.microsoft.com/fwlink/?LinkId=521839"
+			data-bi-name="privacy"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Privacy</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://learn.microsoft.com/en-us/legal/termsofuse"
+			data-bi-name="termsofuse"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Terms of Use</a
+		>
+	
+	</li><li>
+		
+		<a
+			data-mscc-ic="false"
+			href="https://www.microsoft.com/legal/intellectualproperty/Trademarks/"
+			data-bi-name="trademarks"
+			class=" external-link-indicator"
+			id=""
+			title=""
+			>Trademarks</a
+		>
+	
+	</li>
+				<li>&copy; Microsoft 2025</li>
+			</ul>
+		</footer>
+	</footer>
+			</body>
+		</html>

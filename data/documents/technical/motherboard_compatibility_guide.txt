@@ -1,0 +1,355 @@
+MOTHERBOARD & COMPONENT COMPATIBILITY GUIDE
+==========================================
+
+INTEL SOCKET COMPATIBILITY
+--------------------------
+
+LGA 1700 (Current Generation):
+Compatible Processors:
+• Intel 12th Gen (Alder Lake): i3-12100, i5-12400/12600K, i7-12700K, i9-12900K
+• Intel 13th Gen (Raptor Lake): i3-13100, i5-13400/13600K, i7-13700K, i9-13900K
+• Intel 14th Gen (Raptor Lake Refresh): i5-14400/14600K, i7-14700K, i9-14900K
+
+Memory Support:
+• DDR4-3200 (JEDEC standard)
+• DDR4-4800+ (overclocked, varies by motherboard)
+• DDR5-4800 (JEDEC standard)  
+• DDR5-6400+ (overclocked, varies by motherboard)
+• Note: DDR4 and DDR5 are NOT interchangeable
+
+Chipset Options:
+• H610: Basic, 2 memory slots, limited PCIe
+• B660: Mainstream, 4 memory slots, moderate overclocking
+• H670: Business oriented, similar to B660
+• Z690/Z790: Enthusiast, full overclocking, maximum features
+
+PCIe Support:
+• PCIe 5.0 x16 (graphics card)
+• PCIe 4.0 x4 (NVMe SSD)
+• PCIe 3.0 (additional expansion)
+
+LGA 1200 (Previous Generation):
+Compatible Processors:
+• Intel 10th Gen (Comet Lake): i3-10100, i5-10400/10600K, i7-10700K, i9-10900K
+• Intel 11th Gen (Rocket Lake): i3-11100, i5-11400/11600K, i7-11700K, i9-11900K
+
+Memory Support:
+• DDR4-2933 (JEDEC)
+• DDR4-4000+ (overclocked)
+• No DDR5 support
+
+Chipset Options:
+• H410: Entry level
+• B460: Mainstream, no overclocking
+• H470: Business, no CPU overclocking  
+• Z490: Full overclocking support
+
+AM4 SOCKET (AMD)
+---------------
+
+Compatible Processors:
+• Ryzen 1000 Series (Summit Ridge): R3-1200, R5-1600, R7-1700, R9-1950X
+• Ryzen 2000 Series (Pinnacle Ridge): R3-2200G, R5-2600, R7-2700X
+• Ryzen 3000 Series (Matisse): R3-3100, R5-3600, R7-3700X, R9-3900X
+• Ryzen 4000 Series (Renoir APU): R3-4300G, R5-4600G, R7-4700G
+• Ryzen 5000 Series (Vermeer): R5-5600X, R7-5800X, R9-5900X, R9-5950X
+
+Memory Support:
+• DDR4-3200 (officially supported on Ryzen 3000+)
+• DDR4-2666 (officially supported on older Ryzen)
+• DDR4-4000+ (overclocked, depends on memory controller)
+
+Chipset Compatibility Matrix:
+A320 Chipset:
+• Supports: Ryzen 1000, 2000 series
+• Limited: Ryzen 3000 series (BIOS update required)
+• No support: Ryzen 5000 series
+• Features: Basic, no overclocking
+
+B450 Chipset:
+• Supports: Ryzen 1000, 2000, 3000 series  
+• Limited: Ryzen 5000 series (BIOS update required, varies by manufacturer)
+• Features: CPU overclocking, moderate expansion
+
+X470 Chipset:
+• Same CPU support as B450
+• Features: Full overclocking, maximum expansion
+
+B550 Chipset:
+• No support: Ryzen 1000, 2000 series
+• Native support: Ryzen 3000, 5000 series
+• Features: PCIe 4.0, full overclocking
+
+X570 Chipset:
+• Same CPU support as B550
+• Features: Maximum PCIe 4.0 lanes, full feature set
+
+AM5 SOCKET (AMD - Current)
+-------------------------
+
+Compatible Processors:
+• Ryzen 7000 Series (Raphael): R5-7600X, R7-7700X, R9-7900X, R9-7950X
+• Ryzen 8000 Series (Phoenix): APU variants with integrated graphics
+
+Memory Support:
+• DDR5 ONLY (DDR4 not supported)
+• DDR5-5200 (JEDEC standard)
+• DDR5-6000+ (overclocked)
+
+Chipset Options:
+• A620: Entry level, limited overclocking
+• B650: Mainstream, CPU overclocking
+• B650E: Enhanced B650 with more PCIe 5.0
+• X670: High-end, maximum features
+• X670E: Enhanced X670 with maximum PCIe 5.0
+
+MEMORY COMPATIBILITY DETAILS
+----------------------------
+
+DDR4 Memory Specifications:
+Standard Speeds:
+• DDR4-2133: 17 GB/s bandwidth
+• DDR4-2400: 19.2 GB/s bandwidth  
+• DDR4-2666: 21.3 GB/s bandwidth
+• DDR4-3200: 25.6 GB/s bandwidth
+
+High-Performance Speeds:
+• DDR4-3600: 28.8 GB/s bandwidth
+• DDR4-4000: 32 GB/s bandwidth
+• DDR4-4800: 38.4 GB/s bandwidth
+
+Timing Specifications:
+• Lower CAS latency = better performance
+• Common timings: CL14, CL16, CL18, CL19
+• Format: CL-tRCD-tRP-tRAS (e.g., 16-18-18-38)
+
+DDR5 Memory Specifications:
+Standard Speeds:
+• DDR5-4800: 38.4 GB/s bandwidth
+• DDR5-5200: 41.6 GB/s bandwidth
+• DDR5-5600: 44.8 GB/s bandwidth
+
+High-Performance Speeds:
+• DDR5-6000: 48 GB/s bandwidth
+• DDR5-6400: 51.2 GB/s bandwidth
+• DDR5-7200: 57.6 GB/s bandwidth
+
+Key Differences DDR4 vs DDR5:
+• DDR5: Higher bandwidth, lower voltage (1.1V vs 1.2V)
+• DDR5: On-die ECC, improved reliability
+• DDR5: Higher capacity per module (up to 128GB)
+• DDR4: More mature, lower cost, wider compatibility
+
+GRAPHICS CARD COMPATIBILITY
+---------------------------
+
+PCIe Slot Requirements:
+Modern Graphics Cards:
+• Require: PCIe x16 slot (preferably PCIe 3.0 or newer)
+• Backward compatible: PCIe 4.0/5.0 cards work in PCIe 3.0 slots
+• Performance impact: Minimal for most current cards
+
+Physical Clearance:
+Length Considerations:
+• Compact cards: <170mm (fit in small cases)
+• Standard cards: 170-250mm (most mid-tower cases)
+• Extended cards: 250-320mm (full-tower cases only)
+• Extreme cards: >320mm (check case specifications)
+
+Height Considerations:
+• Low-profile: <79mm (small form factor)
+• Single-slot: <20mm thickness
+• Dual-slot: 40-50mm thickness  
+• Triple-slot: 50-70mm thickness
+
+Power Requirements:
+Entry Level (No external power):
+• Power draw: <75W from PCIe slot
+• Examples: GTX 1650, RX 6400
+
+Mid-Range (6-pin or 8-pin):
+• Power draw: 120-180W
+• Examples: RTX 4060, RX 7600
+• Requires: 500W+ PSU
+
+High-End (Multiple 8-pin):
+• Power draw: 220-320W
+• Examples: RTX 4070 Ti, RX 7800 XT
+• Requires: 650W+ PSU
+
+Enthusiast (12-pin or multiple 8-pin):
+• Power draw: 350-450W
+• Examples: RTX 4080, RTX 4090
+• Requires: 850W+ PSU
+
+POWER SUPPLY COMPATIBILITY
+--------------------------
+
+PSU Form Factors:
+ATX (Standard):
+• Dimensions: 150 x 86 x 140mm
+• Power range: 400W-1600W+
+• Compatibility: Most desktop cases
+
+SFX (Small Form Factor):
+• Dimensions: 125 x 63.5 x 100mm  
+• Power range: 300W-1000W
+• Compatibility: Compact/Mini-ITX cases
+
+TFX (Thin Form Factor):
+• Dimensions: 175 x 85 x 65mm
+• Power range: 250W-500W
+• Compatibility: Slim desktop cases
+
+80 PLUS Efficiency Ratings:
+• 80 PLUS: 80% efficiency at 20%, 50%, 100% load
+• 80 PLUS Bronze: 82%, 85%, 82% efficiency
+• 80 PLUS Silver: 85%, 88%, 85% efficiency  
+• 80 PLUS Gold: 87%, 90%, 87% efficiency
+• 80 PLUS Platinum: 90%, 92%, 89% efficiency
+• 80 PLUS Titanium: 92%, 94%, 90% efficiency
+
+Modular vs Non-Modular:
+Non-Modular:
+• All cables permanently attached
+• Lower cost
+• More cable clutter
+• Good for budget builds
+
+Semi-Modular:
+• Essential cables attached (24-pin, CPU)
+• Optional cables detachable
+• Moderate cost
+• Balanced cable management
+
+Fully Modular:
+• All cables detachable
+• Highest cost
+• Best cable management
+• Professional/enthusiast builds
+
+PSU Calculator Guidelines:
+System Power Estimation:
+• CPU: 65W (basic) to 250W (high-end)
+• GPU: 75W (integrated) to 450W (enthusiast)
+• Motherboard: 25-50W
+• RAM: 5W per 8GB module
+• Storage: 5W per SSD, 10W per HDD
+• Fans: 2-5W each
+• Add 20% headroom for efficiency
+
+COOLING COMPATIBILITY
+---------------------
+
+CPU Cooler Socket Support:
+Intel Sockets:
+• LGA 1700: Requires specific mounting hardware
+• LGA 1200: Compatible with LGA 115x coolers
+• LGA 115x: Widely supported by most coolers
+
+AMD Sockets:
+• AM4: Standardized mounting across chipsets
+• AM5: New mounting system, not AM4 compatible
+• Check cooler manufacturer for socket support
+
+Cooler Height Clearance:
+Case Size Limits:
+• Mini-ITX: 60-120mm cooler height
+• Micro-ATX: 120-160mm cooler height
+• Mid-Tower: 150-170mm cooler height
+• Full-Tower: 170mm+ cooler height
+
+Memory Clearance:
+• Low-profile RAM: No interference issues
+• High-profile RAM: Check cooler specifications
+• Offset coolers: Designed for tall memory modules
+
+STORAGE COMPATIBILITY
+--------------------
+
+M.2 NVMe SSD Compatibility:
+M.2 Slot Types:
+• M.2 2242: 22mm wide, 42mm long (uncommon)
+• M.2 2260: 22mm wide, 60mm long (laptops)
+• M.2 2280: 22mm wide, 80mm long (standard desktop)
+• M.2 22110: 22mm wide, 110mm long (enterprise)
+
+PCIe Generation Support:
+• PCIe 3.0 NVMe: Up to 3,500 MB/s read speeds
+• PCIe 4.0 NVMe: Up to 7,000 MB/s read speeds
+• PCIe 5.0 NVMe: Up to 14,000 MB/s read speeds
+• Backward compatibility: Newer drives work in older slots
+
+Key Compatibility:
+• B-Key: SATA M.2 SSDs
+• M-Key: NVMe PCIe SSDs
+• B+M Key: Universal (most common)
+
+SATA Drive Compatibility:
+SATA Versions:
+• SATA 1.0: 1.5 Gb/s (150 MB/s)
+• SATA 2.0: 3 Gb/s (300 MB/s)
+• SATA 3.0: 6 Gb/s (600 MB/s)
+• Backward compatible across all versions
+
+Physical Connections:
+• SATA Data: 7-pin connector
+• SATA Power: 15-pin connector from PSU
+• Cable length: Up to 1 meter recommended
+
+COMPATIBILITY TROUBLESHOOTING
+-----------------------------
+
+Common Compatibility Issues:
+
+Memory Not Running at Rated Speed:
+• Enable XMP/DOCP in BIOS
+• Check motherboard QVL (Qualified Vendor List)
+• Update BIOS to latest version
+• Verify CPU memory controller support
+
+GPU Not Detected:
+• Ensure PCIe power connectors attached
+• Reseat graphics card in slot
+• Check PSU wattage adequacy
+• Update motherboard BIOS
+• Test in different PCIe slot
+
+System Won't Boot After Upgrade:
+• Clear CMOS to reset BIOS settings
+• Check all power connections
+• Verify component compatibility
+• Test with one component at a time
+• Check for bent CPU pins (AMD)
+
+Performance Lower Than Expected:
+• Verify all components running at rated speeds
+• Check thermal throttling
+• Update all drivers
+• Enable appropriate BIOS settings (XMP, etc.)
+• Check for background software impact
+
+FUTURE COMPATIBILITY CONSIDERATIONS
+----------------------------------
+
+Upgrade Paths:
+Current Systems (2024):
+• Intel LGA 1700: Likely final generation for socket
+• AMD AM5: New socket, expect 3-4 generations support
+• DDR5: Current standard, will remain for years
+• PCIe 5.0: Future-proofing for upcoming components
+
+Technology Transitions:
+Next 2-3 Years:
+• DDR5 becomes mainstream, DDR4 phases out
+• PCIe 5.0 adoption increases
+• USB4/Thunderbolt 4 become standard
+• Wi-Fi 7 adoption
+
+Planning for Longevity:
+• Choose current-generation sockets
+• Invest in DDR5 for new builds
+• Ensure PCIe 4.0+ support
+• Consider upgradeability in component selection
+
+© 2024 PC Hardware Compatibility Guide

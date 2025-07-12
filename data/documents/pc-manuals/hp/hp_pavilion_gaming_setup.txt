@@ -1,0 +1,45 @@
+
+HP Pavilion Gaming Desktop Setup
+
+GAMING FEATURES:
+- NVIDIA GTX graphics card
+- RGB LED lighting effects
+- Enhanced cooling system
+- Gaming keyboard and mouse included
+
+SETUP INSTRUCTIONS:
+1. Remove all packaging materials carefully
+2. Place computer on stable, ventilated surface
+3. Connect monitor to graphics card (NOT motherboard)
+4. Connect all USB peripherals
+5. Connect power and press power button
+
+GRAPHICS CARD SETUP:
+- Download NVIDIA GeForce Experience
+- Install latest graphics drivers
+- Optimize game settings automatically
+- Enable G-SYNC for compatible monitors
+
+PERFORMANCE OPTIMIZATION:
+- Enable Game Mode in Windows settings
+- Close background applications while gaming
+- Monitor CPU and GPU temperatures
+- Keep drivers updated regularly
+
+COOLING SYSTEM:
+- Three intake fans and one exhaust fan
+- CPU liquid cooling system included
+- Monitor temperatures with HP Command Center
+- Clean dust filters monthly
+
+COMMON GAMING ISSUES:
+- Low FPS: Update graphics drivers
+- Game crashes: Check for overheating
+- Audio issues: Update audio drivers
+- Controller not working: Install controller software
+
+RGB LIGHTING:
+- Use HP Omen Gaming Hub to control lighting
+- Customize colors and effects
+- Sync with compatible peripherals
+- Create profiles for different games

@@ -1,0 +1,67 @@
+
+Windows Performance Troubleshooting
+
+SLOW STARTUP ISSUES:
+
+1. DISABLE STARTUP PROGRAMS:
+- Press Ctrl+Shift+Esc to open Task Manager
+- Click Startup tab
+- Disable unnecessary programs
+- Focus on high impact items
+
+2. RUN DISK CLEANUP:
+- Type 'Disk Cleanup' in Start menu
+- Select system drive (usually C:)
+- Check all boxes and click OK
+- Run 'Clean up system files' for more options
+
+3. CHECK FOR MALWARE:
+- Run Windows Defender full scan
+- Use Malwarebytes for additional scanning
+- Keep antivirus definitions updated
+- Avoid suspicious downloads and emails
+
+SYSTEM RESPONSIVENESS:
+
+1. OPTIMIZE VISUAL EFFECTS:
+- Right-click This PC > Properties
+- Click Advanced system settings
+- Under Performance, click Settings
+- Select 'Adjust for best performance'
+
+2. MANAGE VIRTUAL MEMORY:
+- Same Advanced system settings window
+- Click Change under Virtual memory
+- Set custom size: Initial = RAM size, Maximum = 2x RAM
+- Apply changes and restart
+
+3. UPDATE DRIVERS:
+- Right-click Start button > Device Manager
+- Look for devices with warning icons
+- Right-click and select 'Update driver'
+- Use Windows Update or manufacturer websites
+
+STORAGE OPTIMIZATION:
+
+1. FREE UP DISK SPACE:
+- Delete temporary files
+- Empty Recycle Bin
+- Remove old downloads
+- Uninstall unused programs
+
+2. DEFRAGMENT HARD DRIVES:
+- Type 'Defragment' in Start menu
+- Select drive and click Optimize
+- Note: Don't defragment SSDs
+
+3. CHECK DISK ERRORS:
+- Open Command Prompt as administrator
+- Type: chkdsk C: /f /r
+- Press Y when prompted
+- Restart computer to run check
+
+NETWORK PERFORMANCE:
+- Reset network adapters
+- Update network drivers
+- Check for interference
+- Use Ethernet instead of Wi-Fi when possible
