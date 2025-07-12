@@ -1,0 +1,117 @@
+sequenceDiagram
+    participant User as 👤 User
+    participant WebApp as 🖥️ Streamlit Web App
+    participant SessionMgr as 📊 Session Manager
+    participant DocProcessor as 📄 Document Processor
+    participant VectorStore as 🌲 Vector Database
+    participant QueryEngine as 🤖 Query Engine
+    participant AIService as 🧠 OpenAI Service
+    participant Monitor as 📈 Performance Monitor
+    participant Storage as 💾 Local Storage
+    
+    %% Application Startup & Session Initialization
+    Note over User,Storage: Application Startup
+    User->>WebApp: Access Application URL
+    WebApp->>SessionMgr: Initialize New Session
+    SessionMgr->>Storage: Check Existing Sessions
+    Storage-->>SessionMgr: Session List
+    SessionMgr->>SessionMgr: Generate Session ID
+    SessionMgr->>Storage: Create Session File
+    Storage-->>SessionMgr: Session Created
+    SessionMgr-->>WebApp: Session Ready
+    WebApp-->>User: Display Interface
+    
+    %% Document Upload & Processing Workflow
+    Note over User,Storage: Document Processing Workflow
+    User->>WebApp: Upload Document File
+    WebApp->>Monitor: Start Document Processing Trace
+    Monitor-->>WebApp: Trace ID
+    
+    WebApp->>DocProcessor: Process Document
+    DocProcessor->>DocProcessor: Parse File (PDF/DOCX/TXT)
+    DocProcessor->>DocProcessor: Extract Text & Metadata
+    DocProcessor->>DocProcessor: Split into Chunks
+    DocProcessor-->>WebApp: Text Chunks Ready
+    
+    loop For Each Chunk Batch
+        WebApp->>AIService: Generate Embeddings
+        AIService->>AIService: Call text-embedding-ada-002
+        AIService-->>WebApp: Vector Embeddings
+    end
+    
+    WebApp->>VectorStore: Store Document Vectors
+    VectorStore->>VectorStore: Upsert to Pinecone Index
+    VectorStore-->>WebApp: Storage Confirmed
+    
+    WebApp->>SessionMgr: Update Document Metadata
+    SessionMgr->>Storage: Save Document Info
+    Storage-->>SessionMgr: Metadata Saved
+    SessionMgr-->>WebApp: Update Complete
+    
+    WebApp->>Monitor: Complete Processing Trace
+    Monitor->>Storage: Save Performance Metrics
+    WebApp-->>User: Document Ready for Queries
+    
+    %% Query Processing Workflow
+    Note over User,Storage: Query Processing Workflow
+    User->>WebApp: Submit Question
+    WebApp->>Monitor: Start Query Trace
+    Monitor-->>WebApp: Query Trace ID
+    
+    WebApp->>WebApp: Analyze Query Type
+    
+    alt Special Command (/summarize, /translate, etc.)
+        WebApp->>QueryEngine: Route Command
+        QueryEngine->>VectorStore: Retrieve Document Sections
+        VectorStore-->>QueryEngine: Document Content
+        QueryEngine->>AIService: Process Command
+        AIService-->>QueryEngine: Command Result
+        QueryEngine-->>WebApp: Formatted Response
+    
+    else Complex Query (Multi-step Reasoning)
+        WebApp->>QueryEngine: Activate Agent Mode
+        QueryEngine->>AIService: Generate Query Embedding
+        AIService-->>QueryEngine: Query Vector
+        QueryEngine->>VectorStore: Similarity Search
+        VectorStore-->>QueryEngine: Relevant Context
+        QueryEngine->>AIService: Agent Processing
+        AIService->>AIService: Multi-step Reasoning
+        AIService-->>QueryEngine: Comprehensive Answer
+        QueryEngine-->>WebApp: Agent Response
+    
+    else Simple Query (Standard RAG)
+        WebApp->>AIService: Generate Query Embedding
+        AIService-->>WebApp: Query Vector
+        WebApp->>VectorStore: Vector Similarity Search
+        VectorStore-->>WebApp: Top-K Relevant Chunks
+        WebApp->>AIService: Generate Response with Context
+        AIService-->>WebApp: Generated Answer
+    end
+    
+    WebApp->>SessionMgr: Save Q&A to History
+    SessionMgr->>Storage: Update Chat History
+    Storage-->>SessionMgr: History Updated
+    
+    WebApp->>Monitor: Complete Query Trace
+    Monitor->>Storage: Save Query Metrics
+    Monitor-->>WebApp: Trace Complete
+    
+    WebApp-->>User: Display Answer
+    
+    %% Error Handling Scenarios
+    Note over User,Storage: Error Handling
+    alt OpenAI API Failure
+        AIService-->>WebApp: API Error
+        WebApp->>Monitor: Log API Error
+        WebApp-->>User: "AI service temporarily unavailable"
+    
+    else Vector Database Error
+        VectorStore-->>WebApp: Connection Failed
+        WebApp->>Monitor: Log Database Error
+        WebApp-->>User: "Search temporarily unavailable"
+    
+    else Session Storage Error
+        Storage-->>SessionMgr: Write Failed
+        SessionMgr-->>WebApp: Storage Warning
+        WebApp-->>User: "History may not be saved"
+    end

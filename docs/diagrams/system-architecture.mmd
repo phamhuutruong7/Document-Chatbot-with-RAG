@@ -1,0 +1,85 @@
+graph TB
+    %% Presentation Layer
+    subgraph "🖥️ Presentation Layer"
+        WebUI["Streamlit Web Interface"]
+        UserSession["User Session Management"]
+        FileUpload["Document Upload Interface"]
+        ChatInterface["Interactive Chat Interface"]
+    end
+    
+    %% Application Layer
+    subgraph "🚀 Application Layer"
+        BusinessLogic["Core Business Logic"]
+        CommandHandling["Command Processing"]
+        QueryRouting["Query Routing & Orchestration"]
+        ResponseGeneration["Response Assembly"]
+    end
+    
+    %% Processing Layer
+    subgraph "⚙️ Processing Layer"
+        DocumentProcessing["Document Processing Pipeline"]
+        TextAnalysis["Text Analysis & Chunking"]
+        VectorGeneration["Embedding Generation"]
+        AIOrchestration["AI Agent Orchestration"]
+    end
+    
+    %% Data Layer
+    subgraph "💾 Data Layer"
+        VectorStorage["Vector Database (Pinecone)"]
+        SessionStorage["Session & Chat History"]
+        ConfigurationData["Configuration Management"]
+        MetricsStorage["Performance Metrics"]
+    end
+    
+    %% External Services Layer
+    subgraph "🌐 External Services Layer"
+        OpenAIServices["OpenAI API Services"]
+        LangSmithMonitoring["LangSmith Monitoring"]
+        VectorDBService["Pinecone Cloud Service"]
+    end
+    
+    %% Infrastructure Layer
+    subgraph "🔧 Infrastructure Layer"
+        ErrorHandling["Error Handling & Recovery"]
+        PerformanceMonitoring["Performance Monitoring"]
+        SecurityLayer["Security & Authentication"]
+        LoggingSystem["Logging & Tracing"]
+    end
+    
+    %% Layer Connections
+    WebUI --> BusinessLogic
+    UserSession --> BusinessLogic
+    FileUpload --> DocumentProcessing
+    ChatInterface --> QueryRouting
+    
+    BusinessLogic --> DocumentProcessing
+    CommandHandling --> AIOrchestration
+    QueryRouting --> VectorGeneration
+    ResponseGeneration --> AIOrchestration
+    
+    DocumentProcessing --> VectorStorage
+    TextAnalysis --> VectorGeneration
+    VectorGeneration --> VectorStorage
+    AIOrchestration --> OpenAIServices
+    
+    VectorStorage --> VectorDBService
+    SessionStorage --> ConfigurationData
+    MetricsStorage --> PerformanceMonitoring
+    
+    OpenAIServices -.-> LangSmithMonitoring
+    VectorDBService --> SecurityLayer
+    PerformanceMonitoring --> LoggingSystem
+    ErrorHandling --> LoggingSystem
+    
+    %% Styling - High Contrast
+    classDef ui fill:#1976d2,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef processing fill:#7b1fa2,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef storage fill:#388e3c,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef external fill:#f57c00,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef monitoring fill:#c2185b,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    
+    class UI,Upload,Chat,Session ui
+    class FileParser,Chunker,Embeddings,RAGAgent,LangChainAgent,CommandRouter processing
+    class SessionManager,LocalStorage,RAGTracer storage
+    class Pinecone,OpenAI,LangSmith external
+    class Config monitoring

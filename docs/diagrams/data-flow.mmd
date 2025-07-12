@@ -1,0 +1,68 @@
+graph TD
+    %% Document Ingestion Data Flow
+    subgraph "📄 Document Ingestion Pipeline"
+        A["📁 Raw Document<br/>(PDF/DOCX/TXT)"] --> B["📝 Extracted Text<br/>+ Metadata"]
+        B --> C["📋 Text Chunks<br/>(with overlap)"]
+        C --> D["🔢 Vector Embeddings<br/>(1536 dimensions)"]
+        D --> E["🌲 Stored Vectors<br/>(Pinecone Index)"]
+    end
+    
+    %% Query Processing Data Flow
+    subgraph "❓ Query Processing Pipeline"
+        F["💭 User Question<br/>(Natural Language)"] --> G{"🔍 Query Type<br/>Detection"}
+        
+        G -->|Special Command| H["⚡ Command Data<br/>(/summarize, /translate)"]
+        H --> H1["📊 Command Result<br/>(Formatted Response)"]
+        
+        G -->|Complex Query| I["🤖 Agent Processing<br/>(Multi-step Reasoning)"]
+        I --> I1["🔗 Contextual Response<br/>(Agent-generated)"]
+        
+        G -->|Simple Query| J["🔢 Query Embedding<br/>(Vector Representation)"]
+        J --> K["🔍 Similarity Search<br/>(Top-K Results)"]
+        K --> L["📝 Retrieved Context<br/>(Relevant Chunks)"]
+        L --> M["🧠 LLM Prompt<br/>(Context + Query)"]
+        M --> N["💬 Generated Response<br/>(Natural Language)"]
+    end
+    
+    %% Session Data Flow
+    subgraph "🔄 Session Data Management"
+        O["🆔 Session ID<br/>(UUID)"] --> P["📜 Chat History<br/>(Q&A Pairs)"]
+        P --> Q["💾 Session File<br/>(JSON Storage)"]
+        R["📄 Document Metadata<br/>(Filename, Chunks)"]
+        R --> Q
+        S["⚙️ User Preferences<br/>(Settings)"]
+        S --> Q
+    end
+    
+    %% Performance Data Flow
+    subgraph "📈 Monitoring Data Pipeline"
+        T["⏱️ Operation Metrics<br/>(Timing, Tokens)"] --> U["📊 Performance Data<br/>(Structured Logs)"]
+        U --> V["💾 Local Metrics<br/>(JSON Files)"]
+        U -.-> W["📡 LangSmith<br/>(Cloud Tracing)"]
+    end
+    
+    %% Cross-Pipeline Data Connections
+    E --> K  %% Stored vectors used in similarity search
+    Q --> L  %% Session data provides context
+    N --> P  %% Responses added to chat history
+    H1 --> P %% Command results added to chat history
+    I1 --> P %% Agent responses added to chat history
+    
+    %% Monitoring Connections
+    F --> T  %% Query operations generate metrics
+    A --> T  %% Document processing generates metrics
+    
+    %% Styling - High Contrast Data Flow
+    classDef rawData fill:#1976d2,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef processedData fill:#7b1fa2,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef storedData fill:#388e3c,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef outputData fill:#f57c00,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef decisionPoint fill:#c2185b,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef monitoring fill:#e91e63,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    
+    class A,F rawData
+    class B,C,D,J,L,M,H,I,T,U processedData
+    class E,Q,V storedData
+    class N,H1,I1,P outputData
+    class G decisionPoint
+    class W monitoring

@@ -1,0 +1,77 @@
+graph TB
+    %% Entry Point
+    Main["main.py<br/>🚀 Streamlit Application Entry Point"]
+    
+    %% Configuration Module
+    Config["utils/config.py<br/>⚙️ Pydantic Configuration Management<br/>• Environment Variables<br/>• API Keys<br/>• Model Settings"]
+    
+    %% Document Processing Pipeline
+    FileParser["utils/file_parser.py<br/>📄 Multi-format Document Parser<br/>• PDF Processing (PyMuPDF)<br/>• DOCX Processing<br/>• TXT Processing<br/>• Section Detection"]
+    
+    Chunker["utils/chunker.py<br/>✂️ Intelligent Text Chunking<br/>• Recursive Character Splitting<br/>• Overlap Management<br/>• Size Optimization"]
+    
+    %% AI & Embedding Components
+    Embeddings["utils/embeddings.py<br/>🔢 OpenAI Embedding Service<br/>• text-embedding-ada-002<br/>• Batch Processing<br/>• Rate Limiting"]
+    
+    LangChainAgent["utils/langchain_agents.py<br/>🤖 Advanced RAG Agent<br/>• Complex Query Processing<br/>• Multi-step Reasoning<br/>• Context Assembly"]
+    
+    %% Data Management
+    PineconeClient["utils/pinecone_client.py<br/>🌲 Vector Database Client<br/>• Index Management<br/>• Vector Operations<br/>• Similarity Search"]
+    
+    SessionManager["utils/session_manager.py<br/>📊 Session State Management<br/>• Chat History<br/>• Document Metadata<br/>• User Context"]
+    
+    %% Command System
+    Commands["utils/commands.py<br/>⚡ Special Command Router<br/>• /summarize<br/>• /translate<br/>• /list-sections<br/>• /clear & /help"]
+    
+    %% Monitoring & Infrastructure
+    RAGTracer["utils/rag_tracer.py<br/>📈 Performance Monitoring<br/>• Query Metrics<br/>• Response Times<br/>• LangSmith Integration"]
+    
+    Decorators["utils/decorators.py<br/>🎭 Cross-cutting Concerns<br/>• Error Handling<br/>• Logging<br/>• Performance Timing"]
+    
+    %% External API Dependencies
+    subgraph "🌐 External APIs"
+        OpenAI["OpenAI API<br/>• GPT-4 Chat Completions<br/>• Embedding Generation"]
+        Pinecone["Pinecone Cloud<br/>• Vector Storage<br/>• Similarity Search"]
+        LangSmith["LangSmith (Optional)<br/>• Tracing<br/>• Monitoring"]
+    end
+    
+    %% Dependencies
+    Main --> Config
+    Main --> FileParser
+    Main --> Chunker
+    Main --> Embeddings
+    Main --> PineconeClient
+    Main --> SessionManager
+    Main --> LangChainAgent
+    Main --> RAGTracer
+    Main --> Commands
+    Main --> Decorators
+    
+    %% Internal Dependencies
+    FileParser --> Decorators
+    Chunker --> Config
+    Embeddings --> Config
+    Embeddings --> OpenAI
+    PineconeClient --> Config
+    PineconeClient --> Pinecone
+    LangChainAgent --> PineconeClient
+    LangChainAgent --> OpenAI
+    RAGTracer --> Config
+    Commands --> PineconeClient
+    SessionManager --> Config
+    
+    %% Optional Dependencies
+    RAGTracer -.-> LangSmith
+    
+    %% Styling - High Contrast
+    classDef main fill:#1976d2,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef core fill:#7b1fa2,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef ai fill:#388e3c,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef infra fill:#f57c00,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    classDef external fill:#c2185b,stroke:#ffffff,stroke-width:3px,color:#ffffff
+    
+    class Main main
+    class Config,FileParser,Chunker,Embeddings,PineconeClient,SessionManager core
+    class LangChainAgent,RAGTracer,Commands ai
+    class Decorators infra
+    class OpenAI,Pinecone,LangSmith external
