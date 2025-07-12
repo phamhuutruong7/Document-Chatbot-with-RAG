@@ -1,29 +1,49 @@
-# 📄 Document Chatbot with RAG + Pinecone + Streamlit
+# 📄 Document Chatbot with RAG
 
-A powerful web-based chatbot application that allows users to upload documents (PDF, DOCX, TXT) and ask questions about their contents using Retrieval-Augmented Generation (RAG) with Pinecone vector database and OpenAI GPT-4.
+A powerful Retrieval-Augmented Generation (RAG) chatbot for PC customer support, built with Streamlit, OpenAI, LangChain, and Pinecone. Features intelligent Q&A, document upload, session management, and comprehensive PC troubleshooting knowledge base.
 
-## 📚 Documentation
+## 📚 Complete Project Guide
 
-For comprehensive documentation, visit the **[docs/](./docs/)** folder:
+**[📖 PROJECT_GUIDE.md](PROJECT_GUIDE.md)** - Everything you need to know:
+- 🚀 **Quick Start** - Get running in 5 minutes
+- ⚙️ **Installation & Setup** - Step-by-step instructions  
+- 💬 **Using the Chatbot** - Features and sample queries
+- 📁 **Document Management** - Upload and organize knowledge base
+- 🎛️ **Advanced Features** - Commands, analytics, and integrations
+- 🔧 **Troubleshooting** - Common issues and solutions
+- 🔌 **API Reference** - REST endpoints and Python SDK
 
-- **[📋 Project Overview](./docs/project-overview.md)** - High-level project description and goals
-- **[🏗️ System Architecture](./docs/architecture.md)** - Technical architecture and component details
-- **[⚙️ Installation Guide](./docs/installation.md)** - Complete setup instructions for all platforms
-- **[👤 User Guide](./docs/user-guide.md)** - How to use the application effectively
-- **[🔧 Configuration](./docs/configuration.md)** - Environment variables and settings
-- **[🛠️ Development Guide](./docs/development.md)** - For developers and contributors
-- **[📊 System Diagrams](./docs/diagrams/)** - Visual architecture diagrams (Mermaid format)
-- **[🔍 API Reference](./docs/api-reference.md)** - Detailed code documentation
-- **[🚨 Troubleshooting](./docs/troubleshooting.md)** - Common issues and solutions
+## ⚡ Quick Start
 
-## 🚀 Quick Start
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
 
-1. **📖 Read the [Project Overview](./docs/project-overview.md)** to understand the application
-2. **⚙️ Follow the [Installation Guide](./docs/installation.md)** to set up your environment
-3. **👤 Check the [User Guide](./docs/user-guide.md)** to learn how to use the features
-4. **🔧 Configure using the [Configuration Guide](./docs/configuration.md)** for customization
+# 2. Setup environment (.env file with API keys)
+cp .env.example .env
 
-> **Need Help?** Check the [Troubleshooting Guide](./docs/troubleshooting.md) or browse the [System Diagrams](./docs/diagrams/) for visual understanding.
+# 3. Upload knowledge base to Pinecone
+python scripts/simple_upload_to_pinecone.py
+
+# 4. Run the application
+streamlit run main.py
+
+# 5. Open http://localhost:8501 and start chatting!
+```
+
+## 📚 Alternative Documentation
+
+For detailed technical documentation, visit the **[docs/](./docs/)** folder:
+
+- **[📋 Project Overview](./docs/project-overview.md)** - High-level description
+- **[🏗️ System Architecture](./docs/architecture.md)** - Technical architecture
+- **[⚙️ Installation Guide](./docs/installation.md)** - Platform-specific setup
+- **[👤 User Guide](./docs/user-guide.md)** - Application usage
+- **[🔧 Configuration](./docs/configuration.md)** - Environment settings
+- **[🛠️ Development Guide](./docs/development.md)** - For contributors
+- **[📊 System Diagrams](./docs/diagrams/)** - Visual architecture
+- **[🔍 API Reference](./docs/api-reference.md)** - Code documentation
+- **[🚨 Troubleshooting](./docs/troubleshooting.md)** - Issue resolution
 
 ## 🚀 Features
 
